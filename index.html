@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jonathan Young Resume</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">  
+
+  </head>
+<body>
+  <nav id=""></nav>
+  <div class="wrapper">
+  <div class="sidebar-wrapper ">
+    <div class="profile-container">
+      <!-- <img class="avatar" src="" alt="profile picture" id="avatar"> -->
+      <h1 class="name" id="name"></h1>
+      <h3 class="tagline" id="tagline"></h3>
+      <div id="about-section"></div>
+      <div id="contact-info"></div>
+    </div>
+    <h2 class="section-title">
+      Education
+   </h2>
+    <div id="education-section"></div>
+  </div>
+  
+  <section class="section experiences-section main-wrapper">
+    <h2 class="section-title">
+      Experience
+    </h2>
+    <div id="experiences"></div>
+    <h2 class="section-title">
+      Skills
+   </h2>
+    <div id="skills-section"></div>
+  </section>
+</div>
+</div>
+<!-- Scripts -->
+<script src="./src/marked.min.js"></script>
+<script src="./src/js-yaml.min.js"></script>
+<script type="module">
+import {renderPage} from './view.mjs'
+renderPage()
+</script>
+
+</body>
+</html>
