@@ -1,5 +1,5 @@
-_data/*
-!_data/data.yml
+data/*
+!data/data.yml
 
 node_modules
 pnpm-lock.yaml
