@@ -2,6 +2,7 @@ sidebar:
   about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   skills: True
   education: False # set to False if you want education in main section instead of in sidebar
+
   # Profile information
   name: Jonathan Young
   tagline: Self directed and self motivated Medical Researcher with software skills
@@ -43,7 +44,7 @@ education:
 
           [Pretending to Be the Great Pretender. *ACP Impact*, October 2016.](https://www.acponline.org/membership/medical-students/acp-impact/archive/october-2016/winning-abstracts-pretending-to-be-the-great-pretender)  
 
-          A Chemokine Protective Shield for Islet Transplantation. Digestive Disease Interventions, Boston, MA  
+          A Chemokine Protective Shield for Islet Transplantation. Digestive Disease Interventions, Boston, MA
 
     - degree: Tufts University
       university: B.Sc., Biology GPA：3.7
@@ -54,14 +55,14 @@ education:
         Head tutor in Biology  
         Thesis: |  
           [Chromatography-free Solid Phase Oligosaccharide Synthesis.](https://dl.tufts.edu/concern/pdfs/4x51hw10v)  
-        Relevant coursework: Business Law, Biostatistics, Recombinant DNA Technologies  
+        Relevant coursework: Business Law, Biostatistics, Recombinant DNA Technologies
 
     - degree: Choate Rosemary Hall
       university: ""
       time: ""
       details: |
         American Invitational Mathematics Examination (AIME) Qualifications  
-          Acknowledged for problem-solving and mathematical proficiency, demonstrating capability in achieving high-level problem-solving outcomes  
+          Acknowledged for problem-solving and mathematical proficiency, demonstrating capability in achieving high-level problem-solving outcomes
 
 experiences:
   title: Experiences
@@ -119,7 +120,6 @@ experiences:
            Direct O-glycosidation of resin bound thioglycosides. *Organic and Bimolecular Chemistry*, 2012. [DOI: 10.1039/c2ob06883d](https://pubmed.ncbi.nlm.nih.gov/22261792/)
 skills:
   title: Skills
-
   toolset:
     - name: Histology and Immunohistochemistry
     - name: Cell culture
