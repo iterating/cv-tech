@@ -17,7 +17,7 @@ li {
   margin-bottom: 0.4rem; /* 15px */
 }
 .wrapper {
-  max-width: 1000px;
+  max-width: 1020px;
   display: flex;
   flex-flow: row-reverse;
   font-family: "Georgia", sans-serif;
