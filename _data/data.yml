@@ -1,135 +1,135 @@
 sidebar:
-  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  skills: True
-  education: False # set to False if you want education in main section instead of in sidebar
+    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    skills: True
+    education: False # set to False if you want education in main section instead of in sidebar
 
-  # Profile information
-  name: Jonathan Young
-  tagline: Self directed and self motivated Medical Researcher with software skills
-  avatar: #profile.professional.1.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+    # Profile information
+    name: Jonathan Young
+    tagline: Self directed and self motivated Medical Researcher with software skills
+    avatar: #profile.professional.1.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-  # Sidebar links
-  email: jyoung0696@gmail.com
-  phone: 626 626 0656
-  timezone: Pacific Time
-  citizenship: US Citizen
-  website: #do not add http://
-  linkedin:
-  github: iterating
+    # Sidebar links
+    email: jyoung0696@gmail.com
+    phone: 626 626 0656
+    timezone: Pacific Time
+    citizenship: US Citizen
+    website: #do not add http://
+    linkedin:
+    github: iterating
 
-  interests:
-    title:
-    info:
-      - item:
-        link:
-      - item:
-        link:
-      - item:
-        link:
+    interests:
+      title:
+      info:
+        - item:
+          link:
+        - item:
+          link:
+        - item:
+          link:
 
 careerprofile:
-  title: About Me
-  summary: |
-    With a blend of technical expertise, creative problem-solving skills, and a growth mindset, I leverage my proactive approach and foundation in biology, immunology, and medicinal chemistry. My combined analytical and soft skills and adaptability to rigor enable me to effectively tackle complex challenges. I'm committed to continuous learning and fostering a collaborative environment
+    title: About Me
+    summary: |
+      With a blend of technical expertise, creative problem-solving skills, and a growth mindset, I leverage my proactive approach and foundation in biology, immunology, and medicinal chemistry. My combined analytical and soft skills and adaptability to rigor enable me to effectively tackle complex challenges. I'm committed to continuous learning and fostering a collaborative environment
 education:
-  title: Education
-  info:
-    - degree: UMass Chan Medical School
-      university: M.D. Candidate
-      time: Aug 2015 - April 2018
-      details: |
-        Winner, American College of Physicians National Abstract Competition.  
-                    
-        **National Conference Presentations:**  
+    title: Education
+    info:
+      - degree: UMass Chan Medical School
+        university: M.D. Candidate
+        time: Aug 2015 - April 2018
+        details: |
+          Winner, American College of Physicians National Abstract Competition.  
+                      
+          **National Conference Presentations:**  
 
-          [Pretending to Be the Great Pretender. *ACP Impact*, October 2016.](https://www.acponline.org/membership/medical-students/acp-impact/archive/october-2016/winning-abstracts-pretending-to-be-the-great-pretender)  
+            [Pretending to Be the Great Pretender. *ACP Impact*, October 2016.](https://www.acponline.org/membership/medical-students/acp-impact/archive/october-2016/winning-abstracts-pretending-to-be-the-great-pretender)  
 
-          A Chemokine Protective Shield for Islet Transplantation. Digestive Disease Interventions, Boston, MA
+            A Chemokine Protective Shield for Islet Transplantation. Digestive Disease Interventions, Boston, MA
 
-    - degree: Tufts University
-      university: B.Sc., Biology GPA：3.7
-      time: Sept 2007 - May 2010
-      details: |
-        Magna cum laude with Thesis Honors in Biology and Chemistry  
-        Supervisor: Prof.Clay Bennett  
-        Head tutor in Biology  
-        Thesis: |  
-          [Chromatography-free Solid Phase Oligosaccharide Synthesis.](https://dl.tufts.edu/concern/pdfs/4x51hw10v)  
-        Relevant coursework: Business Law, Biostatistics, Recombinant DNA Technologies
+      - degree: Tufts University
+        university: B.Sc., Biology GPA：3.7
+        time: Sept 2007 - May 2010
+        details: |
+          Magna cum laude with Thesis Honors in Biology and Chemistry  
+          Supervisor: Prof.Clay Bennett  
+          Head tutor in Biology  
+          Thesis: |  
+            [Chromatography-free Solid Phase Oligosaccharide Synthesis.](https://dl.tufts.edu/concern/pdfs/4x51hw10v)  
+          Relevant coursework: Business Law, Biostatistics, Recombinant DNA Technologies
 
-    - degree: Choate Rosemary Hall
-      university: ""
-      time: ""
-      details: |
-        American Invitational Mathematics Examination (AIME) Qualifications  
-          Acknowledged for problem-solving and mathematical proficiency, demonstrating capability in achieving high-level problem-solving outcomes
+      - degree: Choate Rosemary Hall
+        university: ""
+        time: ""
+        details: |
+          American Invitational Mathematics Examination (AIME) Qualifications  
+            Acknowledged for problem-solving and mathematical proficiency, demonstrating capability in achieving high-level problem-solving outcomes
 
 experiences:
-  title: Experiences
-  info:
-    - role: Research Assistant in Immunology
-      time: Aug 2015 - May 2016
-      company: Autoimmune Therapeutics Institute at UMass Medical School, Worcester MA
-      details: |
-        - Conducted experiments using flow cytometry, histology, and in vivo mouse models to investigate the efficacy of CXCR3-depleting antibodies in preventing and reversing vitiligo, contributing to insights into immune modulation and potential therapeutic strategies for autoimmune diseases.
+    title: Experiences
+    info:
+      - role: Research Assistant in Immunology
+        time: Aug 2015 - May 2016
+        company: Autoimmune Therapeutics Institute at UMass Medical School, Worcester MA
+        details: |
+          - Conducted experiments using flow cytometry, histology, and in vivo mouse models to investigate the efficacy of CXCR3-depleting antibodies in preventing and reversing vitiligo, contributing to insights into immune modulation and potential therapeutic strategies for autoimmune diseases.
 
-        __Bioinformatics:__
-        - Searched online databases for information, background, methodologies. Experienced in crafting specific and relavant search queries using boolean logic. 
+          __Bioinformatics:__
+          - Searched online databases for information, background, methodologies. Experienced in crafting specific and relavant search queries using boolean logic. 
 
-        __Techniques:__
-        - Flow Cytometry to analyze immune cell populations and depletion of CXCR3-expressing T cells in the skin and blood
-        - Histology and Immunohistochemistry to examine skin tissue for melanocyte presence and immune cell infiltration, providing insights into the cellular changes induced by antibody treatment.
-        - Western Blotting to detect CXCR3 within skin and immune cells.
-        - ELISA to to measure cytokine levels and immune response markers in serum and tissue samples.
+          __Techniques:__
+          - Flow Cytometry to analyze immune cell populations and depletion of CXCR3-expressing T cells in the skin and blood
+          - Histology and Immunohistochemistry to examine skin tissue for melanocyte presence and immune cell infiltration, providing insights into the cellular changes induced by antibody treatment.
+          - Western Blotting to detect CXCR3 within skin and immune cells.
+          - ELISA to to measure cytokine levels and immune response markers in serum and tissue samples.
 
-    - role: Research Assistant in Vaccine Immunology
-      time: 2011 - 2013
-      company: Vaccine Immunotherapy Center, Massachusetts General Hospital, Boston MA
-      details: |
+      - role: Research Assistant in Vaccine Immunology
+        time: 2011 - 2013
+        company: Vaccine Immunotherapy Center, Massachusetts General Hospital, Boston MA
+        details: |
 
-        - Worked under Mark Poznansky helping develop a novel approach to transplant immunosuppresion without systematic immunosuppresion.
-        - Isolated islet cells, encapsulated them in alginate containing Treg attractant CXCL12 and performed in vivo transplantation into diabetic mouse model. 
-        - The blood glucose of expereimental and control groups were then monitored and  statistically tested to evaluate how CXCL12-incorporated encapsulants supported islet graft survival. This demonstrated an innovative approach to transplantant immunology where a chemokine that plays a role in protecting cancer cells from immune attack is instead applied to prolong survival of tranplant graft by locally attracting regulatory T cells and repelling cytotoxic T cells. 
-        - Conducted research on a mycobacterial Hsp70-containing fusion protein targeting mesothelin, showing its ability to boost antitumor immunity and extend survival in mouse models of ovarian cancer and mesothelioma. 
+          - Worked under Mark Poznansky helping develop a novel approach to transplant immunosuppresion without systematic immunosuppresion.
+          - Isolated islet cells, encapsulated them in alginate containing Treg attractant CXCL12 and performed in vivo transplantation into diabetic mouse model. 
+          - The blood glucose of expereimental and control groups were then monitored and  statistically tested to evaluate how CXCL12-incorporated encapsulants supported islet graft survival. This demonstrated an innovative approach to transplantant immunology where a chemokine that plays a role in protecting cancer cells from immune attack is instead applied to prolong survival of tranplant graft by locally attracting regulatory T cells and repelling cytotoxic T cells. 
+          - Conducted research on a mycobacterial Hsp70-containing fusion protein targeting mesothelin, showing its ability to boost antitumor immunity and extend survival in mouse models of ovarian cancer and mesothelioma. 
 
-        __Communication and Presentation:__
-        - Documented and presented quantitative data for publication and peer review, leading to successful publication.
-        - Presented project, theory, and findings to both technical subject experts and general clinical audience at conferences including Massachusetts General Hospital Presentation Day and Digestive Disease Interventions. 
+          __Communication and Presentation:__
+          - Documented and presented quantitative data for publication and peer review, leading to successful publication.
+          - Presented project, theory, and findings to both technical subject experts and general clinical audience at conferences including Massachusetts General Hospital Presentation Day and Digestive Disease Interventions. 
 
 
-        __Techniques:__ 
-        - Histology and Immunohistochemistry to examine transplanted tissue for immune cell infiltration, islet survival, and alginate bead integrity over time.
-        - ELISA for measuring cytokine and chemokine levels, including CXCL12, to evaluate the immune environment around the transplanted islets.
-        - Protein Expression and Purification of mycobacterial Hsp70-containing fusion protein for experimental use
-        - Programmed 'Cellbot', an automated cell counting program in Java and ImageJ, speeding data collection and experimental validation 
+          __Techniques:__ 
+          - Histology and Immunohistochemistry to examine transplanted tissue for immune cell infiltration, islet survival, and alginate bead integrity over time.
+          - ELISA for measuring cytokine and chemokine levels, including CXCL12, to evaluate the immune environment around the transplanted islets.
+          - Protein Expression and Purification of mycobacterial Hsp70-containing fusion protein for experimental use
+          - Programmed 'Cellbot', an automated cell counting program in Java and ImageJ, speeding data collection and experimental validation 
 
-        __Publication:__
+          __Publication:__
 
-           Alginate encapsulant incorporating CXCL12 supports long term allo and xenoislet transplantation without systemic immune suppression. *American Journal of Transplantation*, 2015. [DOI 10.1111/ajt.13049](https://pubmed.ncbi.nlm.nih.gov/25693473/)
+            Alginate encapsulant incorporating CXCL12 supports long term allo and xenoislet transplantation without systemic immune suppression. *American Journal of Transplantation*, 2015. [DOI 10.1111/ajt.13049](https://pubmed.ncbi.nlm.nih.gov/25693473/)
 
-    - role: Research Assistant in Medicinal Chemistry
-      time: Jun 2009 - Jul 2011
-      company: Tufts University Medford MA
-      details: |
-        - Worked under Dr.Clay Bennett to develop and optimize a direct O-glycosidation method for resin-bound thioglycosides, enhancing efficiency in carbohydrate chemistry research. This method streamlines the glycosidation process and has practical implications for both chemical synthesis and pharmaceutical applications. 
+      - role: Research Assistant in Medicinal Chemistry
+        time: Jun 2009 - Jul 2011
+        company: Tufts University Medford MA
+        details: |
+          - Worked under Dr.Clay Bennett to develop and optimize a direct O-glycosidation method for resin-bound thioglycosides, enhancing efficiency in carbohydrate chemistry research. This method streamlines the glycosidation process and has practical implications for both chemical synthesis and pharmaceutical applications. 
 
-        - Utilized analytical techniques including NMR and Mass Spectrometry to confirm product formation and purity. 
+          - Utilized analytical techniques including NMR and Mass Spectrometry to confirm product formation and purity. 
 
-        __Publication:__
+          __Publication:__
 
-           Direct O-glycosidation of resin bound thioglycosides. *Organic and Bimolecular Chemistry*, 2012. [DOI: 10.1039/c2ob06883d](https://pubmed.ncbi.nlm.nih.gov/22261792/)
+            Direct O-glycosidation of resin bound thioglycosides. *Organic and Bimolecular Chemistry*, 2012. [DOI: 10.1039/c2ob06883d](https://pubmed.ncbi.nlm.nih.gov/22261792/)
 skills:
-  title: Skills
-  toolset:
-    - name: Histology and Immunohistochemistry
-    - name: Cell culture
-    - name: Viral immunology
-    - name: ELISA
-    - name: Protein expression and purification
-    - name: HPLC
-    - name: Statistical analysis
-    - name: Search query and boolean logic
-    - name: Communication and presentation skills
+    title: Skills
+    toolset:
+      - name: Histology and Immunohistochemistry
+      - name: Cell culture
+      - name: Viral immunology
+      - name: ELISA
+      - name: Protein expression and purification
+      - name: HPLC
+      - name: Statistical analysis
+      - name: Search query and boolean logic
+      - name: Communication and presentation skills
 
 footer: >
   Designed and built by <a href="" target="_blank">Jonathan Young Design</a>
