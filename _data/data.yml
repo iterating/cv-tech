@@ -1,159 +1,158 @@
 sidebar:
-    about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-    education: True # set to False if you want education in main section instead of in sidebar
-    skills: False 
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
+  skills: False
 
-    # Profile information
-    name: Jonathan Young 
-    tagline: Creative and Adaptable Junior Full Stack Developer
-    avatar: # Profile(100x100).jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+  # Profile information
+  name: Jonathan Young
+  tagline: Creative and Resilient Junior Full Stack Developer
+  avatar: # Profile(100x100).jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
-    # Sidebar links
-    email: jyoung0696@gmail.com
-    phone: 626 626 0656
-    timezone: Pacific Time
-    citizenship: US citizen
-    website: iterating.github.io/cv-tech #do not add http://
-    linkedin: 
-    github: 
-    gitlab:
-    bitbucket:
-    stack-overflow: # Number/Username
-    codewars:
+  # Sidebar links
+  email: jyoung0696@gmail.com
+  phone: 626 626 0656
+  timezone: Pacific Time
+  citizenship: US citizen
+  website: iterating.github.io/cv-tech #do not add http://
+  linkedin:
+  github:
+  gitlab:
+  bitbucket:
 
-    interests:
-      title: 
-      info:
-        - item: 
-          link: 
-        - item: 
-          link:
-        - item: 
-          link:
+  interests:
+    title:
+    info:
+      - item:
+        link:
+      - item:
+        link:
+      - item:
+        link:
 
 careerprofile:
-    title: Why me?
-    summary: |
-      I am an adaptable and innovative junior developer with a blend of technical expertise, creative problem-solving skills, and growth mindset. My proactive approach, foundation in technical and soft skills, and ability to adapt to emerging technologies enable me to effectively tackle complex challenges. I'm committed to continuous learning and fostering a collaborative environment that drives impactful solutions.
+  title: Why me?
+  summary: |
+    I am an resilient and innovative junior developer with a blend of technical expertise, creative problem-solving skills, and growth mindset. My proactive approach, foundation in technical and soft skills, an ability to adapt to emerging technologies, and adaptability to rigor enable me to effectively tackle complex challenges. I'm committed to continuous learning and fostering a collaborative environment that drives impactful solutions.
 education:
-    title: Education
-    info:
-      - degree: Per Scholas
-        university: Software Engineering Track
-        time: Aug 2024 - Dec 2024
-        details: |
-          Coding bootcamp, Software Engineering specialization in object-oriented programming and full stack development
+  title: Education
+  info:
+    - degree: Per Scholas
+      university: Software Engineering Track
+      time: Aug 2024 - Dec 2024
+      details: |
+        Coding bootcamp, Software Engineering specialization in object-oriented programming and full stack development
 
-      - degree: UMass Chan Medical School
-        university: M.D. Candidate
-        time: 2015 - 2018
-        details: |
-          Winner, American College of Physicians National Abstract Competition  
-          *Publications/Conference Presentations:*  
-          Pretending to Be the Great Pretender. *ACP Impact*, October 2016.  
-          A Chemokine Protective Shield for Islet Transplantation. *Digestive Disease Interventions*, Boston, MA.
+    - degree: UMass Chan Medical School
+      university: M.D. Candidate
+      time: 2015 - 2018
+      details: |
+        Winner, American College of Physicians National Abstract Competition  
+        *Publications/Conference Presentations:*  
+        Pretending to Be the Great Pretender. *ACP Impact*, October 2016.  
+        A Chemokine Protective Shield for Islet Transplantation. *Digestive Disease Interventions*, Boston, MA.
 
-      - degree: Tufts University
-        university: B.Sc., Biology GPA：3.7
-        time: 2007 - 2010
-        details: |
-          Magna cum laude with Thesis Honors in Biology and Chemistry  
-          *Publication:*  
-          Direct O-glycosidation of resin bound thioglycosides. *Organic and Bimolecular Chemistry* DOI: 10.1039/c2ob06883d
+    - degree: Tufts University
+      university: B.Sc., Biology GPA：3.7
+      time: 2007 - 2010
+      details: |
+        Magna cum laude with Thesis Honors in Biology and Chemistry  
+        *Publication:*  
+        Direct O-glycosidation of resin bound thioglycosides. *Organic and Bimolecular Chemistry*. [DOI: 10.1039/c2ob06883d](https://pubmed.ncbi.nlm.nih.gov/22261792/)
 
-      - degree: Choate Rosemary Hall
-        university: ''
-        time: ''
-        details: |
-          American Invitational Mathematics Examination (AIME) Qualifications  
-            Acknowledged for problem-solving and mathematical proficiency, demonstrating capability in achieving high-level problem-solving outcomes
+    - degree: Choate Rosemary Hall
+      university: ""
+      time: ""
+      details: |
+        American Invitational Mathematics Examination (AIME) Qualifications  
+          Acknowledged for problem-solving and mathematical proficiency, demonstrating capability in achieving high-level problem-solving outcomes
+
 
 experiences:
-    title: Experiences
-    info:
-      - role: Junior Software Developer Volunteer
-        time: 2024 - Present
-        company: LA Film Lab, Los Angeles CA
-        details: |
-          Building customer and internal facing software for operating a film lab using Nuxt, Node.JS, and Firebase, working closely with senior developer.
-          - Experience in web performance optimization and scaling, employing techniques such as lazy loading, asynchronous programming, and efficient resource management.
-          - Building code with Model-View-Controller (MVC), PRPL, and other design patterns to enhancing performance, code maintainability and promote efficient development processes.
-          - Designed and developed internal facing labeling system using HTML, CSS, and Javascript for customer order management and labeling, improving employee efficiency by 25%. 
+  title: Experiences
+  info:
+    - role: Software Engineering Intern
+      time: 2024 - Present
+      company: LA Film Lab, Los Angeles CA
+      details: |
+        Building customer and internal facing software for operating a film lab using Nuxt, Node.JS, and Firebase, working closely with senior developer.
+        - Experience in web performance optimization and scaling, employing techniques such as lazy loading, asynchronous programming, and efficient resource management.
+        - Building code with Model-View-Controller (MVC), PRPL, and other design patterns to enhancing performance, code maintainability and promote efficient development processes.
+        - Designed and developed internal facing labeling system using HTML, CSS, and Javascript for customer order management and labeling, improving employee efficiency by 25%.
 
-      - role: Junior Software Developer Volunteer
-        time: 2024 - Present
-        company: Greater Boston Snow Removal, Boston MA (Remote)
-        details: |
-          Communicating and following up with stakeholders to clarify user requirements for features. Worked with tech lead to build features, leading to successful implementation and delivery of features
-          - Developing internal applications using HTML, CSS, and Javascript to support business operations.
-          - Utilizing the Model-View-Controller (MVC) design pattern for structuring JavaScript features, enhancing code maintainability and promoting efficient development processes.
-          - Leveraging Nextjs for Server-Side Rendering (SSR) of the application, improving initial page load performance.
-          - Worked with MongoDB, Mongoose, and RESTful APIs to implement and optimize scalable database solutions, enhancing data retrieval efficiency and application performance.
+    - role: Junior Software Developer
+      time: 2024 - Present
+      company: Greater Boston Snow Removal, Boston MA (Remote)
+      details: |
+        Communicating and following up with stakeholders to clarify user requirements for features. Worked with tech lead to build features, leading to successful implementation and delivery of features
+        - Developing internal applications using HTML, CSS, and Javascript to support business operations.
+        - Utilizing the Model-View-Controller (MVC) design pattern for structuring JavaScript features, enhancing code maintainability and promoting efficient development processes.
+        - Leveraging Nextjs for Server-Side Rendering (SSR) of the application, improving initial page load performance.
+        - Worked with MongoDB, Mongoose, and RESTful APIs to implement and optimize scalable database solutions, enhancing data retrieval efficiency and application performance.
 
-        time2: 2019 - 2020
-        role2: Operations Manager
-        details2: |
-          - Analyzed and optimized work routes to drive a 25% cost savings per route.
-          - Ensured quality control and delivered timelier snow removal experience for 30 contract clients, leading to customer retention.
-          - Organized and led groups of 6 member teams to effectively manage snow removal routes, ensuring workers have access to equipment, supplies, and transportation, while promoting a collaborative work environment among employees. 
+      time2: 2018 - 2020
+      role2: Operations Manager (Boston MA)
+      details2: |
+        - Analyzed and optimized work routes to drive a 25% cost savings per route.
+        - Ensured quality control and delivered timelier snow removal experience for 30 contract clients, increasing customer retention, leading to current company position as largest snow removal company in Boston.
+        - Organized and led groups of 6 member teams to effectively manage snow removal routes, ensuring workers have access to equipment, supplies, and transportation, while promoting a collaborative work environment among employees.
 
-      - role: Software Quality Assurance Analyst
-        time: 2021 - 2023
-        company: Dendron, Seattle WA (remote)
-        details: |
-          Analyzed and replicated bugs from tickets, broke down multifactorial issues into component parts, and enhanced bug report with details.
-          - Clarified ticket issues for engineering team and ensuring that bugs are identified and resolved promptly. 
-          - Communicated continuous improvements to the engineering team based on collected user feedback and research findings, enhancing product usability and functionality.
-          - Fostered engagement within the user community by creating, collecting, and sharing effective workflows, thereby empowering users and optimizing use cases.
+    - role: Software Quality Assurance Analyst
+      time: 2021 - 2023
+      company: Dendron, Seattle WA (remote)
+      details: |
+        Analyzed and replicated bugs from tickets, broke down multifactorial issues into component parts, and enhanced bug report with details.
+        - Clarified ticket issues for engineering team and ensuring that bugs are identified and resolved promptly. 
+        - Communicated continuous improvements to the engineering team based on collected user feedback and research findings, enhancing product usability and functionality.
+        - Fostered engagement within the user community by creating, collecting, and sharing effective workflows, thereby empowering users and optimizing use cases.
+        - Gained a deeper understanding of VSCode features and processes through this experience
 
-      - role: Clinical User Interface Specialist
-        time: 2014 - 2015
-        company: Vecna Healthcare, Burlington MA
-        details: |
-          Translated complex clinical workflows into intuitive and seamless user interfaces for electronic medical record product built with Bootstrap, Node.js, and MySQL.
-          - Designed and prototyped user interfaces that meet the needs of healthcare providers and improve patient care outcomes, collaborating closely with engineering team 
-          - Conducted usability testing and collect feedback from clinical end-users to identify pain points and areas for improvement, resulting in iterative design enhancements.
-          - Configured, administered and maintained Ubuntu and Debian laptops used in clinical settings with Ansible, ensuring reliable and secure access to essential healthcare applications.
-          - Upgraded and monitored clinical IT infrastructure, achieving uptime close to 100% and minimizing disruption to critical healthcare operations.
- 
+    - role: Clinical User Interface Specialist
+      time: 2014 - 2015
+      company: Vecna Healthcare, Burlington MA
+      details: |
+        Translated complex clinical workflows into intuitive and seamless user interfaces for electronic medical record product built with Bootstrap, Node.js, and MySQL.
+        - Designed and prototyped user interfaces that meet the needs of healthcare providers and improve patient care outcomes, collaborating closely with engineering team 
+        - Conducted usability testing and collect feedback from clinical end-users to identify pain points and areas for improvement, resulting in iterative design enhancements.
+        - Configured, administered and maintained Ubuntu and Debian laptops used in clinical settings with Ansible, ensuring reliable and secure access to essential healthcare applications.
+        - Upgraded and monitored clinical IT infrastructure, achieving uptime close to 100% and minimizing disruption to critical healthcare operations.
 
-      - role: Research Assistant in Vaccine Immunology
-        time: 2011 - 2013
-        company: Vaccine Immunotherapy Center, Massachusetts General Hospital, Boston MA 
-        details: |
-          Demonstrated an innovative approach to transplant immunology where a chemokine that plays a role in protecting cancer cells from immune attack is instead applied to prolong survival of tranplant graft by locally attracting regulatory T cells and repelling cytotoxic T cells. 
-          - Transplanted encapsulated islet cells with either either Treg attractant CXCL12 or control  alginate  into diabetic mouse model. Then monitored the blood glucose of experimental and control groups and  applied statistical testing to evaluate how CXCL12-incorporated encapsulants supported islet graft survival.  
-          - Conducted research on a mycobacterial Hsp70-containing fusion protein targeting mesothelin, showing its ability to boost antitumor immunity and extend survival in mouse models of ovarian cancer and mesothelioma by attracting cytotoxic T cells to solid tumor. 
-          - Programmed 'Cellbot', an automated cell counting program in Java and ImageJ, speeding data collection and experimental validation 
+    - role: Research Assistant in Vaccine Immunology
+      time: 2011 - 2013
+      company: Vaccine Immunotherapy Center, Massachusetts General Hospital, Boston MA
+      details: |
+        Demonstrated an innovative approach to transplant immunology where a chemokine that plays a role in protecting cancer cells from immune attack is instead applied to prolong survival of tranplant graft by locally attracting regulatory T cells and repelling cytotoxic T cells. 
+        - Transplanted encapsulated islet cells with either either Treg attractant CXCL12 or control  alginate  into diabetic mouse model. Then monitored the blood glucose of experimental and control groups and  applied statistical testing to evaluate how CXCL12-incorporated encapsulants supported islet graft survival.  
+        - Conducted research on a mycobacterial Hsp70-containing fusion protein targeting mesothelin, showing its ability to boost antitumor immunity and extend survival in mouse models of ovarian cancer and mesothelioma by attracting cytotoxic T cells to solid tumor. 
+        - Programmed 'Cellbot', an automated cell counting program in Java and ImageJ, speeding data collection and experimental validation 
 
-          __Communication and Presentation:__
-          - Documented and presented quantitative data for publication and peer review, leading to successful publication.
-          - Presented project, theory, and findings to both technical subject experts and general clinical audience at conferences including Massachusetts General Hospital Presentation Day and Digestive Disease Interventions.
+        __Communication and Presentation:__
+        - Documented and presented quantitative data for publication and peer review, leading to successful publication.
+        - Presented project, theory, and findings to both technical subject experts and general clinical audience at conferences including Massachusetts General Hospital Presentation Day and Digestive Disease Interventions.
 
-          __Publication:__
-             Alginate encapsulant incorporating CXCL12 supports long term allo and xenoislet transplantation without systemic immune suppression. *American Journal of Transplantation*, 2015. [DOI 10.1111/ajt.13049](https://pubmed.ncbi.nlm.nih.gov/25693473/)
+        __Publication:__
+           Alginate encapsulant incorporating CXCL12 supports long term allo and xenoislet transplantation without systemic immune suppression. *American Journal of Transplantation*, 2015. [DOI 10.1111/ajt.13049](https://pubmed.ncbi.nlm.nih.gov/25693473/)
 
-      - role: Research Assistant in Medicinal Chemistry
-        time: Jun 2009 - Jul 2011
-        company: Tufts University Medford MA
-        details: |
-          - Developed and optimized a direct O-glycosidation method for resin-bound thioglycosides, enhancing efficiency in carbohydrate chemistry research. This method streamlines the glycosidation process and has practical implications for both chemical synthesis and pharmaceutical applications. 
-          - Analyzed product formation and purity with NMR and Mass Spectrometry 
-          
-          __Publication:__
+    - role: Research Assistant in Medicinal Chemistry
+      time: 2009 - 2011
+      company: Tufts University Medford MA
+      details: |
+        - Developed and optimized a direct O-glycosidation method for resin-bound thioglycosides, enhancing efficiency in carbohydrate chemistry research. This method streamlines the glycosidation process and has practical implications for both chemical synthesis and pharmaceutical applications. 
+        - Analyzed product formation and purity with NMR and Mass Spectrometry 
 
-             Direct O-glycosidation of resin bound thioglycosides. *Organic and Biomolecular Chemistry*, 2012. [DOI: 10.1039/c2ob06883d](https://pubmed.ncbi.nlm.nih.gov/22261792/)
+        __Publication:__
+
+           Direct O-glycosidation of resin bound thioglycosides. *Organic and Biomolecular Chemistry*, 2012. [DOI: 10.1039/c2ob06883d](https://pubmed.ncbi.nlm.nih.gov/22261792/)
 skills:
-    title: Skills
-    toolset:
-      - name: Javascript, Typescript, HTML, CSS
-      - name: Node.js, Express.js
-      - name: MongoDB, MySQL, Firebase/Supabase
-      - name: Virtualization- Virtualbox, VMWare, Hypervisor, Docker 
-      - name: Design- Figma, Illustrator, Photoshop  
-      - name: Search querying and boolean logic
-      - name: Red Hat System Administration
-              Certificate 170-077-016 (currently inactive)
+  title: Skills
+  toolset:
+    - name: Javascript, Typescript, Python, HTML, CSS
+    - name: Node.js, Express.js
+    - name: MongoDB, MySQL, Firebase/Supabase
+    - name: Virtualization- Virtualbox, VMWare, Hypervisor, Docker
+    - name: Design- Figma, Illustrator, Photoshop
+    - name: Search querying and boolean logic
+    - name: Red Hat (Linux) System Administration
+        Certificate 170-077-016 (currently inactive)
 
 footer: >
-    Designed by <a href="http://iterating.github.io/cv-tech" target="_blank" rel="nofollow">J Young Design</a>
+  Designed by <a href="http://iterating.github.io/cv-tech" target="_blank" rel="nofollow">J Young Design</a>
