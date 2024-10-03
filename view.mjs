@@ -15,8 +15,22 @@ export async function fetchYamlResume(url) {
 export async function renderResume(data) {
   // Profile section
   // document.getElementById('avatar').src = data.sidebar.avatar;
-  document.getElementById("name").innerText = data.sidebar.name;
-  document.getElementById("tagline").innerText = data.sidebar.tagline;
+  document.getElementById("name").textContent = data.sidebar.name;
+  document.getElementById("tagline").textContent = data.sidebar.tagline;
+  let aboutHTML = "";
+  if (data.sidebar.email) {
+    aboutHTML += `
+    <p class="email"><p class="fas fa-envelope"></p>
+      <div class="details">${data.sidebar.email}</div>
+    `;
+  }
+  if (data.sidebar.citizenship) {
+    aboutHTML += `
+    <p class="phone"><p class="fas fa-passport"></p>
+      <div class="details">${data.sidebar.citizenship}</div>
+    `;
+  }
+  document.getElementById("about-section").innerHTML = aboutHTML;
 
   // Education - Populating DOM by iterating over array
   let educationHTML = "";
@@ -37,11 +51,10 @@ export async function renderResume(data) {
   // Summary
   let summaryHTML = "";
   let summaryMd = marked.parse(data.careerprofile.summary);
-  console.log(summaryMd);
   summaryHTML += `
-         <div class="item">
+      <div class="item">
         <div class="details"> ${summaryMd}</div>
-        </div>
+      </div>
      `;
   document.getElementById("summary-section").innerHTML = summaryHTML;
 
