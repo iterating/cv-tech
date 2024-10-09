@@ -32,7 +32,7 @@ sidebar:
 careerprofile:
   title: Why me?
   summary: |
-    I am a resilient and innovative junior developer with a blend of technical expertise, creative problem-solving skills, and growth mindset. My proactive approach, foundation in technical and soft skills, an ability to adapt to emerging technologies, and adaptability to rigor enable me to effectively tackle complex challenges. I'm committed to continuous learning and fostering a collaborative environment that drives impactful solutions.
+    Resilient and innovative junior developer with a strong blend of technical expertise, creative problem-solving abilities, and a growth mindset. A proactive approach, combined with a solid foundation in both technical and soft skills, allows for adaptation to emerging technologies and effective tackling of complex challenges. Dedicated to continuous learning and fostering a collaborative environment that drives impactful solutions.
 education:
   title: Education
   info:
@@ -120,7 +120,7 @@ experiences:
       company: Vaccine Immunotherapy Center, Massachusetts General Hospital, Boston MA
       details: |
         Demonstrated an innovative approach to transplant immunology where a chemokine that plays a role in protecting cancer cells from immune attack is instead applied to prolong survival of transplant graft by locally attracting regulatory T cells and repelling cytotoxic T cells. 
-        - Transplanted encapsulated islet cells with either either Treg attractant CXCL12 or control alginate into diabetic mouse model. Then monitored the blood glucose of experimental and control groups and applied statistical testing to evaluate how CXCL12-incorporated encapsulants supported islet graft survival.  
+        - Transplanted encapsulated islet cells with either Treg attractant CXCL12 or control alginate into diabetic mouse model. Then monitored the blood glucose of experimental and control groups and applied statistical testing to evaluate how CXCL12-incorporated encapsulants supported islet graft survival.  
         - Conducted research on a mycobacterial Hsp70-containing fusion protein targeting mesothelin, showing its ability to boost antitumor immunity and extend survival in mouse models of ovarian cancer and mesothelioma by attracting cytotoxic T cells to solid tumors. 
         - Programmed 'Cellbot', an automated cell counting program in Java and ImageJ, speeding data collection and experimental validation 
 
