@@ -74,20 +74,20 @@ experiences:
       time: 2024 - Present
       company: LA Film Lab, Los Angeles CA
       details: |
-        Building customer and internal facing software for operating a film lab using Nuxt, Node.JS, and Firebase, working closely with senior developer.
-        - Experience in web performance optimization and scaling, employing techniques such as lazy loading, asynchronous programming, and efficient resource management.
-        - Building code with Model-View-Controller (MVC), PRPL, and other design patterns to enhancing performance, code maintainability and promote efficient development processes.
-        - Designed and developed internal facing labeling system using HTML, CSS, and Javascript for customer order management and labeling, improving employee efficiency by 25%.
+        Developing customer and internal-facing software for a film lab using Nuxt, Node.js, and Firebase. Collaborated with a senior developer, successfully implementing features in production.
+        - Optimizing and scaled web performance using techniques like lazy loading, asynchronous programming, and efficient resource management.
+        - Building code with Model-View-Controller (MVC), PRPL, and other design patterns to enhance performance, code maintainability and promote efficient development processes.
+        - Designed and developed internal-facing labeling system using HTML, CSS, and Javascript for customer order management and labeling, improving employee efficiency by 25%.
 
-    - role: Junior Software Developer
+    - role: Software Engineering Intern
       time: 2024 - Present
       company: Greater Boston Snow Removal, Boston MA (Remote)
       details: |
-        Communicating and following up with stakeholders to clarify user requirements for features. Worked with tech lead to build features, leading to successful implementation and delivery of features
+        Communicating and following up with stakeholders to clarify user requirements for features, and working both independently and with tech lead to build features, leading to successful implementation in production. 
         - Developing internal applications using HTML, CSS, and Javascript to support business operations.
-        - Utilizing the Model-View-Controller (MVC) design pattern for structuring JavaScript features, enhancing code maintainability and promoting efficient development processes.
+        - Structured JavaScript features using the Model-View-Controller (MVC) design pattern, enhancing maintainability.
         - Leveraging Nextjs for Server-Side Rendering (SSR) of the application, improving initial page load performance.
-        - Worked with MongoDB, Mongoose, and RESTful APIs to implement and optimize scalable database solutions, enhancing data retrieval efficiency and application performance.
+        - Utilizing MongoDB, Mongoose, and RESTful APIs to implement scalable database solutions, enhancing efficiency and performance.
 
       time2: 2018 - 2020
       role2: Operations Manager (Boston MA)
@@ -96,25 +96,24 @@ experiences:
         - Ensured quality control and delivered timelier snow removal experience for 30 contract clients, increasing customer retention, leading to current company position as largest snow removal company in Boston.
         - Organized and led groups of 6 member teams to effectively manage snow removal routes, ensuring workers have access to equipment, supplies, and transportation, while promoting a collaborative work environment among employees.
 
-    - role: Software Quality Assurance Analyst
+    - role: Product Feedback Analyst
       time: 2021 - 2023
       company: Dendron, Seattle WA (remote)
       details: |
-        Analyzed and replicated bugs from tickets, broke down multifactorial issues into component parts, and enhanced bug report with details.
-        - Clarified ticket issues for engineering team and ensuring that bugs are identified and resolved promptly. 
+        Fostered engagement within the user community by creating, collecting, and sharing effective workflows, thereby empowering users and optimizing use cases.
         - Communicated continuous improvements to the engineering team based on collected user feedback and research findings, enhancing product usability and functionality.
-        - Fostered engagement within the user community by creating, collecting, and sharing effective workflows, thereby empowering users and optimizing use cases.
-        - Gained a deeper understanding of VSCode features and processes through this experience
+        - Analyzed and replicated bugs from tickets, broke down multifactorial issues into components, and enhanced bug reports with details.
+        - Deepened understanding of TypeScript, Node.js, and VSCode features and processes.
 
     - role: Clinical User Interface Specialist
       time: 2014 - 2015
       company: Vecna Healthcare, Burlington MA
       details: |
-        Translated complex clinical workflows into intuitive and seamless user interfaces for electronic medical record product built with Bootstrap, Node.js, and MySQL.
-        - Designed and prototyped user interfaces that meet the needs of healthcare providers and improve patient care outcomes, collaborating closely with engineering team 
-        - Conducted usability testing and collect feedback from clinical end-users to identify pain points and areas for improvement, resulting in iterative design enhancements.
-        - Configured, administered and maintained Ubuntu and Debian laptops used in clinical settings with Ansible, ensuring reliable and secure access to essential healthcare applications.
-        - Upgraded and monitored clinical IT infrastructure, achieving uptime close to 100% and minimizing disruption to critical healthcare operations.
+        Translated complex clinical workflows into intuitive, seamless user interfaces for an electronic medical record product using Bootstrap, JavaScript, Node.js, and MySQL.
+        - Designed and prototyped Bootstrap user interfaces to meet the needs of healthcare providers and improve patient care outcomes, collaborating closely with engineering team 
+        - Acted as a liaison between software developers and clinical users, conducting usability testing and gathering feedback from clinical end-users to identify pain points and areas for improvement, leading to iterative design enhancements.
+        - Configured, administered, and maintained Ubuntu and Debian laptops in clinical settings with Ansible, ensuring secure access to essential healthcare applications and supporting CI/CD.
+        - Upgraded and monitored clinical IT infrastructure, achieving near 100% uptime and minimizing disruptions to critical healthcare operations.
 
     - role: Research Assistant in Vaccine Immunology
       time: 2011 - 2013
@@ -146,12 +145,14 @@ skills:
   title: Skills
   toolset:
     - name: Javascript, Typescript, Python, HTML, CSS
+    - name: React, Nuxt
     - name: Node.js, Express.js
     - name: MongoDB, MySQL, Firebase/Supabase
     - name: Virtualization- Virtualbox, VMWare, Hypervisor, Docker
     - name: Design- Figma, Illustrator, Photoshop
     - name: Search querying and boolean logic
-    - name: Red Hat (Linux) System Administration
+    - name: CI/CD, Git, Linux environments
+    - name: Red Hat (Linux) System Administration (RHCSA)
         Certificate 170-077-016 (currently inactive)
 
 footer: >
