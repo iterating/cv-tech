@@ -93,19 +93,17 @@ export async function renderResume(data) {
   document.getElementById("experiences").innerHTML = experiencesHTML;
 
   // Skills - Populating DOM by using array.map
-  let skillsHTML = data.skills.toolset
-    .map(
-      (skill) => `
+  document.getElementById("skills-section").innerHTML = data.skills.toolset
+    .map(({ name, level }) => `
       <div class="item">
-        <h6 class="level-title">${skill.name}</h6>
+        <h6 class="level-title">${name}</h6>
         <div class="level-bar">
-          <div class="level-bar-inner" style="width: ${skill.level}%"></div>
+          <div class="level-bar-inner" style="width: ${level}%"></div>
         </div>
-      </div>`
-    )
-    .join(""); //.join() joins the the html together without separators ∴ no commas
-  document.getElementById("skills-section").innerHTML = skillsHTML;
+      </div>`)
+    .join("");
 }
+
 
 export async function renderPage() {
   const ready = await fetchYamlResume("./data/data.yml");

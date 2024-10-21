@@ -1,5 +1,23 @@
 data/*
 !data/data.yml
+**/node_modules/**
+(?d).git/objects/**/
+**/.git/**/*sync-conflict*
+**/.stversions/*sync-conflict*
+(?d).stversions/*sync-conflict*
+(?d)**/.stversions/*sync-conflict*
+**/.stversions/(?d)*sync-conflict*
 
 node_modules
 pnpm-lock.yaml
+
+
+# Syncthing-specific patterns
+(?d).SyncIgnore
+(?d).SyncTemp
+(?d).SyncArchive
+*.SyncPart
+*.SyncTemp
+*.SyncOld
+.sync-conflict*
+.SyncID

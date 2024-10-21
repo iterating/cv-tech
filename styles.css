@@ -30,6 +30,7 @@ li {
 .sidebar-wrapper {
   background: #42A8C0;
   color: #fff;
+  max-width: 25%;
 }
 
 .sidebar-wrapper a {
