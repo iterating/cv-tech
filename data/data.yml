@@ -1,6 +1,6 @@
 sidebar:
   about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: True # set to False if you want education in main section instead of in sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
   skills: False
 
   # Profile information
@@ -32,7 +32,7 @@ sidebar:
 careerprofile:
   title: Why me?
   summary: |
-    Resilient and innovative junior developer with a strong blend of technical expertise, creative problem-solving abilities, and a growth mindset. A proactive approach and adaptability to rigor, combined with a solid foundation in both technical and soft skills, allows for effective handling of complex challenges. Passionate about builiding software that answers business needs and dedicated to continuous learning and fostering a collaborative environment that drives impactful solutions.
+    Resilient and innovative junior developer with a strong blend of technical expertise, creative problem-solving abilities, and a growth mindset. A proactive approach and adaptability to rigor, combined with a solid foundation in both technical and soft skills, allows for effective handling of complex challenges. Passionate about building software that answers business needs and dedicated to continuous learning and fostering a collaborative environment that drives impactful solutions.
 
 education:
   title: Education
