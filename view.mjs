@@ -17,21 +17,18 @@ export async function renderResume(data) {
   // document.getElementById('avatar').src = data.sidebar.avatar;
   document.getElementById("name").textContent = data.sidebar.name;
   document.getElementById("tagline").textContent = data.sidebar.tagline;
-  let aboutHTML = "";
-  if (data.sidebar.email) {
-    aboutHTML += `
-    <p class="email"><p class="fas fa-envelope"></p>
-      <div class="details">${data.sidebar.email}</div>
-    `;
-  }
-  if (data.sidebar.citizenship) {
-    aboutHTML += `
-    <p class="phone"><p class="fas fa-passport"></p>
-      <div class="details">${data.sidebar.citizenship}</div>
-    `;
-  }
-  document.getElementById("about-section").innerHTML = aboutHTML;
+  // let aboutHTML = "";
+  // document.getElementById("about-section").innerHTML = aboutHTML;
 
+  if (data.sidebar.citizenship) {
+    document.getElementById("about-section").innerHTML = `
+    <div class="sidebardetails details"><p class="fas fa-passport "></p> ${data.sidebar.citizenship}</div>`;
+  }
+  if (data.sidebar.email) {
+    document.getElementById("contact-info").innerHTML = `
+   <div class="sidebardetails details"><p class="fas fa-envelope "></p> ${ data.sidebar.email}</div>
+    `;
+  }
   // Education - Populating DOM by iterating over array
   let educationHTML = "";
   for (let i = 0; i < data.education.info.length; i++) {
@@ -94,16 +91,17 @@ export async function renderResume(data) {
 
   // Skills - Populating DOM by using array.map
   document.getElementById("skills-section").innerHTML = data.skills.toolset
-    .map(({ name, level }) => `
+    .map(
+      ({ name, level }) => `
       <div class="item">
         <h6 class="level-title">${name}</h6>
         <div class="level-bar">
           <div class="level-bar-inner" style="width: ${level}%"></div>
         </div>
-      </div>`)
+      </div>`
+    )
     .join("");
 }
-
 
 export async function renderPage() {
   const ready = await fetchYamlResume("./data/data.yml");

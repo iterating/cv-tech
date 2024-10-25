@@ -32,7 +32,7 @@ sidebar:
 careerprofile:
   title: Why me?
   summary: |
-    Resilient and innovative junior developer with a strong blend of technical expertise, creative problem-solving abilities, and a growth mindset. A proactive approach and adaptability to rigor, combined with a solid foundation in both technical and soft skills, allows for effective handling of complex challenges. Dedicated to continuous learning and fostering a collaborative environment that drives impactful solutions.
+    Resilient and innovative junior developer with a strong blend of technical expertise, creative problem-solving abilities, and a growth mindset. A proactive approach and adaptability to rigor, combined with a solid foundation in both technical and soft skills, allows for effective handling of complex challenges. Passionate about builiding software that answers business needs and dedicated to continuous learning and fostering a collaborative environment that drives impactful solutions.
 
 education:
   title: Education
@@ -48,12 +48,11 @@ education:
       time: 2015 - 2018
       details: |
         Winner, American College of Physicians National Abstract Competition  
-
         *Publications/Conference Presentations:*  
         Pretending to Be the Great Pretender. *ACP Impact*, October 2016.  
         A Chemokine Protective Shield for Islet Transplantation. *Digestive Disease Interventions*, Boston, MA.  
 
-        Medical training equipped me with the skills to think both broadly and specifically in diagnosing issues by symptom and analysis, which I bring to efficiently building applications as a software engineer. 
+        Medical training equipped me with rigorous training in combinatorics and statistical analysis, as well as the skills to think both broadly and specifically in diagnosing issues by symptom and analysis, which I bring to efficiently building applications as a software engineer. 
 
     - degree: Tufts University
       university: B.Sc., Biology GPA：3.7
@@ -69,6 +68,12 @@ education:
       details: |
         American Invitational Mathematics Examination (AIME) Qualifications  
           Acknowledged for problem-solving and mathematical proficiency, demonstrating capability in achieving high-level problem-solving outcomes
+          
+    - degree: Coursera
+      university: Certificate in Machine Learning
+      time: 2013
+      details: |
+        Inspired by studies classifying symptoms, disease risks, and associations, I was curious about the potential of applied statistical methods and reinforcement learning in this space in 2013. This equips me with insight on potential and limitations of machine learning to medical data that are still applicable today.  
 
 
 experiences:
@@ -78,21 +83,22 @@ experiences:
       time: 2024 - Present
       company: LA Film Lab, Los Angeles CA
       details: |
-        Developing customer and internal-facing software for a film lab using Javascript, Nuxt, Node.js, and Firebase with a Lean design process. Collaborated with a senior developer, successfully implementing features in production.
-        - Optimizing and scaled web performance using techniques like lazy loading, asynchronous programming, and efficient resource management.
-        - Building code with Model-View-Controller (MVC), PRPL, and other design patterns to enhance performance, code maintainability and promote efficient development processes.
-        - Designed and developed internal-facing labeling system using HTML, CSS, and Javascript, and RESTful APIs for customer order management and labeling, improving employee efficiency by 25%.
+        Developed customer and internal-facing software for a film lab using JavaScript, TypeScript, Nuxt, Node.js, and Firebase, translating real-time business needs into functional applications through a Lean design methodology. Collaborated with a senior developer to successfully implement features in production.
+        - Optimized and scaled web performance by implementing techniques such as lazy loading, asynchronous programming, and efficient resource management, resulting in improved load times and user experience.
+        - Built robust, maintainable codebases by utilizing the Model-View-Controller (MVC) architecture, PRPL, and other design patterns to ensure performance, code quality, and efficient development workflows.
+        - Implemented RESTful and Server-Sent Events (SSE) APIs for real-time data updates, improving system performance and enabling seamless, low-latency communication between client and server.
+        - Designed and developed an internal labeling system for customer order management using HTML, CSS, TypeScript, and JavaScript, improving employee workflow efficiency by 25% and streamlining the order management process.
 
     - role: Software Engineering Intern
       time: 2024 - Present
       company: Greater Boston Snow Removal, Boston MA (Remote)
       details: |
-        Communicating and following up with stakeholders to clarify user requirements for features, and working both independently and with tech lead to build features, leading to successful implementation in production. 
-        - Developing internal applications using HTML, CSS, and Javascript to support business operations.
-        - Structured JavaScript features using the Model-View-Controller (MVC) design pattern, enhancing maintainability.
-        - Leveraging Nextjs for Server-Side Rendering (SSR) of the application, improving initial page load performance.
-        - Utilizing MongoDB, Mongoose, and RESTful APIs to implement scalable database solutions, enhancing efficiency and performance.
-        - Experiencing hosting data and deploying apps to AWS using Vercel, AWS Lambda, API Gateway, and DynamoDB.
+        Collaborated with stakeholders to clarify and refine user requirements for feature development, ensuring alignment between business needs and technical solutions. Successfully implemented features in production by working both independently and with the tech lead. 
+        - Developed internal applications using HTML, CSS, and JavaScript to streamline business operations and improve efficiency.
+        - Structured JavaScript features following the Model-View-Controller (MVC) design pattern, improving code maintainability and scalability.
+        - Leveraged Next.js for Server-Side Rendering (SSR), significantly improving initial page load times and enhancing overall user experience.
+        - Designed and implemented scalable database solutions using MongoDB, Mongoose, and RESTful APIs, optimizing performance and system efficiency.
+        - Deployed applications to AWS with Vercel, utilizing AWS Lambda, API Gateway, and DynamoDB for serverless architecture, ensuring cost-effective and highly available cloud infrastructure.
 
       time2: 2018 - 2020
       role2: Operations Manager (Boston MA)
@@ -119,6 +125,16 @@ experiences:
         - Acted as a liaison between software developers and clinical users, conducting usability testing and gathering feedback from clinical end-users to identify pain points and areas for improvement, leading to iterative design enhancements.
         - Configured, administered, and maintained Ubuntu and Debian laptops in clinical settings with Ansible, ensuring secure access to essential healthcare applications and supporting CI/CD.
         - Upgraded and monitored clinical IT infrastructure, achieving near 100% uptime and minimizing disruptions to critical healthcare operations.
+
+    - role: Freelance Website Developer
+      time: 2013 - 2018
+      company: ''
+      details: |
+        Design, prototype, and deployed fully responsive, user-centric websites tailored to client business needs, utilizing a Lean design process for efficient project turnaround.
+        - Developed cross-browser compatible websites using WordPress, PHP, HTML, and CSS, ensuring seamless functionality and modern web standards.
+        - Set up and managed testing environments with Docker, streamlining deployment processes and ensuring cross-platform compatibility and reliability.
+        - Crafted compelling UI/UX designs, including custom illustrations, typography, and branding assets, to elevate client brand identity and user engagement.
+        - Provided ongoing website maintenance, ensuring continuous functionality, performance, and uptime by managing cloud infrastructure and proactive troubleshooting.
 
     - role: Research Assistant in Vaccine Immunology
       time: 2011 - 2013
