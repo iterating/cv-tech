@@ -39,7 +39,7 @@ education:
   info:
     - degree: Per Scholas
       university: Software Engineering Track, GPA：4.0
-      time: Aug 2024 - Dec 2024
+      time: 2024
       details: |
         Coding bootcamp, Software Engineering specialization in object-oriented programming and full stack development.
 
@@ -59,8 +59,11 @@ education:
       time: 2007 - 2010
       details: |
         Magna cum laude with Thesis Honors in Biology and Chemistry  
+        Capstone in 3D Digital Design  
         *Publication:*  
-        Direct O-glycosidation of resin bound thioglycosides. *Organic and Bimolecular Chemistry*. [DOI: 10.1039/c2ob06883d](https://pubmed.ncbi.nlm.nih.gov/22261792/)
+        Direct O-glycosidation of resin bound thioglycosides. *Organic and Bimolecular Chemistry*. [DOI: 10.1039/c2ob06883d](https://pubmed.ncbi.nlm.nih.gov/22261792/)  
+        Work-study employment as computer lab administrator  at Eliot-Pearson Children's School  
+
 
     - degree: Choate Rosemary Hall
       university: ""
@@ -73,8 +76,7 @@ education:
       university: Certificate in Machine Learning
       time: 2013
       details: |
-        Inspired by studies classifying symptoms, disease risks, and associations, I was curious about the potential of applied statistical methods and reinforcement learning in this space in 2013. This equips me with insight on potential and limitations of machine learning to medical data that are still applicable today.  
-
+        Inspired by studies classifying symptoms, disease risks, and associations, I was curious about the potential of applied statistical methods and reinforcement learning in this space in 2013. 
 
 experiences:
   title: Experiences
@@ -83,22 +85,22 @@ experiences:
       time: 2024 - Present
       company: LA Film Lab, Los Angeles CA
       details: |
-        Developed customer and internal-facing software for a film lab using JavaScript, TypeScript, Nuxt, Node.js, and Firebase, translating real-time business needs into functional applications through a Lean design methodology. Collaborated with a senior developer to successfully implement features in production.
+        Developed customer and internal-facing software for film lab using JavaScript, TypeScript, Nuxt, Node.js, and Firebase, translating real-time business needs into functional applications through a Lean design methodology. Collaborated with senior developer to successfully implement features in production.
         - Optimized and scaled web performance by implementing techniques such as lazy loading, asynchronous programming, and efficient resource management, resulting in improved load times and user experience.
         - Built robust, maintainable codebases by utilizing the Model-View-Controller (MVC) architecture, PRPL, and other design patterns to ensure performance, code quality, and efficient development workflows.
         - Implemented RESTful and Server-Sent Events (SSE) APIs for real-time data updates, improving system performance and enabling seamless, low-latency communication between client and server.
         - Designed and developed an internal labeling system for customer order management using HTML, CSS, TypeScript, and JavaScript, improving employee workflow efficiency by 25% and streamlining the order management process.
 
-    - role: Software Engineering Intern
-      time: 2024 - Present
+    - role: Web Developer
+      time: 2023 - 2024
       company: Greater Boston Snow Removal, Boston MA (Remote)
       details: |
         Collaborated with stakeholders to clarify and refine user requirements for feature development, ensuring alignment between business needs and technical solutions. Successfully implemented features in production by working both independently and with the tech lead. 
         - Developed internal applications using HTML, CSS, and JavaScript to streamline business operations and improve efficiency.
         - Structured JavaScript features following the Model-View-Controller (MVC) design pattern, improving code maintainability and scalability.
-        - Leveraged Next.js for Server-Side Rendering (SSR), significantly improving initial page load times and enhancing overall user experience.
         - Designed and implemented scalable database solutions using MongoDB, Mongoose, and RESTful APIs, optimizing performance and system efficiency.
         - Deployed applications to AWS with Vercel, utilizing AWS Lambda, API Gateway, and DynamoDB for serverless architecture, ensuring cost-effective and highly available cloud infrastructure.
+        - Currently continuing role on part-time basis.
 
       time2: 2018 - 2020
       role2: Operations Manager (Boston MA)
@@ -108,42 +110,35 @@ experiences:
         - Organized and led groups of 6 member teams to effectively manage snow removal routes, ensuring workers have access to equipment, supplies, and transportation, while promoting a collaborative work environment among employees.
 
     - role: Product Feedback Analyst
-      time: 2021 - 2023
+      time: 2021 - 2022
       company: Dendron, Seattle WA (remote)
       details: |
         Fostered engagement within the user community by creating, collecting, and sharing effective workflows, thereby empowering users and optimizing use cases.
-        - Communicated continuous improvements to the engineering team based on collected user feedback and research findings, enhancing product usability and functionality.
+        - Communicated continuous improvements to the engineering team based on collected user feedback and research findings through Github and Slack, enhancing product usability and functionality.
         - Analyzed and replicated bugs from tickets, broke down multifactorial issues into components, and enhanced bug reports with details.
         - Deepened understanding of TypeScript, Node.js, CI/CD, and VSCode features and processes.
+        - Ended role upon product transitioning to maintenance mode.
 
-    - role: Clinical User Interface Specialist
+    - role: Clinical User Specialist
       time: 2014 - 2015
       company: Vecna Healthcare, Burlington MA
       details: |
-        Translated complex clinical workflows into intuitive, seamless user interfaces for an electronic medical record product using Bootstrap, JavaScript, Node.js, and MySQL.
+        Translated complex clinical workflows into intuitive, seamless user interfaces for an electronic medical record product using Bootstrap, JavaScript, Node.js, and MySQL in Linux environments
         - Designed and prototyped Bootstrap user interfaces with Javascript, HTML, and CSS to meet the needs of healthcare providers and improve patient care outcomes, collaborating closely with engineering team 
         - Acted as a liaison between software developers and clinical users, conducting usability testing and gathering feedback from clinical end-users to identify pain points and areas for improvement, leading to iterative design enhancements.
         - Configured, administered, and maintained Ubuntu and Debian laptops in clinical settings with Ansible, ensuring secure access to essential healthcare applications and supporting CI/CD.
         - Upgraded and monitored clinical IT infrastructure, achieving near 100% uptime and minimizing disruptions to critical healthcare operations.
 
-    - role: Freelance Website Developer
-      time: 2013 - 2018
-      company: ''
-      details: |
-        Design, prototype, and deployed fully responsive, user-centric websites tailored to client business needs, utilizing a Lean design process for efficient project turnaround.
-        - Developed cross-browser compatible websites using WordPress, PHP, HTML, and CSS, ensuring seamless functionality and modern web standards.
-        - Set up and managed testing environments with Docker, streamlining deployment processes and ensuring cross-platform compatibility and reliability.
-        - Crafted compelling UI/UX designs, including custom illustrations, typography, and branding assets, to elevate client brand identity and user engagement.
-        - Provided ongoing website maintenance, ensuring continuous functionality, performance, and uptime by managing cloud infrastructure and proactive troubleshooting.
 
     - role: Research Assistant in Vaccine Immunology
       time: 2011 - 2013
       company: Vaccine Immunotherapy Center, Massachusetts General Hospital, Boston MA
       details: |
         Demonstrated an innovative approach to transplant immunology where a chemokine that plays a role in protecting cancer cells from immune attack is instead applied to prolong survival of transplant graft by locally attracting regulatory T cells and repelling cytotoxic T cells. 
+        - Utilized **Python** to perform statistical analyses of data from in-vitro and microarray experiments, including **SciPy** for ANOVA and T-tests, **Pandas** to structure data, and **Matplotlib** to visualize data for presentation
+        - Programmed 'Cellbot', an automated cell counting program in **Java** and ImageJ, improving efficiency and accuracy of data collection, leading to a 25% improvement in data collection time. 
         - Transplanted encapsulated islet cells with either Treg attractant CXCL12 or control alginate into diabetic mouse model. Then monitored the blood glucose of experimental and control groups and applied statistical testing to evaluate how CXCL12-incorporated encapsulants supported islet graft survival.  
         - Conducted research on a mycobacterial Hsp70-containing fusion protein targeting mesothelin, showing its ability to boost antitumor immunity and extend survival in mouse models of ovarian cancer and mesothelioma by attracting cytotoxic T cells to solid tumors. 
-        - Programmed 'Cellbot', an automated cell counting program in Java and ImageJ, speeding data collection and experimental validation 
 
         __Communication and Presentation:__
         - Documented and presented quantitative data for publication and peer review, leading to successful publication.
@@ -152,29 +147,20 @@ experiences:
         __Publication:__
            Alginate encapsulant incorporating CXCL12 supports long term allo and xenoislet transplantation without systemic immune suppression. *American Journal of Transplantation*, 2015. [DOI 10.1111/ajt.13049](https://pubmed.ncbi.nlm.nih.gov/25693473/)
 
-    - role: Research Assistant in Medicinal Chemistry
-      time: 2009 - 2011
-      company: Tufts University Medford MA
-      details: |
-        - Developed and optimized a direct O-glycosidation method for resin-bound thioglycosides, enhancing efficiency in carbohydrate chemistry research. This method streamlines the glycosidation process and has practical implications for both chemical synthesis and pharmaceutical applications. 
-        - Analyzed product formation and purity with NMR and Mass Spectrometry 
 
-        __Publication:__
-
-           Direct O-glycosidation of resin bound thioglycosides. *Organic and Biomolecular Chemistry*, 2012. [DOI: 10.1039/c2ob06883d](https://pubmed.ncbi.nlm.nih.gov/22261792/)
 skills:
   title: Skills
   toolset:
     - name: Javascript, Typescript, Python, HTML, CSS
-    - name: React, Nuxt
+    - name: React, Nuxt, Vue
     - name: Node.js, Express.js
     - name: MongoDB, MySQL, Firebase/Supabase, SQL language
-    - name: Virtualization- Virtualbox, VMWare, Hypervisor, Docker
+    - name: Virtualization- Virtualbox, VMWare, Docker
     - name: AWS, EC2, Lambda, API Gateway, DynamoDB, Azure
     - name: Design- Figma, Illustrator, Photoshop
     - name: Search querying and boolean logic
     - name: CI/CD, Git, Linux environments
-    - name: Red Hat (Linux) System Administration (RHCSA)
+    - name: Red Hat (Linux) Certified System Administrator (RHCSA)
         Certificate 170-077-016 (currently inactive)
     - name: Knowledge of .Net, C, Java, Springboot
 
