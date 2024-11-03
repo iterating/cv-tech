@@ -41,7 +41,8 @@ education:
       university: Software Engineering Track, GPA：4.0
       time: 2024
       details: |
-        Coding bootcamp, Software Engineering specialization in object-oriented programming and full stack development.
+        Completed intensive software engineering training focused on full stack development, enhancing technical skills and project experience with up to date software development tools and frameworks.
+
 
     - degree: University Of Massachusetts Chan Medical School
       university: M.D. Candidate
@@ -52,14 +53,13 @@ education:
         Pretending to Be the Great Pretender. *ACP Impact*, October 2016.  
         A Chemokine Protective Shield for Islet Transplantation. *Digestive Disease Interventions*, Boston, MA.  
 
-        Medical training equipped me with rigorous training in combinatorics and statistical analysis, as well as the skills to think both broadly and specifically in diagnosing issues by symptom and analysis, which I bring to efficiently building applications as a software engineer. 
+        Medical training equipped me with statistical thinking as well as the skills to think both broadly and specifically in diagnosing issues by symptom and analysis, which I bring to efficiently building applications as a software engineer. 
 
     - degree: Tufts University
-      university: B.Sc., Biology GPA：3.7
+      university: B.Sc., Computer Science GPA：3.7
       time: 2007 - 2010
       details: |
-        Magna cum laude with Thesis Honors in Biology and Chemistry  
-        Capstone in 3D Digital Design  
+        Magna cum laude with Thesis Honors from Dept of Chemistry  
         *Publication:*  
         Direct O-glycosidation of resin bound thioglycosides. *Organic and Bimolecular Chemistry*. [DOI: 10.1039/c2ob06883d](https://pubmed.ncbi.nlm.nih.gov/22261792/)  
         Work-study employment as computer lab administrator  at Eliot-Pearson Children's School  
@@ -97,9 +97,8 @@ experiences:
       details: |
         Collaborated with stakeholders to clarify and refine user requirements for feature development, ensuring alignment between business needs and technical solutions. Successfully implemented features in production by working both independently and with the tech lead. 
         - Developed internal applications using HTML, CSS, and JavaScript to streamline business operations and improve efficiency.
-        - Structured JavaScript features following the Model-View-Controller (MVC) design pattern, improving code maintainability and scalability.
         - Designed and implemented scalable database solutions using MongoDB, Mongoose, and RESTful APIs, optimizing performance and system efficiency.
-        - Deployed applications to AWS with Vercel, utilizing AWS Lambda, API Gateway, and DynamoDB for serverless architecture, ensuring cost-effective and highly available cloud infrastructure.
+        - Deployed applications to AWS, utilizing AWS Lambda, API Gateway, and DynamoDB, ensuring cost-effective and highly available cloud infrastructure.
         - Currently continuing role on part-time basis.
 
       time2: 2018 - 2020
