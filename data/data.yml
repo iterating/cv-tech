@@ -5,7 +5,7 @@ sidebar:
 
   # Profile information
   name: Jonathan Young
-  tagline: Creative and Resilient Junior Full Stack Developer
+  tagline: Creative and Resilient Web App Developer
   avatar: # Profile(100x100).jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -32,7 +32,9 @@ sidebar:
 careerprofile:
   title: Why me?
   summary: |
-    Resilient and innovative junior developer with a strong blend of technical expertise, creative problem-solving abilities, and a growth mindset. A proactive approach and adaptability to rigor, combined with a solid foundation in both technical and soft skills, allows for effective handling of complex challenges. Passionate about building software that answers business needs and dedicated to continuous learning and fostering a collaborative environment that drives impactful solutions.
+    I'm a web developer with a strong blend of creative problem-solving abilities, resilience, and a growth mindset.
+    Previously in medicine, I switched careers to software engineering to explore new challenges and apply my analytical and problem-solving skills to solve business challenges and create innovative and impactful products. 
+    I bring a proactive approach and adaptability to rigor, which combined with a solid foundation in both technical and soft skills, allows me to effectively handle complex challenges while fostering a collaborative environment. Let's connect!
 
 education:
   title: Education
@@ -56,10 +58,11 @@ education:
         Medical training equipped me with statistical thinking as well as the skills to think both broadly and specifically in diagnosing issues by symptom and analysis, which I bring to efficiently building applications as a software engineer. 
 
     - degree: Tufts University
-      university: B.Sc., Computer Science GPA：3.7
+      university: B.Sc., Biology GPA：3.7
       time: 2007 - 2010
       details: |
         Magna cum laude with Thesis Honors from Dept of Chemistry  
+        Capstone in 3D Digital Design  
         *Publication:*  
         Direct O-glycosidation of resin bound thioglycosides. *Organic and Bimolecular Chemistry*. [DOI: 10.1039/c2ob06883d](https://pubmed.ncbi.nlm.nih.gov/22261792/)  
         Work-study employment as computer lab administrator  at Eliot-Pearson Children's School  
@@ -72,12 +75,6 @@ education:
         American Invitational Mathematics Examination (AIME) Qualifications  
           Acknowledged for problem-solving and mathematical proficiency, demonstrating capability in achieving high-level problem-solving outcomes
           
-    - degree: Coursera
-      university: Certificate in Machine Learning
-      time: 2013
-      details: |
-        Inspired by studies classifying symptoms, disease risks, and associations, I was curious about the potential of applied statistical methods and reinforcement learning in this space in 2013. 
-
 experiences:
   title: Experiences
   info:
@@ -91,14 +88,14 @@ experiences:
         - Implemented RESTful and Server-Sent Events (SSE) APIs for real-time data updates, improving system performance and enabling seamless, low-latency communication between client and server.
         - Designed and developed an internal labeling system for customer order management using HTML, CSS, TypeScript, and JavaScript, improving employee workflow efficiency by 25% and streamlining the order management process.
 
-    - role: Web Developer
+    - role: Freelance Web Developer
       time: 2023 - 2024
       company: Greater Boston Snow Removal, Boston MA (Remote)
       details: |
         Collaborated with stakeholders to clarify and refine user requirements for feature development, ensuring alignment between business needs and technical solutions. Successfully implemented features in production by working both independently and with the tech lead. 
         - Developed internal applications using HTML, CSS, and JavaScript to streamline business operations and improve efficiency.
         - Designed and implemented scalable database solutions using MongoDB, Mongoose, and RESTful APIs, optimizing performance and system efficiency.
-        - Deployed applications to AWS, utilizing AWS Lambda, API Gateway, and DynamoDB, ensuring cost-effective and highly available cloud infrastructure.
+        - Deployed applications to AWS ensuring cost-effective and highly available cloud infrastructure.
         - Currently continuing role on part-time basis.
 
       time2: 2018 - 2020
@@ -150,18 +147,19 @@ experiences:
 skills:
   title: Skills
   toolset:
-    - name: Javascript, Typescript, Python, HTML, CSS
+    - name: Javascript, Typescript, HTML, CSS
     - name: React, Nuxt, Vue
     - name: Node.js, Express.js
     - name: MongoDB, MySQL, Firebase/Supabase, SQL language
+    - name: Python 2/3, Numpy, Scipy, Pandas
+    - name: Selenium, Autohotkey
     - name: Virtualization- Virtualbox, VMWare, Docker
-    - name: AWS, EC2, Lambda, API Gateway, DynamoDB, Azure
+    - name: AWS, EC2, DynamoDB
     - name: Design- Figma, Illustrator, Photoshop
-    - name: Search querying and boolean logic
     - name: CI/CD, Git, Linux environments
     - name: Red Hat (Linux) Certified System Administrator (RHCSA)
-        Certificate 170-077-016 (currently inactive)
-    - name: Knowledge of .Net, C, Java, Springboot
+        Certificate 170-077-016
+    - name: Knowledge of Azure, .NET, Java, Springboot, C
 
 footer: >
   Designed by <a href="http://iterating.github.io/cv-tech" target="_blank" rel="nofollow">J Young Design</a>

@@ -1,0 +1,132 @@
+# Syncthing
+(?d)**/.stversions/*sync-conflict*
+(?d)**.cursor-positions.sync-conflict*
+(?d)**/workspace.sync-conflict*
+(?d)**/.git/*sync-conflict*
+# Ignore Git metadata that doesn't need syncing
+(?d)**/.git/objects**
+(?d)**/.git/refs**
+(?d)**/.git/index.lock**
+(?d)**/.git/logs**
+(?d)**/.git/hooks**
+(?d)**/.git/info**
+# But not .git/config file
+!.git/config
+# Ignore node.js dependencies and build artifacts
+node_modules
+**/node_modules**
+(?d)**/node_modules**
+debug.log*
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dist
+build
+/out/
+/logs/
+/test/reports/
+/stacktrace.log
+coverage
+# Ignore IDE/editor settings
+(?d)**/.dendron.**
+.idea
+*.iml
+# Ignore temporary files and caches
+*.tmp
+*.swp
+*.bak
+.cache
+# Ignore log files
+*.log
+# Ignore system-specific files
+*.pyc
+__pycache__
+
+# OS-specific ignores
+# macOS
+.DS_Store
+(?d).DS_Store
+.localized
+._*
+.fseventsd
+.DocumentRevisions-V100
+.TemporaryItems
+.Trashes
+.iCloud
+.Spotlight-*
+
+# Windows
+ehthumbs.db
+Thumbs.db
+$RECYCLE.BIN
+System Volume Information
+
+# Framework-specific
+.cv-jekyll/assets/plugins/**
+.nuxt
+.nitro
+.cache
+.output
+.next/
+.vercel
+
+# Dropbox
+.dropbox.cache/**
+
+# Certificates
+*.pem
+
+# Other temp files
+*.part
+*.crdownload
+*.tmp
+~*
+*.old
+*.syd
+*.dir
+*.gid
+*.chk
+*.dmp
+*.nch
+.*.swp
+*~
+*.*.sw[a-p]
+
+# Syncthing-specific patterns
+(?d).SyncIgnore
+(?d).SyncTemp
+(?d).SyncArchive
+*.SyncPart
+*.SyncTemp
+*.SyncOld
+.SyncID
+
+# Parallels VM directory
+*.parallels-vm-directory
+
+# Trash and temp files
+.directory
+.Trash-*
+(?d).Trash-*
+(?d).localized
+(?d)._*
+(?d).Icon*
+(?d).fseventsd
+(?d).Spotlight-V100
+(?d).DocumentRevisions-V100
+(?d).TemporaryItems
+(?d).Trashes
+(?d).Trash-1000
+(?d).iCloud
+
+# Windows recycle bin
+$RECYCLE.BIN
+
+# Synology thumbnails
+.@_thumb
+.@__thumb
+@eaDir
+
+# Lightroom previews
+*Previews.lrdata root-pixels.db
+
