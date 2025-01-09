@@ -1,10 +1,5 @@
-# (?d) prefix makes Syncthing delete files that match the pattern
-# Patterns without (?d) will be ignored by Git but kept by Syncthing
-
-###################
-# Sync & Version Control
-###################
-
+./data
+!./data/data.yml
 # Sync conflict prevention
 (?d)**/*sync-conflict*
 (?d)**/*.sync-conflict*
