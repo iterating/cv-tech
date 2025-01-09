@@ -34,12 +34,7 @@ careerprofile:
   summary: |
     I'm a web developer rooted in domain driven design, resilience, and problem solving skills. 
     Previously in medicine, I frequently used my domain knowledge to build tools for myself and others, and switched careers to software engineering to full time to develop my skills as a developer.
-    # I have a strong background in healthcare, and I'm particularly interested in the intersection of healthcare and technology.
-    I bring a proactive approach and adaptability to rigor, which combined with a solid foundation in both technical and soft skills, allows me to effectively handle complex challenges while fostering a collaborative environment. Let's connect!
 
-    # I've been solving business problems since 2013  with custom solutions encompassing data processing, analysis, commerce websites, cloud services, web and mobile development.
-    # Previously in medicine, I develop healthcare apps with FHIR and HL7. 
-    # My main tools as of 2025 are Typescript, Python, React, Nuxt, Supabase
 education:
   title: Education
   info:
