@@ -1,0 +1,145 @@
+sidebar:
+    about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
+    education: True # set to False if you want education in main section instead of in sidebar
+
+    # Profile information
+    name: Jonathan Young 
+    tagline: Bringing together medical knowledge, approachable support, and sales savvy to elevate clients' fitness journey with expertise and warmth
+    avatar: 
+    avatar: profile.fitness.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+    # Sidebar links
+    email: jyoung0696@gmail.com
+    phone: 626 626 0656
+    timezone: Pacific Time
+    citizenship: US
+    website: iterating.github.io/cv-fitness #do not add http://
+    linkedin: 
+    xing: 
+    github: 
+    telegram: # add your nickname without '@' sign
+    gitlab:
+    bitbucket:
+    twitter: 
+    stack-overflow: # Number/Username, e.g. 123456/alandoe
+    codewars:
+    goodreads: # Number-Username, e.g. 123456-alandoe
+    # pdf: 
+
+    interests:
+      title: Certifications
+      info:
+        - item: Certified Personal Trainer, National Academy of Sports Medicine
+          link: 
+        - item: Certified Nutrition Coach, National Academy of Sports Medicine
+        - item: Certified Functional Aging Specialist, Functional Aging Institute
+        - item: Certified Functional Core and Balance, Functional Aging Institute
+        
+
+career-profile:
+    title: Why me?
+    summary: |
+      Highly motivated and dedicated Certified Personal Trainer with a strong background in medical science and a passion for helping clients achieve their fitness goals. Known for providing personalized training programs tailored to individual needs and abilities, along with exceptional customer service and sales skills.
+
+education:
+    title: Education
+    info:
+      - degree: Tufts University
+        university: B.Sc., Biology
+        time: 2007 - 2010
+        details: |
+          Magna cum laude with Thesis Honors
+      - degree: UMass Chan Medical School
+        university: Medicine
+        time: 2015 - 2018
+        details: |
+          Completed 3 years of medical school curriculum. Completed rotations in family medicine, surgery, orthopedics and neurology with above average and outstanding clinical evaluations.
+
+experiences:
+    title: Experiences
+    info:
+      - role: Personal Trainer
+        time: 2020 - Present
+        company: Freelance
+        details: |
+          - Led clients of varying skill level to achieve thier fitness and physique goals
+          - Train clients in antagonistic muscle groups for balanced physique and function
+          - Educate clients on the importance of nutrition and lifestyle factors in achieving overall health and fitness goals, offering guidance and support in making sustainable lifestyle changes.
+
+      - role: Personal Trainer
+        time: Jan - Mar 2020
+        company: LA Fitness
+        details: |
+          - Conduct fitness assessments for clients to determine their current fitness levels, goals, and any limitations.
+          - Train clients in functional excercises
+          - Provide hands-on instruction and guidance on proper exercise techniques, form, and equipment usage to ensure safety and effectiveness.
+
+      - role: Personal Trainer
+        time: 2018 - 2020
+        company: Boston Athletic Club
+        details: |
+          - Conduct comprehensive fitness assessments for clients to determine their current fitness levels, goals, and any limitations.
+          - Develop individualized exercise programs tailored to clients' specific needs, preferences, and fitness goals.
+          - Provide hands-on instruction and guidance on proper exercise techniques, form, and equipment usage to ensure safety and effectiveness.
+          - Motivate and inspire clients through positive reinforcement, goal-setting, and accountability measures to help them achieve and exceed their fitness goals.
+          - Monitor client progress regularly, track results, and adjust workout plans as needed to maximize effectiveness and client satisfaction.
+          - Collaborate with club management and fellow trainers to promote fitness programs, events, and services, contributing to the overall success and growth of the club.
+          - Generated revenue and promoted membership growth, effectively communicating the benefits of fitness programs, closing sales to drive sign-ups and achieve sales targets
+          - 75% fitness training, 25% sales and administration
+ 
+      - role: Front Desk Supervisor
+        time: 2012 - 2013
+        company: Boston Athletic Club, Boston MA
+        details: |
+          - Supervised daily front desk operations, ensuring smooth check-in/check-out processes, managing phone calls, and handling member inquiries and concerns.
+          - Trained and coached front desk staff in customer service best practices, company policies, and procedures, fostering a positive and professional work environment.
+          - Implemented scheduling protocols to optimize staff coverage and ensure efficient operation during peak hours.
+          - Collaborated with management to develop and implement strategies for improving member satisfaction and retention.
+          - Assisted in administrative tasks such as maintaining member records, processing payments, and resolving billing inquiries.
+          - Acted as a liaison between front desk staff and management, communicating operational updates, policy changes, and member feedback.
+
+      - role: Front Desk Associate
+        time: 2011 - 2012
+        company: Boston Athletic Club, Boston MA
+        details: |
+          - Generated revenue and promoted membership growth at Boston Athletic Club, effectively communicating the benefits of fitness programs, conducting facility tours, and closing sales to drive membership sign-ups and achieve sales targets
+          - Efficiently managing check-ins, processing memberships, and addressing member inquiries to ensure a positive experience and promote a welcoming environment.
+          - Managed inventory of front desk supplies and equipment, coordinating orders and ensuring availability of necessary items.
+
+      - role: Sales Representative
+        time: 2013 - 2015
+        company: Sanova Biotechnologies
+        details: |
+          - Successfully generated leads and expanded client base through strategic prospecting and networking efforts.
+          - Developed and implemented effective sales strategies to meet and exceed sales targets, resulting in a 300% increase in revenue.
+          - Built and maintained strong relationships with clients, providing exceptional customer service and support throughout the sales process.
+          - Conducted product demonstrations and presentations to educate clients on product features, benefits, and value proposition.
+          - Negotiated contracts and closed sales deals with clients, consistently achieving high conversion rates.
+          - Collaborated with cross-functional teams to address client needs and resolve any issues or concerns in a timely manner.
+
+      - role: Competitive Dragonboater
+        time: 2018 - 2020
+        company: Boston 1 Dragon Boat Team
+        details: |
+          - Competed as a core member of the B1 Dragon Boat Team, representing the team in local, regional, and national competitions.
+          - Contributed to team success by participating and leading rigorous training sessions, including on-water practices and strength and conditioning workouts, optimizing strength and functional training with injury prevention.
+          - Achieved notable successes and awards in dragon boat competitions, highlighting dedication, skill, and competitive spirit.
+
+skills:
+    title: Skills
+    toolset:
+      - name:  Strong knowledge of anatomy, physiology, and exercise science principles
+      - name: Excellent communication and interpersonal skills
+      - name: Motivational coaching and client engagement
+      - name: Sales experience in promoting training packages and additional services
+      - name: Languages- English and Mandarin
+      - name: Freelance fitness and cosplay modeling
+      - name: Experienced in bouldering, dragonboating, and crew 
+
+
+
+footer: >
+    Designed by <a href="http://jonathanyoungdesign.wordpress.com" target="_blank" rel="nofollow">J Young Design</a>
+
+
+# Boston Athletic Club 653 Summer St, Boston, MA 02210

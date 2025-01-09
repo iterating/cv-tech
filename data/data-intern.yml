@@ -1,0 +1,136 @@
+sidebar:
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
+  skills: False
+
+  # Profile information
+  name: Jonathan Young
+  tagline: Creative and Resilient Junior Full Stack Developer
+  avatar: # Profile(100x100).jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: jyoung0696@gmail.com
+  phone: 626 626 0656
+  timezone: Pacific Time
+  citizenship: US citizen
+  website: iterating.github.io/cv-tech #do not add http://
+  linkedin:
+  github:
+  gitlab:
+  bitbucket:
+
+  interests:
+    title:
+    info:
+      - item:
+        link:
+      - item:
+        link:
+      - item:
+        link:
+
+careerprofile:
+  title: Why me?
+  summary: |
+    Resilient and innovative junior developer with a strong blend of technical expertise, creative problem-solving abilities, and a growth mindset. A proactive approach and adaptability to rigor, combined with a solid foundation in both technical and soft skills, allows for effective handling of complex challenges. Passionate about building software that answers business needs and dedicated to continuous learning and fostering a collaborative environment that drives impactful solutions.
+
+education:
+  title: Education
+  info:
+    - degree: Per Scholas
+      university: Software Engineering Track, GPA：4.0
+      time: 2024
+      details: |
+        Completed intensive software engineering training focused on full stack development, enhancing technical skills and project experience with up to date software development tools and frameworks.
+
+
+    - degree: University Of Massachusetts Chan Medical School
+      university: M.D. Candidate
+      time: 2015 - 2018
+      details: |
+        Winner, American College of Physicians National Abstract Competition  
+        *Publications/Conference Presentations:*  
+        Pretending to Be the Great Pretender. *ACP Impact*, October 2016.  
+        A Chemokine Protective Shield for Islet Transplantation. *Digestive Disease Interventions*, Boston, MA.  
+
+        Medical training equipped me with statistical thinking as well as the skills to think both broadly and specifically in diagnosing issues by symptom and analysis, which I bring to efficiently building applications as a software engineer. 
+
+
+    - degree: Tufts University
+      university: B.Sc., Biology GPA：3.7
+      time: 2007 - 2010
+      details: |
+        Magna cum laude with Thesis Honors from Dept of Chemistry  
+        Capstone in 3D Digital Design  
+        *Publication:*  
+        Direct O-glycosidation of resin bound thioglycosides. *Organic and Bimolecular Chemistry*. [DOI: 10.1039/c2ob06883d](https://pubmed.ncbi.nlm.nih.gov/22261792/)  
+        Work-study employment as computer lab administrator  at Eliot-Pearson Children's School  
+
+
+    - degree: Choate Rosemary Hall
+      university: ""
+      time: ""
+      details: |
+        American Invitational Mathematics Examination (AIME) Qualifications  
+          Acknowledged for problem-solving and mathematical proficiency, demonstrating capability in achieving high-level problem-solving outcomes
+  
+experiences:
+  title: Experiences
+  info:
+    - role: Software Engineering Intern
+      time: 2024 - Present
+      company: LA Film Lab, Los Angeles CA
+      details: |
+        Developed customer and internal-facing software for film lab using JavaScript, TypeScript, Nuxt, Node.js, and Firebase, translating real-time business needs into functional applications through a Lean design methodology. Collaborated with senior developer to successfully implement features in production.
+        - Optimized and scaled web performance by implementing techniques such as lazy loading, asynchronous programming, and efficient resource management, resulting in improved load times and user experience.
+        - Built robust, maintainable codebases by utilizing the Model-View-Controller (MVC) architecture, PRPL, and other design patterns to ensure performance, code quality, and efficient development workflows.
+        - Implemented RESTful and Server-Sent Events (SSE) APIs for real-time data updates, improving system performance and enabling seamless, low-latency communication between client and server.
+        - Designed and developed an internal labeling system for customer order management using HTML, CSS, TypeScript, and JavaScript, improving employee workflow efficiency by 25% and streamlining the order management process.
+
+    - role: Clinical User Specialist
+      time: 2014 - 2015
+      company: Vecna Healthcare, Burlington MA
+      details: |
+        Translated complex clinical workflows into intuitive, seamless user interfaces for an electronic medical record product using Bootstrap, JavaScript, Node.js, and MySQL in Linux environments
+        - Designed and prototyped Bootstrap user interfaces with Javascript, HTML, and CSS to meet the needs of healthcare providers and improve patient care outcomes, collaborating closely with engineering team 
+        - Acted as a liaison between software developers and clinical users, conducting usability testing and gathering feedback from clinical end-users to identify pain points and areas for improvement, leading to iterative design enhancements.
+        - Configured, administered, and maintained Ubuntu and Debian laptops in clinical settings with Ansible, ensuring secure access to essential healthcare applications and supporting CI/CD.
+        - Upgraded and monitored clinical IT infrastructure, achieving near 100% uptime and minimizing disruptions to critical healthcare operations.
+
+
+    - role: Research Assistant in Vaccine Immunology
+      time: 2011 - 2013
+      company: Vaccine Immunotherapy Center, Massachusetts General Hospital, Boston MA
+      details: |
+        Demonstrated an innovative approach to transplant immunology where a chemokine that plays a role in protecting cancer cells from immune attack is instead applied to prolong survival of transplant graft by locally attracting regulatory T cells and repelling cytotoxic T cells. 
+        - Utilized **Python** to perform statistical analyses of data from in-vitro and microarray experiments, including **SciPy** for ANOVA and T-tests, **Pandas** to structure data, and **Matplotlib** to visualize data for presentation
+        - Programmed 'Cellbot', an automated cell counting program in **Java** and ImageJ, improving efficiency and accuracy of data collection, leading to a 25% improvement in data collection time. 
+        - Transplanted encapsulated islet cells with either Treg attractant CXCL12 or control alginate into diabetic mouse model. Then monitored the blood glucose of experimental and control groups and applied statistical testing to evaluate how CXCL12-incorporated encapsulants supported islet graft survival.  
+        - Conducted research on a mycobacterial Hsp70-containing fusion protein targeting mesothelin, showing its ability to boost antitumor immunity and extend survival in mouse models of ovarian cancer and mesothelioma by attracting cytotoxic T cells to solid tumors. 
+
+        __Communication and Presentation:__
+        - Documented and presented quantitative data for publication and peer review, leading to successful publication.
+        - Presented project, theory, and findings to both technical subject experts and general clinical audience at conferences including Massachusetts General Hospital Presentation Day and Digestive Disease Interventions.
+
+        __Publication:__
+           Alginate encapsulant incorporating CXCL12 supports long term allo and xenoislet transplantation without systemic immune suppression. *American Journal of Transplantation*, 2015. [DOI 10.1111/ajt.13049](https://pubmed.ncbi.nlm.nih.gov/25693473/)
+
+
+skills:
+  title: Skills
+  toolset:
+    - name: Javascript, Typescript, Python, HTML, CSS
+    - name: React, Nuxt, Vue
+    - name: Node.js, Express.js
+    - name: MongoDB, MySQL, Firebase/Supabase, SQL language
+    - name: Virtualization- Virtualbox, VMWare, Docker
+    - name: AWS, EC2, Lambda, API Gateway, DynamoDB, Azure
+    - name: Design- Figma, Illustrator, Photoshop
+    - name: Search querying and boolean logic
+    - name: CI/CD, Git, Linux environments
+    - name: Red Hat (Linux) Certified System Administrator (RHCSA)
+        Certificate 170-077-016 (currently inactive)
+    - name: Knowledge of .Net, C, Java, Springboot
+
+footer: >
+  Designed by <a href="http://iterating.github.io/cv-tech" target="_blank" rel="nofollow">J Young Design</a>

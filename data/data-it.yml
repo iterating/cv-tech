@@ -1,0 +1,148 @@
+sidebar:
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Jonathan Young
+  tagline: Resourceful and Adaptable Tech Professional
+  avatar: # profile.professional.1.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: jyoung0696@gmail.com
+  phone: 626 626 0656
+  timezone: Pacific Time
+  citizenship: US
+  website: iterating.github.io/cv-it #do not add http://
+  linkedin:
+  xing:
+  github: Iterating
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  # pdf:
+
+  interests:
+    title: Interests
+    info:
+      - item: Photography
+        link:
+      - item: Fitness
+        link:
+      - item: Cooking
+        link:
+
+career-profile:
+  title: Why me?
+  summary: |
+    I am a versatile and innovative tech professional with a unique blend of technical prowess and creative problem-solving skills. My dedication to continuous learning allows me to stay ahead of the curve and leverage emerging technologies to drive impactful solutions. In collaborative environments, I thrive, fostering effective communication and teamwork to achieve common goals. I take pride in my proactive approach to problem-solving. With a strong foundation in both technical and soft skills, I am well-equipped to tackle complex challenges and contribute positively to any organization's success in IT operations and innovation.
+education:
+  title: Education
+  info:
+    - degree: Choate Rosemary Hall
+
+    - degree: Tufts University
+      university: B.Sc., Biology and Chemistry
+      time: 2007 - 2010
+      details: |
+        - Magna cum laude with Thesis Honors
+        - Capstone in Computer Aided Design
+        - American Mathematics Competition finalist
+          -  Competency in Combinatorics
+    - degree: UMass Chan Medical School
+      university: Medicine
+      time: 2015 - 2019
+      details: |
+        Winner, American College of Physicians National Abstract Competition
+
+experiences:
+  title: Experiences
+  info:
+    - role: Freelance Website Developer
+      time: 2020 - Present
+      company: Young Design
+      details: |
+        - Prototype, design, and deploy beautiful, responsive sites to meet clients' business needs using a Lean design process
+        - Developing cross-browser compatible websites using Jekyll, Drupal, and Wordpress 
+        - Create and manage testing environments using Docker, ensuring seamless integration and functionality across different platforms.
+        - Design captivating UI elements, illustrations, typography, and branding assets to enhance the overall aesthetic and identity of client projects.
+        - Drive improvements in client website rankings through strategic SEO techniques and compelling copywriting.
+        - Utilize Blender and 3D Max to produce high-quality 3D models and renders of client products, enhancing their visual appeal and marketability.
+        - Optimize existing client websites for mobile devices, enhancing user accessibility and engagement.
+        - Ensure the ongoing functionality and uptime of client websites through proactive maintenance and management of cloud services.
+
+    - role: UX Design, Software testing and quality assurance
+      time: 2020 - 2023
+      company: Dendron, Seattle WA
+      details: |
+        Dendron is a next-generation, full-featured notetaking system built in Typescript.
+        - Design intuitive UI mockups for the engineering team, ensuring alignment with user needs and product objectives.
+        - Make continuous improvements to the application based on collected user feedback and research findings, enhancing usability and functionality.
+        - Work closely with the engineering team to ensure that bugs are identified and resolved promptly, maintaining a high standard of quality in the product.
+
+    - role: UX Design
+      time: 2017 - 2019
+      company: Vecna Healthcare, Burlington MA
+      details: |
+        Translating complex clinical workflows into intuitive and seamless user interfaces for electronic medical record products.
+        - Collaborate closely with engineering teams to design and prototype user interfaces that meet the needs of healthcare providers and improve patient care outcomes.
+        - Conduct usability testing and collect feedback from clinical end-users to identify pain points and areas for improvement, resulting in iterative design enhancements.
+        - Administer and maintain Ubuntu and Debian laptops and tablets used in clinical settings, ensuring reliable and secure access to essential healthcare applications.
+        - Utilize Virtualbox and Ansible to ensure that software packages, dependencies, and configurations are up to date, enhancing system stability and security.
+        - Make significant improvements to clinical infrastructure, achieving uptime close to 100% and minimizing disruptions to critical healthcare operations.
+
+    - role: Technology administrator
+      time: 2012 - 2014
+      company: Tufts University Eliot-Pearson School, Medford MA
+      details: |
+        Managing and maintaining critical IT infrastructure with effective diagnostic and problem solving abilities.
+        - Deploy, configure, and troubleshoot network systems, servers, and software applications to ensure optimal performance and security.
+        - Implement and enforce IT policies and procedures to enhance system reliability and data integrity, ensuring compliance with industry standards.
+        - Collaborate with vendors to resolve technical issues promptly, ensuring minimal disruptions to operations.
+        - Document IT processes and configurations meticulously, maintaining comprehensive records for future reference and audit purposes.
+        - Manage photography and videography equipment, ensuring their availability and functionality for educational purposes.
+        - Demonstrated exceptional cross-functional collaboration, working closely with teams to assess needs, develop solutions, and deliver exceptional support.
+
+    - role: Researcher
+      time: 2010-2012
+      company: Massachusetts General Hospital Boston MA
+      details: |
+        Investigate use of chemokine based local immunosuppression in islet transplantation, leading to successful publication. 
+        - Present reports of complex multidimensional quantitative data to principal investigator, informing direction of future development.
+        - Creator of 'Cellbot', automated cell counting program in Java and ImageJ, speeding data collection and lab efficiency. 
+        - Publication: [Alginate encapsulant incorporating CXCL12 supports long term allo and xenoislet transplantation without systemic immune suppression.](https://pubmed.ncbi.nlm.nih.gov/25693473/) **American Journal of Transplantation**, 2015, DOI 10.1111/ajt.13049
+
+skills:
+  title: Skills
+
+  toolset:
+    - name: Networking- Cisco, Ubiquity, OpenVPN, pfSense
+
+    - name: Virtualization- Virtualbox, VMWare, ESXi, KVM, Proxmox, Hypervisor, Docker
+
+    - name: Data formatting, automation, Perl
+
+    - name: Linux Apache MySQL PHP
+
+    - name: Cloud- AWS, Azure
+
+    - name: CompTIA Sec+ Candidate
+
+    - name: Red Hat Certified System Administrator       .      220-188-718 # Jan 17 2023
+
+footer: >
+  Designed by <a href="http://jonathanyoungdesign.wordpress.com" target="_blank" rel="nofollow">J Young Design</a>
+
+# Dendron 500 Yale Ave, Seattle WA, 98109 Kevin Lin 8324132879 kevinlin@dendron.so
+
+# Vecna 1 Burlington Woods Dr Burlington, MA 01803 Mary Rocheleau, Director of product +1 617-864-0636
+
+# Tufts 105 College Ave, Medford, MA 02155 Mary Fansworth School Coordinator Mary.Fansworth@tufts.edu 617-627-3355
+
+# VIC Address: 149 13th St, Charlestown, MA 02129 Phone: (617) 643-2098
+
+# Benjamin Louie. Director of Strategic Partnerships LeadThink 15851 Dallas Pkwy Ste 600, Addison, Texas ben@leadthink.com
+

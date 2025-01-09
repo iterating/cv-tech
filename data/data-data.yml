@@ -1,0 +1,139 @@
+sidebar:
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Jonathan "Jinn" Young
+  tagline: Designer and Bartender
+  avatar: Profile(100x100).jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: jyoung0696@gmail.com
+  phone: 626 662 0656
+  timezone: Pacific Time
+  citizenship: US
+  website: jonathanyoungdesign.wordpress.com #do not add http://
+  linkedin:
+  xing:
+  github: iterating
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  pdf:
+
+  languages:
+    title: Languages
+    info:
+      - idiom: Englishs
+        level: Native
+
+      - idiom: Chinese
+        level: Professional
+
+  interests:
+    title: Interests
+    info:
+      - item: Photography
+        link:
+
+      - item: Fitness
+        link:
+
+      - item: Cooking
+        link:
+
+# career-profile:
+#   title: Career Profile
+#   summary: |
+
+education:
+  title: Education
+  info:
+    - degree: Tufts University
+      university: B.Sc., Biology and Chemistry
+      time: 2007 - 2010
+      details: |
+        Magna cum laude with Thesis Honors
+        Capstone project in 3D design
+        American Math Competition finalist
+    - degree: UMass Chan Medical School
+      university: Medicine
+      time: 2015 - 2019
+      details: |
+        Winner, American College of Physicians National Abstract Competition
+experiences:
+  title: Experiences
+  info:
+    - role: Bartender
+      time: 2023 - Present
+      company: Luxy Bar and KTV, Arcadia CA
+      details: |
+        Bartender at craft cocktail bar and lounge
+        - Facilitated a potitive atmosphere and experience for each guest while maintaining cleaniness and organization of bar area
+        - RBS License 313380293
+
+    - role: Bartender
+      time: 2022 - Present
+      company: Los Angeles CA
+      details: |
+        Running mobile full service bar to serve and entertain guests at anime convention afterparties.  
+        - Served 200 guests at Anime Expo Westin deck afterparty, one of the largest and well known anime convention afterparties in the US. 
+        - Designed and stocked themed drink menu. Hired and directed barback to assist with busy bar. Closed bar and cleaned up party area afterwards, establishing familiarity and trust with hotel management.
+
+    - role: Bartender
+      time: 2015
+      company: Baba Sushi, Worcester MA
+      details: |
+        "Modern and hip bar, choosing from an extensive selection of sakes or sipping on meticulously crafted specialty martinis. Baba Sushi offers a total sensory feast."
+
+    - role: Barback
+      time: 2014-2015
+      company: Baba Sushi, Worcester MA
+      details: |
+        - Ensuring bar is well-stocked with ice, liquor, wine, and beer.
+        - Assisting with opening and closing duties, restocking the bar with garnishes, straws, and napkins, clean towels, glassware, etc.
+        - Taking orders, preparing drinks, bussing tables, opening tabs, and processing payments during peak hours.
+
+    - role: Freelance Model
+      time: 2023
+      company: Los Angeles
+      details: |
+        - Modeling for fashion and concept shoots
+        - Directing set and lighting design
+
+    - role: Designer
+      time: 2020 - Present
+      company: Young Design
+      details: |
+        Coding design mockups into cross-browser compatible, search engine friendly websites via HTML, javascript, PHP, MySQL
+        - Planning site design, functionality, and navigation
+        - Handling composition, color, illustration, typography, and branding for projects
+        - Improved client siteranks through SEO and descriptive copywriting
+        - Creating high quality 3D models and renders of client products
+        - Making existing client websites responsive
+        - Deploy websites on hosting services
+
+skills:
+  title: Skills
+
+  toolset:
+    - name: Figma
+
+    - name: Blender & 3D Max
+
+    - name: HTML5 & CSS
+
+    - name: Sketch & Photoshop
+
+    - name: Tableau, Excel, SPSS, Python
+
+    - name: Linux/Apache/MySQL/PHP
+
+    - name: Red Hat Certified System Administrator 220-188-718
+
+footer: >
+  Designed by <a href="http://jonathanyoungdesign.wordpress.com" target="_blank" rel="nofollow">J Young Design</a>

@@ -5,7 +5,7 @@ sidebar:
 
   # Profile information
   name: Jonathan Young
-  tagline: Creative and Resilient Web App Developer
+  tagline: Creative and Resilient Front End Developer
   avatar: # Profile(100x100).jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -32,14 +32,8 @@ sidebar:
 careerprofile:
   title: Why me?
   summary: |
-    I'm a web developer rooted in domain driven design, resilience, and problem solving skills. 
-    Previously in medicine, I frequently used my domain knowledge to build tools for myself and others, and switched careers to software engineering to full time to develop my skills as a developer.
-    # I have a strong background in healthcare, and I'm particularly interested in the intersection of healthcare and technology.
-    I bring a proactive approach and adaptability to rigor, which combined with a solid foundation in both technical and soft skills, allows me to effectively handle complex challenges while fostering a collaborative environment. Let's connect!
+    Resilient and innovative junior developer with a strong blend of technical expertise, creative problem-solving abilities, and a growth mindset. A proactive approach and adaptability to rigor, combined with a solid foundation in both technical and soft skills, allows for effective handling of complex challenges. Passionate about building front-end solutions that that answers business needs and dedicated to continuous learning and fostering a collaborative environment that drives impactful solutions.
 
-    # I've been solving business problems since 2013  with custom solutions encompassing data processing, analysis, commerce websites, cloud services, web and mobile development.
-    # Previously in medicine, I develop healthcare apps with FHIR and HL7. 
-    # My main tools as of 2025 are Typescript, Python, React, Nuxt, Supabase
 education:
   title: Education
   info:
@@ -47,7 +41,8 @@ education:
       university: Software Engineering Track, GPA：4.0
       time: 2024
       details: |
-        Completed intensive software engineering training focused on full stack development, enhancing technical skills and project experience with up to date software development tools and frameworks as I continue to collabaratively build software. 
+        Completed intensive software engineering training focused on full stack development, enhancing technical skills and project experience with up to date software development tools and frameworks.
+
 
     - degree: University Of Massachusetts Chan Medical School
       university: M.D. Candidate
@@ -61,14 +56,13 @@ education:
         Medical training equipped me with statistical thinking as well as the skills to think both broadly and specifically in diagnosing issues by symptom and analysis, which I bring to efficiently building applications as a software engineer. 
 
     - degree: Tufts University
-      university: B.Sc., Biology GPA：3.7
+      university: B.Sc., Computer Science GPA：3.7
       time: 2007 - 2010
       details: |
-        I did work-study as a computer lab administrator at the Eliot-Pearson Children's School. I later earned my Red Hat Certified System Administrator certificate.   
-        Capstone in 3D Digital Design  
         Magna cum laude with Thesis Honors from Dept of Chemistry  
         *Publication:*  
         Direct O-glycosidation of resin bound thioglycosides. *Organic and Bimolecular Chemistry*. [DOI: 10.1039/c2ob06883d](https://pubmed.ncbi.nlm.nih.gov/22261792/)  
+        Work-study employment as computer lab administrator  at Eliot-Pearson Children's School  
 
 
     - degree: Choate Rosemary Hall
@@ -83,33 +77,30 @@ experiences:
   info:
     - role: Software Engineering Intern
       time: 2024 - Present
-      company: LA Film Lab and Studio, Los Angeles CA
+      company: LA Film Lab, Los Angeles CA
       details: |
-        Developed full-stack solutions using TypeScript, Nuxt.js, and Node.js with Supabase as the backend-as-a-service, delivering mission-critical features that drove operational efficiency and customer engagement beyond growth expectations for a team of our size.
-        - Implemented a data analytics pipeline integrating Square API with internal systems, leveraging real-time transaction data to generate actionable business insights and automated reporting workflows. 
-        - Designed and implemented a real-time event architecture using Server-Sent Events (SSE) and RESTful APIs, achieving sub-second latency for critical order updates between Square POS, client applications, and in-studio terminals
-        - Developed a JavaScript-based order management system with custom labeling functionality, implementing optimized state management and caching strategies that reduced order processing time by 25% and eliminated manual data entry errors
-        - Built robust, maintainable codebases using the Model-View-Controller (MVC) pattern and PRPL (Push, Render, Pre-cache, Lazy-load) strategy, resulting in improved page load metrics and maintainable component-based structure.
+        Developed customer and internal-facing software for film lab using JavaScript, TypeScript, Nuxt, Node.js, and Firebase, translating real-time business needs into functional applications through a Lean design methodology. Collaborated with senior developer to successfully implement features in production.
+        - Optimized and scaled web performance by implementing techniques such as lazy loading, asynchronous programming, and efficient resource management, resulting in improved load times and user experience.
+        - Built robust, maintainable codebases by utilizing the Model-View-Controller (MVC) architecture, PRPL, and other design patterns to ensure performance, code quality, and efficient development workflows.
+        - Implemented RESTful and Server-Sent Events (SSE) APIs for real-time data updates, improving system performance and enabling seamless, low-latency communication between client and server.
+        - Designed and developed an internal labeling system for customer order management using HTML, CSS, TypeScript, and JavaScript, improving employee workflow efficiency by 25% and streamlining the order management process.
 
-    - role:  Web Developer (contract)
+    - role: Freelance Web Developer
       time: 2023 - 2024
       company: Greater Boston Snow Removal, Boston MA (Remote)
       details: |
-        I built microservice features in Typescript and React to facilitate successful interactions between customers, workers, and management that handle the complex logistics of snow removal delivery, growing the company from 4 employees to being the largest snow removal company in Boston within 5 years though automated dispatch and real-time tracking capabilities.
-        - Architected and implemented distributed microservices using TypeScript and Node.js, with domain-driven design principles and event-driven communication, integrated with a React frontend for optimal scalability and maintainability
-        - Developed tool matching snow removal order locations with worker addresses utilizing Typescript and Google Cloud API, allowing efficient dispatch during snow events
-        - Implemented robust security infrastructure with JWT-based authentication, role-based access control, and API gateway patterns to ensure secure data access across microservices
-        - Utilized a high-performance data architecture using MongoDB with geospatial indexing and RESTful API patterns, enabling real-time operational analytics and dispatch optimization
-        - Orchestrated AWS cloud infrastructure using Infrastructure as Code, implementing auto-scaling, load balancing, and containerization for 99.9% system availability
+        Collaborated with stakeholders to clarify and refine user requirements for feature development, ensuring alignment between business needs and technical solutions. Successfully implemented features in production by working both independently and with the tech lead. 
+        - Developed internal applications using HTML, CSS, and JavaScript to streamline business operations and improve efficiency.
+        - Designed and implemented scalable database solutions using MongoDB, Mongoose, and RESTful APIs, optimizing performance and system efficiency.
+        - Deployed applications to AWS ensuring cost-effective and highly available cloud infrastructure.
         - Currently continuing role on part-time basis.
 
       time2: 2018 - 2020
       role2: Operations Manager (Boston MA)
       details2: |
-      - Ensured quality control and delivered timelier snow removal experience for 30 contract clients, increasing customer retention and resulting in 500% customer growth.  
-      - Organized and led groups of 6 member teams to effectively manage snow removal routes, ensuring workers have access to equipment, supplies, and transportation, while promoting a collaborative work environment among employees.
-      - Analyzed and optimized work routes to drive a 25% cost savings per route.
-      - Leveraged operations experience to inform software architecture decisions, translating real-world business processes into effective domain models and technical solutions
+        - Analyzed and optimized work routes to drive a 25% cost savings per route.
+        - Ensured quality control and delivered timelier snow removal experience for 30 contract clients, increasing customer retention, leading to current company position as largest snow removal company in Boston.
+        - Organized and led groups of 6 member teams to effectively manage snow removal routes, ensuring workers have access to equipment, supplies, and transportation, while promoting a collaborative work environment among employees.
 
     - role: Product Feedback Analyst
       time: 2021 - 2022
@@ -131,6 +122,18 @@ experiences:
         - Configured, administered, and maintained Ubuntu and Debian laptops in clinical settings with Ansible, ensuring secure access to essential healthcare applications and supporting CI/CD.
         - Upgraded and monitored clinical IT infrastructure, achieving near 100% uptime and minimizing disruptions to critical healthcare operations.
 
+    - role: Freelance Website Developer
+      time: 2015 - 2020 (part time)
+      company: ''
+      details: |
+        Design, prototype, and deployed fully responsive, user-centric websites tailored to client business needs, utilizing a Lean design process for efficient project turnaround.
+        - Developed cross-browser compatible websites using WordPress, Elementor, PHP, HTML, and CSS, ensuring seamless functionality and modern web standards.
+        - Utilized Shopify for e-commerce solutions, optimizing performance, security, and scalability.
+        - Designed and implemented custom WordPress plugins and themes, ensuring consistent functionality and accessibility across multiple websites. 
+        - Set up and managed testing environments with **Docker**, streamlining deployment processes and ensuring cross-platform compatibility and reliability.
+        - Crafted compelling UI/UX designs, including custom illustrations, typography, and branding assets, to elevate client brand identity and user engagement.
+        - Deployed websites using **AWS**, ensuring high availability and scalability, and optimizing performance for optimal user experience.
+        - Provided ongoing website maintenance, ensuring continuous functionality, performance, and uptime by managing cloud infrastructure and proactive troubleshooting.
 
     - role: Research Assistant in Vaccine Immunology
       time: 2011 - 2013
@@ -149,23 +152,6 @@ experiences:
         __Publication:__
            Alginate encapsulant incorporating CXCL12 supports long term allo and xenoislet transplantation without systemic immune suppression. *American Journal of Transplantation*, 2015. [DOI 10.1111/ajt.13049](https://pubmed.ncbi.nlm.nih.gov/25693473/)
 
-projects:
-  title: Projects
-  info:
-    - project: Placenotes
-      platform: React, Node,js, MongoDB, GraphQL, AWS, S3
-      details: |
-       Research shows our recall decreases significantly after leaving a location. Placenotes is a social platform that allows users to send and recieve messages when the thier friends enters a specified location, and create markdown notes to capture thier thoughts based on where they are
-       - Senders can schedule messages that show recievers arrive at a location
-       - React frontend with GraphQL subscription for realtime updates, and a Node.js backend with Express.js and MongoDB for data persistence.
-       - A high-performance data architecture using MongoDB with geospatial indexing and RESTful API patterns plus GraphQL to query and mutate data allows messages to be organized by both time and location. 
-       - WYSWYG editor with markdown support for notes and images, for use cases like being reminded of shopping lists when a user arrives at a location. 
-       - Robust security authentication using JWT and Redux-persist
-       - Production built with Javascript mobile-first approach, with full-stack development and continuous integration and deployment on Vercel
-       - Currently refactoring to React Native and Typescript for mobile app development.
-
-    - project: 
-
 
 skills:
   title: Skills
@@ -181,10 +167,8 @@ skills:
     - name: Design- Figma, Illustrator, Photoshop
     - name: CI/CD, Git, Linux environments
     - name: Red Hat (Linux) Certified System Administrator (RHCSA)
-        Certificate 170-077-016
+        Certificate 170-077-016 (currently inactive)
     - name: Knowledge of Azure, .NET, Java, Springboot, C
 
 footer: >
   Designed by <a href="http://iterating.github.io/cv-tech" target="_blank" rel="nofollow">J Young Design</a>
-
-AI broke your code. I will fix it for you.

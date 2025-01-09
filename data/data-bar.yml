@@ -1,0 +1,163 @@
+sidebar:
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: True # set to False if you want education in main section instead of in sidebar
+
+  # Profile information
+  name: Jonathan "Jinn" Young
+  tagline: Personable high volume bartender with craft cocktail training
+  avatar: profile.bar.1.jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: jyoung0696@gmail.com
+  phone: 626 662 0656
+  timezone: Pacific Time
+  citizenship: US
+  website: #do not add http://
+  linkedin:
+  xing:
+  github: iterating
+  telegram: # add your nickname without '@' sign
+  gitlab:
+  bitbucket:
+  twitter:
+  stack-overflow: # Number/Username, e.g. 123456/alandoe
+  codewars:
+  goodreads: # Number-Username, e.g. 123456-alandoe
+  pdf:
+
+  languages:
+    title: Languages
+    info:
+      - idiom: English
+        level: Native
+
+      - idiom: Chinese
+        level: Professional
+
+  interests:
+    title: Certifications
+    info:
+      - item: RBS Alcohol Server
+        link: 313380293
+
+      - item: Certified Nutrition Coach, National Academy of Sports Medicine
+        link:
+
+      - item: Certified Functional Aging Specialist, Functional Aging Institute
+        link:
+
+# career-profile:
+#   title: Career Profile
+#   summary: |
+
+education:
+  title: Education
+  info:
+    - degree: Tufts University
+      university: B.Sc., Biology and Chemistry
+      time: 2007 - 2010
+      details: |
+        Magna cum laude with Thesis Honors
+        Capstone project in 3D design,  
+        President, Chinese Students Association
+
+experiences:
+  title: Experiences
+  info:
+    - role: Private Event Bartender and Manager
+      time: 2022 - Present
+      company: Los Angeles CA
+      details: |
+        - High volume, fast paced events prioritizing speed and quality of service during critical hours of the night. I believe my preperation and high energy sets me up for success in this role 
+        - Spearhead the operation of dynamic mobile full-service bar, delivering service and entertainment at local festivals and anime convention afterparties.
+        - Conceptualize and execute innovative themed drink menus, infusing creativity and excitement into each event's beverage offerings.
+        - Supervise and mentor barback staff to optimize productivity and uphold service standards during high-volume periods.
+        - Earned trust and commendations from hotel management for meticulous bar closure procedures and post-event cleanup, solidifying a reputation for reliability and professionalism.
+        Oversaw, event, managed, and ran drinks service at
+        - Parkcon at Plaza de Cesar Chavez, San Jose in May
+          - Attendance 600-800/night
+        - Anime Expo Rooftop Afterparty at Westin Los Angeles in July
+          - Attendance 500/night
+        Ran bar as part of drinks team at 
+        - Future Lovers Festival at Beehive, Los Angeles in June 
+          - Pride LA official event, total attendance 1,200 
+        - Summertramp Festival at Arts District, Los Angeles in June 
+          - Pride LA event, total attendance 1,000
+
+    - role: Professional Bartender
+      time: 2023 - Present
+      company: Luminarias Resturaunt
+      details: |
+        Energetic and customer-focused bartender with a passion for crafting unforgettable experiences through exceptional service and finely crafted cocktails. 
+        - Customer Engagement: Proven track record of creating welcoming environments and delivering personalized service to diverse clientele. 
+        - Mixology Expertise: Utilize advanced mixology techniques, such as muddling, shaking, stirring, and layering, to create cocktails with complex flavors and textures. Showcase expertise in spirits, liqueurs, bitters, syrups, and other ingredients to craft exceptional drinks.
+        - Menu Knowledge: Possess a thorough understanding of the beverage menu, including ingredients, flavor profiles, and pairing recommendations. Educate guests about different spirits, wines, and cocktails, enhancing their dining experience and promoting sales.
+        - Bar Management: Skilled in maintaining bar cleanliness, managing inventory, and collaborating with team members to ensure seamless operations. 
+        - Team Collaboration: Adept at working in fast-paced environments while maintaining a keen attention to detail. Dedicated to continuously enhancing beverage knowledge and staying updated on industry trends. Ready to contribute dynamic bartending skills to elevate the guest experience at your establishment.
+        - RBS License 313380293
+
+    - role: Mixologist
+      time: 2022 - 2023
+      company: Luxy Craft Cocktail Bar and KTV, Arcadia CA
+      details: |
+        As a Mixologist at Luxy Craft Cocktail Bar and KTV, I bring creativity, expertise, and a passion for mixology to the bar team. In this dynamic role, I am responsible for crafting unique and innovative cocktails that elevate the guest experience and contribute to the success of our bar program.
+        - Signature Cocktail Creation: Develop and prepare a diverse range of signature cocktails exclusive to Luxy Craft Cocktail Bar and KTV. Use creativity and knowledge of mixology techniques to create drinks with unique flavor profiles and visually stunning presentations
+        - Menu Development: Collaborate with the bar manager and team to curate and update the cocktail menu, incorporating seasonal ingredients, trending flavors, and customer preferences. Stay informed about industry trends and emerging cocktail trends to keep our menu fresh and exciting.
+        - Mixology Expertise: Utilize advanced mixology techniques, such as muddling, shaking, stirring, and layering, to create cocktails with complex flavors and textures. Showcase expertise in spirits, liqueurs, bitters, syrups, and other ingredients to craft exceptional drinks.
+        - Customer Engagement: Engage with guests to understand their preferences and provide personalized recommendations based on their tastes. Offer insights into the ingredients and techniques used in our cocktails to enhance the guest experience and promote customer satisfaction.
+        - Quality Control: Ensure that all cocktails meet Luxy Craft Cocktail Bar and KTV's standards of quality, consistency, and presentation. Conduct taste tests, adjust recipes as needed, and maintain cleanliness and organization in the bar area to uphold our reputation for excellence.
+
+    - role: Bartender
+      time: 2014-2017
+      company: Baba Sushi, Worcester MA
+      details: |
+        "Modern and hip bar, choosing from an extensive selection of sakes or sipping on meticulously crafted specialty martinis. Baba Sushi offers a total sensory feast."
+        - Engage with patrons in a personable and attentive manner, providing recommendations, sharing knowledge about various spirits and cocktails, and customizing drinks to individual preferences.
+        Maintain a well-organized and clean bar area, adhering to health and safety regulations and ensuring all equipment is properly maintained for optimal functionality.
+        - Collaborate with kitchen staff to coordinate food and beverage service, ensuring seamless communication and timely delivery of orders to enhance overall guest satisfaction.
+        - Handle cash and credit transactions accurately and efficiently, balancing cash drawers and maintaining strict adherence to cash-handling procedures.
+
+    - role: Barback
+      time: 2013-2014
+      company: Baba Sushi, Worcester MA
+      details: |
+        - Ensure optimal bar functionality by consistently stocking ice, liquor, wine, and beer to meet customer demand.
+        - Assist with opening and closing procedures, including restocking garnishes, straws, napkins, clean towels, and glassware to maintain a well-organized bar setup.
+        - Uphold cleanliness standards by sanitizing surfaces, sweeping, mopping, removing soiled glassware, scrubbing coolers and storage areas, and emptying trash to create a hygienic and inviting environment for guests.
+        - Provide exceptional customer service during peak hours by promptly taking orders, preparing drinks, bussing tables, opening tabs, and efficiently processing payments to enhance the overall guest experience.
+
+    - role: Front Desk Supervisor
+      time: 2012 - 2013
+      company: Boston Athletic Club, Boston MA
+      details: |
+        - Supervised daily front desk operations, ensuring smooth check-in/check-out processes, managing phone calls, and handling member inquiries and concerns.
+        - Trained and coached front desk staff in customer service best practices, company policies, and procedures, fostering a positive and professional work environment.
+        - Implemented scheduling protocols to optimize staff coverage and ensure efficient operation during peak hours.
+        - Collaborated with management to develop and implement strategies for improving member satisfaction and retention.
+        - Assisted in administrative tasks such as maintaining member records, processing payments, and resolving billing inquiries.
+        - Acted as a liaison between front desk staff and management, communicating operational updates, policy changes, and member feedback.
+
+    - role: Chemist
+      time:
+      company: Tufts University, Medford MA
+      details: |
+        - Preparing chemical mixtures utilizing precise measurements and ensuring consistent quality.
+        - Maintained laboratory equipment and facilities, ensuring proper functioning, cleanliness, and compliance with safety protocols and regulatory standards.
+        - Assisted in the training and supervision of undergraduate and graduate students involved in research activities, providing guidance and support to foster their scientific development.
+        - Published work in prestigious scientific journal
+
+skills:
+  title: Skills
+  toolset:
+    - name: Excellent communication and interpersonal skills
+    - name: Outstanding interpersonal and relationship-building abilities
+    - name: Experienced in recommending and crafting cocktails, wines, and whiskeys
+    - name: Proficient in CRM software and Microsoft Office suite
+
+footer: >
+  Designed with <i class="fas fa-heart"></i> by <a href="http://jonathanyoungdesign.wordpress.com" target="_blank" rel="nofollow">Jonathan Young Design</a>
+
+# Luxy  400 S Baldwin Ave. Ste 2225. Arcadia, CA 91007  (626) 348-8856
+# Baba Sushi 309 Park Ave Worcester, MA 01609 508-752-8822 Wilson Wang
+# Boston Athletic Club 653 Summer St, Boston, MA 02210  (617) 269-4300
+# Redline DTLA 131 E 6th St, Los Angeles, CA 90014 (213) 935-8391

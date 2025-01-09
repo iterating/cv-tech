@@ -1,132 +1,510 @@
-# Syncthing
-(?d)**/.stversions/*sync-conflict*
+# (?d) prefix makes Syncthing delete files that match the pattern
+# Patterns without (?d) will be ignored by Git but kept by Syncthing
+
+###################
+# Sync & Version Control
+###################
+
+# Sync conflict prevention
+(?d)**/*sync-conflict*
+(?d)**/*.sync-conflict*
+(?d)**/*conflicted\ copy*
 (?d)**.cursor-positions.sync-conflict*
 (?d)**/workspace.sync-conflict*
 (?d)**/.git/*sync-conflict*
-# Ignore Git metadata that doesn't need syncing
-(?d)**/.git/objects**
-(?d)**/.git/refs**
-(?d)**/.git/index.lock**
-(?d)**/.git/logs**
-(?d)**/.git/hooks**
-(?d)**/.git/info**
-# But not .git/config file
-!.git/config
-# Ignore node.js dependencies and build artifacts
-node_modules
-**/node_modules**
-(?d)**/node_modules**
-debug.log*
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-dist
-build
-/out/
-/logs/
-/test/reports/
-/stacktrace.log
-coverage
-# Ignore IDE/editor settings
-(?d)**/.dendron.**
-.idea
-*.iml
-# Ignore temporary files and caches
-*.tmp
-*.swp
-*.bak
-.cache
-# Ignore log files
-*.log
-# Ignore system-specific files
-*.pyc
-__pycache__
 
-# OS-specific ignores
+# Git - preserve ignore files but clean git internals
+(?d).git/
+!.git/config
+!.git/HEAD
+!.git/refs/heads/main
+!.git/refs/heads/master
+!**/.gitignore
+.gitignore.bak
+.gitignore.tmp
+.gitignore.old
+
+# Syncthing - preserve ignore files but clean syncthing internals
+(?d).stversions/
+(?d).SyncTemp/
+(?d).SyncArchive/
+(?d)**/*.SyncPart
+(?d)**/*.SyncTemp
+(?d)**/*.SyncOld
+(?d).stfolder/
+(?d).SyncID
+(?d).sync/
+!**/.stignore
+.stignore.bak
+.stignore.tmp
+.stignore.old
+
+###################
+# Cloud Platforms & Deployment
+###################
+
+# AWS & Elastic Beanstalk
+(?d)**/.aws
+(?d).aws/
+(?d).aws-sam/
+(?d)aws-sam-*/
+(?d)samconfig.toml
+(?d)template-*.yaml
+(?d).chalice/
+(?d).dynamodb/
+(?d).serverless/
+(?d).terraform/
+(?d)*.tfstate
+(?d)*.tfstate.*
+(?d)*.tfvars
+(?d).terraformrc
+(?d)terraform.rc
+(?d).env.aws*
+(?d)credentials.csv
+(?d)rootkey.csv
+(?d)accessKeys.csv
+(?d)**/.elasticbeanstalk/*
+!.elasticbeanstalk/*.cfg.yml
+!.elasticbeanstalk/*.global.yml
+(?d)**/.ebextensions/*
+(?d)**/.platform/*
+(?d).elasticbeanstalk/logs/*
+(?d).elasticbeanstalk/*.cfg.yml.bak
+(?d).elasticbeanstalk/*.global.yml.bak
+(?d).ebignore
+(?d).ebextensions/*.config.bak
+(?d).platform/*.config.bak
+(?d).platform/*.yaml.bak
+(?d).platform/*.yml.bak
+
+# EC2
+(?d)*.pem
+(?d)*.ppk
+(?d)*.rdp
+(?d)*.key
+(?d)*.crt
+(?d)*.cer
+(?d)*.pfx
+(?d)*.p12
+(?d).ssh/
+(?d).ec2/
+(?d)ec2-user/
+(?d)ec2-metadata
+(?d).ec2_metadata
+(?d).ec2-metadata
+(?d).instance-id
+(?d).ami-id
+(?d).hostname
+(?d).local-hostname
+(?d).public-hostname
+(?d).public-keys/
+(?d).security-groups
+(?d).mac
+(?d).network/
+(?d).placement/
+(?d).product-codes
+(?d).reservation-id
+
+# Azure
+(?d)**/.azure
+(?d).azure/
+(?d).vs/
+(?d)*.pubxml
+(?d)*.pubxml.user
+(?d)*.publishsettings
+(?d)orleans.codegen.cs
+(?d)ServiceDefinition.csdef
+(?d)ServiceConfiguration.*.cscfg
+(?d)*.build.csdef
+(?d)ecf/
+(?d)rcf/
+(?d)AppPackages/
+(?d)BundleArtifacts/
+(?d)Package.StoreAssociation.xml
+(?d)_pkginfo.txt
+(?d)*.appx
+(?d)*.appxbundle
+(?d)*.appxupload
+(?d).azure-pipelines/
+(?d)azds.yaml
+(?d)secrets.dev.yaml
+(?d)values.dev.yaml
+
+# Google Cloud Platform
+(?d)**/.gcloud
+(?d).gcloud/
+(?d)*.gcr.io
+(?d)app.yaml
+(?d)dispatch.yaml
+(?d)index.yaml
+(?d)cron.yaml
+(?d)*.yaml.bak
+(?d).gcp/
+(?d).config/gcloud/
+(?d).gsutil/
+(?d)credentials.db
+(?d).boto
+(?d).dockercfg
+(?d)cloudbuild*.yaml
+(?d).cloudbuild/
+(?d).appengine/
+(?d)*.dat.gz
+(?d)local_db.bin
+
+# Firebase
+(?d)**/.firebase
+(?d).firebase/
+(?d).firebaserc
+(?d)firebase-debug*.log
+(?d)firebase-export-*
+(?d).runtimeconfig.json
+(?d)*-firebase-adminsdk-*.json
+(?d)serviceAccount.json
+(?d).firebase/*.cache
+
+# Supabase
+(?d)**/.supabase
+(?d).supabase/
+(?d)**/supabase/.branches/
+(?d)**/supabase/.temp/
+(?d)**/supabase/config.toml
+(?d)**/supabase/docker/volumes/
+(?d)**/supabase/seed.sql
+(?d)supabase/.env*
+(?d).env.supabase*
+(?d)supabase/migrations/*.sql.bak
+(?d)supabase/docker/**/*
+!supabase/docker/docker-compose.yml
+!supabase/docker/volumes/.keep
+(?d).branches/
+(?d).temp/
+(?d).functions/
+(?d)generated/
+(?d).supabase-temp/
+(?d).supabase-cache/
+(?d).supabase-logs/
+(?d).supabase-metadata/
+(?d)service_key.json
+(?d)service-key.json
+(?d)*-service-key.json
+(?d)supabase-service-key.json
+(?d)**/supabase-js/dist/
+(?d)**/supabase-js/temp/
+(?d)supabase-admin-key.txt
+(?d)supabase-anon-key.txt
+(?d)supabase-service-role-key.txt
+(?d)supabase-project-ref.txt
+(?d).vercel-supabase/
+
+# Vercel
+(?d)**/.vercel
+(?d).vercel
+(?d).now
+(?d).env*.local
+
+# Heroku
+(?d)**/.heroku
+(?d).heroku-cli
+(?d).lock-wscript
+(?d).yarn-integrity
+
+# Digital Ocean
+(?d)**/.digitalocean
+(?d).digitalocean/
+(?d)_digitalocean
+(?d)*.droplet
+(?d)doctl
+(?d).doctl/
+(?d).do/
+(?d).tugboat
+(?d)droplet.json
+
+# Netlify
+(?d)**/.netlify
+(?d).netlify/
+(?d)netlify.toml
+(?d).netlifyignore
+(?d)_redirects
+(?d)_headers
+
+# Cloudflare
+(?d)**/.cloudflare
+(?d).cloudflare/
+(?d)wrangler.toml
+(?d).wrangler/
+(?d)workers-site/
+(?d)dist/worker.js
+(?d)worker/
+(?d).cargo-ok
+
+###################
+# Containers & Orchestration
+###################
+
+# Docker
+(?d)**/.docker
+(?d).docker/
+(?d)*.dockerignore
+(?d)docker-compose.override.yml
+(?d)docker-compose.*.yml
+!docker-compose.yml
+!docker-compose.yaml
+(?d).env.docker
+(?d)Dockerfile.*
+!Dockerfile
+(?d).docker/data/
+(?d).docker/logs/
+(?d)docker-sync.yml
+(?d).docker-sync/
+
+# Kubernetes
+(?d)**/.kube/
+(?d).kube/
+(?d)*.kubeconfig
+(?d)kubeconfig
+(?d).kubectl/
+(?d)kubectl-*.yaml
+(?d).helm/
+(?d)charts/*/charts/
+(?d)charts/*/Chart.lock
+(?d)charts/*/requirements.lock
+(?d)*.tgz
+(?d)values.*.yaml
+!values.yaml
+(?d).helmignore
+(?d).draft-cache/
+(?d)draft.toml
+(?d).okteto/
+(?d)skaffold.yaml
+(?d)*.decoded.yaml
+
+###################
+# Development Tools & IDEs
+###################
+
+# VS Code
+(?d)**/.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+(?d)*.code-workspace
+
+# Python Virtual Environments
+(?d)**/venv/
+(?d)**/.venv/
+(?d)**/ENV/
+(?d)**/.ENV/
+(?d)*.pyc
+(?d)**/__pycache__/
+(?d)**/.Python
+(?d)**/pip-log.txt
+(?d)**/pip-delete-this-directory.txt
+
+# JetBrains IDEs
+(?d)**/.idea
+(?d).idea/
+(?d)*.iml
+(?d)*.iws
+(?d)*.ipr
+(?d).idea_modules/
+(?d)out/
+
+# Vim
+(?d)**/.vim/
+(?d)*.swp
+(?d)*.swo
+(?d)*.swn
+(?d).netrwhist
+(?d)Session.vim
+
+###################
+# Package Managers
+###################
+
+# npm
+(?d)**/.npm
+(?d).npm/
+(?d).npmrc
+(?d)package-lock.json
+(?d)npm-debug.log*
+
+# yarn
+(?d)**/.yarn
+(?d).yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+(?d).pnp.*
+(?d)yarn-debug.log*
+(?d)yarn-error.log*
+
+# pnpm
+(?d)**/.pnpm
+(?d).pnpm-store/
+(?d)pnpm-lock.yaml
+(?d)pnpm-workspace.yaml
+
+###################
+# Testing & Coverage
+###################
+
+(?d)**/coverage
+(?d).nyc_output/
+(?d).coverage
+(?d)htmlcov/
+(?d).tox/
+(?d).nox/
+(?d).hypothesis/
+(?d).pytest_cache/
+(?d)nosetests.xml
+(?d)coverage.xml
+(?d)*.cover
+(?d).coveralls.yml
+(?d).codeclimate.yml
+(?d).codecov.yml
+
+###################
+# CI/CD Tools
+###################
+
+(?d)**/.github/workflows/*.yml
+(?d)**/.gitlab-ci.yml
+(?d)**/.travis.yml
+(?d)**/.circleci/
+(?d).jenkins/
+(?d).drone.yml
+(?d).semaphore/
+(?d).buildkite/
+(?d).tekton/
+(?d).argocd/
+(?d).flux/
+(?d).spinnaker/
+(?d).harness/
+(?d).teamcity/
+
+###################
+# Databases
+###################
+
+(?d)**/.dynamodb
+(?d)*.sqlite
+(?d)*.sqlite3
+(?d)*.db
+(?d)*.sql
+(?d)*.sql.gz
+(?d)*.dump
+(?d)dump.rdb
+(?d)*.rdb
+(?d).pgdata/
+(?d)mongodb/
+(?d)redis/
+(?d)mysql/
+(?d)postgres/
+
+###################
+# Build & Temporary Files
+###################
+
+# Build outputs
+(?d)**/dist
+(?d)**/build
+(?d)**/.build
+(?d)**/public/build
+(?d)**/tmp
+(?d)**/node_modules
+
+# Logs
+(?d)*.log
+(?d)npm-debug.log*
+(?d)yarn-debug.log*
+(?d)yarn-error.log*
+
+# Environment files
+(?d).env
+(?d).env.*
+!.env.example
+(?d).env.*.local
+(?d).env.local
+(?d).env.development.local
+(?d).env.test.local
+(?d).env.production.local
+(?d).env.staging
+(?d).env.preview
+
+# Cache and temp
+(?d)*.bak
+(?d)*.cache
+(?d)*.temp
+(?d)_site/
+(?d).jekyll-cache/
+(?d).jekyll-metadata
+(?d).metalsmith
+(?d).eleventy.cache/
+(?d).next/
+(?d).nuxt/
+(?d).docusaurus/
+(?d).cache/
+(?d).parcel-cache/
+(?d).rollup.cache/
+(?d).turbo
+(?d).svelte-kit/
+(?d).astro/
+
+###################
+# OS Specific
+###################
+
 # macOS
-.DS_Store
 (?d).DS_Store
-.localized
-._*
-.fseventsd
-.DocumentRevisions-V100
-.TemporaryItems
-.Trashes
-.iCloud
-.Spotlight-*
+(?d).AppleDouble
+(?d).LSOverride
+(?d)._*
+(?d).Spotlight-V100
+(?d).Trashes
 
 # Windows
-ehthumbs.db
-Thumbs.db
-$RECYCLE.BIN
-System Volume Information
+(?d)Thumbs.db
+(?d)ehthumbs.db
+(?d)Desktop.ini
+(?d)$RECYCLE.BIN/
+(?d)*.lnk
 
-# Framework-specific
-.cv-jekyll/assets/plugins/**
-.nuxt
-.nitro
-.cache
-.output
-.next/
-.vercel
-
-# Dropbox
-.dropbox.cache/**
-
-# Certificates
-*.pem
-
-# Other temp files
-*.part
-*.crdownload
-*.tmp
-~*
-*.old
-*.syd
-*.dir
-*.gid
-*.chk
-*.dmp
-*.nch
-.*.swp
-*~
-*.*.sw[a-p]
-
-# Syncthing-specific patterns
-(?d).SyncIgnore
-(?d).SyncTemp
-(?d).SyncArchive
-*.SyncPart
-*.SyncTemp
-*.SyncOld
-.SyncID
-
-# Parallels VM directory
-*.parallels-vm-directory
-
-# Trash and temp files
-.directory
-.Trash-*
+# Linux
+(?d)*~
+(?d).fuse_hidden*
+(?d).directory
 (?d).Trash-*
-(?d).localized
-(?d)._*
-(?d).Icon*
-(?d).fseventsd
-(?d).Spotlight-V100
-(?d).DocumentRevisions-V100
-(?d).TemporaryItems
-(?d).Trashes
-(?d).Trash-1000
-(?d).iCloud
 
-# Windows recycle bin
-$RECYCLE.BIN
+###################
+# Note Taking & Documentation
+###################
 
-# Synology thumbnails
-.@_thumb
-.@__thumb
-@eaDir
-
-# Lightroom previews
-*Previews.lrdata root-pixels.db
-
+# Obsidian
+(?d)**/.obsidian/*
+!.obsidian/app.json
+!.obsidian/appearance.json
+!.obsidian/config
+!.obsidian/community-plugins.json
+!.obsidian/core-plugins.json
+!.obsidian/hotkeys.json
+!.obsidian/templates.json
+!.obsidian/themes
+!.obsidian/snippets
+(?d).trash/
+(?d).sync-conflict-*
+(?d).obsidian-git-data
+(?d).obsidian/workspace
+(?d).obsidian/workspace.json
+(?d).obsidian/workspace-mobile.json
+(?d).obsidian/graph.json
+(?d).obsidian/plugins/*
+(?d).obsidian/themes/*
+(?d).obsidian/snippets/*
+(?d).obsidian/cache
+(?d).obsidian/backups
+(?d).sync/*
+(?d).history
+(?d)*.css.map
