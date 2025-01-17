@@ -5,7 +5,7 @@ sidebar:
 
   # Profile information
   name: Jonathan Young
-  tagline: Creative and Resilient Web App Developer
+  tagline: Web developer rooted in domain driven design, resilience, and problem solving skills.
   avatar: # Profile(100x100).jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -14,8 +14,8 @@ sidebar:
   timezone: Pacific Time
   citizenship: US citizen
   website: iterating.github.io/cv-tech #do not add http://
-  linkedin:
-  github:
+  linkedin: www.linkedin.com/in/iterating/
+  github: Iterating
   gitlab:
   bitbucket:
 
@@ -33,7 +33,7 @@ careerprofile:
   title: Why me?
   summary: |
     I'm a web developer rooted in domain driven design, resilience, and problem solving skills. 
-    Previously in medicine, I frequently used my domain knowledge to build tools for myself and others, and switched careers to software engineering to full time to develop my skills as a developer.
+    Previously in medicine, I found myself frequently combining my domain knowledge with programming skills to build tools for myself and others, and switched careers to software development to focus on building my skills. I believe in taking the time to learn something well and apply it to any given task. After developing a variety of tools for clients and projects, I completed intensive training in professional software development to continue my journey in the corporate world, where I bring my passion for problem solving and my dedication to continuous learning to foster a collaborative environment and build impactful solutions. I prioritize architecture and clean code in developing codebases. 
 
 education:
   title: Education
@@ -42,7 +42,7 @@ education:
       university: Software Engineering Track, GPA：4.0
       time: 2024
       details: |
-        Completed intensive software engineering training focused on full stack development, enhancing technical skills and project experience with up to date software development tools and frameworks as I continue to collabaratively build software. 
+        I completed intensive training in professional software development with Per Scholas to better prepare myself to continue my professional journey in the corporate world, keeping current with the latest practices and development methodologies. 
 
     - degree: University Of Massachusetts Chan Medical School
       university: M.D. Candidate
@@ -53,7 +53,7 @@ education:
         Pretending to Be the Great Pretender. *ACP Impact*, October 2016.  
         A Chemokine Protective Shield for Islet Transplantation. *Digestive Disease Interventions*, Boston, MA.  
 
-        Medical training equipped me with statistical thinking as well as the skills to think both broadly and specifically in diagnosing issues by symptom and analysis, which I bring to efficiently building applications as a software engineer. 
+        Medical training equipped me with statistical thinking as well as the skills to think both broadly and specifically in diagnosing issues by symptom and analysis, which I bring to efficiently building applications as a software engineer. I frequently applied 
 
     - degree: Tufts University
       university: B.Sc., Biology GPA：3.7
@@ -95,7 +95,6 @@ experiences:
         - Developed tool matching snow removal order locations with worker addresses utilizing Typescript and Google Cloud API, allowing efficient dispatch during snow events
         - Implemented robust security infrastructure with JWT-based authentication, role-based access control, and API gateway patterns to ensure secure data access across microservices
         - Utilized a high-performance data architecture using MongoDB with geospatial indexing and RESTful API patterns, enabling real-time operational analytics and dispatch optimization
-        - Orchestrated AWS cloud infrastructure using Infrastructure as Code, implementing auto-scaling, load balancing, and containerization for 99.9% system availability
         - Currently continuing role on part-time basis.
 
       time2: 2018 - 2020
@@ -104,7 +103,7 @@ experiences:
         - Ensured quality control and delivered timelier snow removal experience for 30 contract clients, increasing customer retention and resulting in 500% customer growth.  
         - Organized and led groups of 6 member teams to effectively manage snow removal routes, ensuring workers have access to equipment, supplies, and transportation, while promoting a collaborative work environment among employees.
         - Analyzed and optimized work routes to drive a 25% cost savings per route.
-        - Leveraged operations experience to inform software architecture decisions, translating real-world business processes into effective domain models and technical solutions
+        - Leveraged operations experience to inform software architecture decisions in later role as Web Developer, translating real-world business processes into effective domain models and technical solutions
 
     - role: Product Feedback Analyst
       time: 2021 - 2022
