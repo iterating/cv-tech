@@ -1,0 +1,65 @@
+sidebar:
+  about: {{sidebar.about}}
+  education: {{sidebar.education}}
+  skills: {{sidebar.skills}}
+
+  # Profile information
+  name: {{sidebar.name}}
+  tagline: {{sidebar.tagline}}
+  avatar: {{sidebar.avatar}}
+
+  # Sidebar links
+  email: {{sidebar.email}}
+  phone: {{sidebar.phone}}
+  timezone: {{sidebar.timezone}}
+  citizenship: {{sidebar.citizenship}}
+  website: {{sidebar.website}}
+  linkedin: {{sidebar.linkedin}}
+  github: {{sidebar.github}}
+  {{#if sidebar.gitlab}}gitlab: {{sidebar.gitlab}}{{/if}}
+  {{#if sidebar.bitbucket}}bitbucket: {{sidebar.bitbucket}}{{/if}}
+
+  interests:
+    title: {{sidebar.interests.title}}
+    info:
+    {{#each sidebar.interests.info}}
+      - item: {{this.item}}
+        {{#if this.link}}link: {{this.link}}{{/if}}
+    {{/each}}
+
+careerprofile:
+  title: {{careerprofile.title}}
+  summary: |
+    {{careerprofile.summary}}
+
+education:
+  title: {{education.title}}
+  info:
+  {{#each education.info}}
+    - degree: {{this.degree}}
+      university: {{this.university}}
+      time: {{this.time}}
+      details: |
+        {{this.details}}
+  {{/each}}
+
+experiences:
+  title: {{experiences.title}}
+  info:
+  {{#each experiences.info}}
+    - role: {{this.role}}
+      time: {{this.time}}
+      company: {{this.company}}
+      details: |
+        {{this.details}}
+  {{/each}}
+
+projects:
+  title: {{projects.title}}
+  info:
+  {{#each projects.info}}
+    - project: {{this.project}}
+      platform: {{this.platform}}
+      {{#if this.details}}details: |
+        {{this.details}}{{/if}}
+  {{/each}}

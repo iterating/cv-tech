@@ -195,6 +195,40 @@ li {
   color: darken(#42A8C0, 15%);
 }
 
+.project-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+
+}
+
+.project-content {
+  flex: 1;
+}
+
+.project-link {
+  flex: 0 0 120px;
+  text-align: right;
+  align-self: flex-start;
+}
+
+.project-link img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+}
+
+.project-link p {
+  margin: 0;
+  text-align: right;
+}
+
+.project-link a {
+  color: #42A8C0;
+  text-decoration: none;
+}
+
 .intro {
   margin-bottom: 1.5rem;
 }
@@ -336,4 +370,3 @@ li {
 /* Ex-Large devices (large desktops, 1200px and up) */
 @media (min-width: 1400px) {
 }
-

@@ -1,0 +1,87 @@
+:root {
+    --primary: #42A8C0;
+    --text: #3F4650;
+    --bg: #f5f5f5;
+}
+
+body {
+    font-family: Georgia, serif;
+    line-height: 1.3;
+    color: var(--text);
+    background: var(--bg);
+    margin: 0;
+    padding: 0.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    width: 8.5in;
+    background: white;
+    padding: 0.5in 0.75in;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.contact-info {
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+
+.contact-info h1,
+.contact-info p,
+.date,
+.recipient p {
+    font-size: 10pt;
+    margin: 0.1rem 0;
+}
+
+.contact-info h1 {
+    color: var(--primary);
+    font-weight: bold;
+}
+
+a {
+    color: var(--primary);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.date {
+    text-align: right;
+    margin-bottom: 1rem;
+}
+
+/* Content */
+.letter-body {
+    font-size: 11pt;
+}
+
+.paragraph {
+    margin-bottom: 0.5rem;
+    text-align: justify;
+    text-indent: 2em;
+}
+
+.signature {
+    margin-top: 1.5rem;
+}
+
+.signature-name {
+    font-weight: bold;
+}
+
+@media print {
+    body {
+        background: white;
+        padding: 0;
+    }
+
+    .container {
+        box-shadow: none;
+        width: 100%;
+    }
+}

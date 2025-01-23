@@ -1,5 +1,6 @@
 ./data
 !./data/data.yml
+./coverletter/input
 # Sync conflict prevention
 (?d)**/*sync-conflict*
 (?d)**/*.sync-conflict*

@@ -8,6 +8,34 @@
 # experiences
 I have no problem taking the time to learn something well and apply it to any given task
 
+After developing a variety of tools for clients, I completed intensive training in professional software development to enhance my development experience with enterprise-level best practices and Agile methodologies,strengthening my ability to contribute to large-scale projects and cross-functional teams. I spend my time learning software architecture, design principles, and best practices to ensure high-quality code delivery.
+
+# Snow Removal
+        Built microservice features in Typescript and React to facilitate successful interactions between customers, workers, and management that handle the complex logistics of snow removal delivery, growing the company from 4 employees to the largest snow removal company in Boston within 5 years though automated dispatch and real-time tracking capabilities.
+        - Architected and implemented distributed microservices using TypeScript and Node.js, with domain-driven design principles and event-driven communication, integrated with a React frontend for optimal scalability and maintainability
+        - Developed tool matching snow removal order locations with worker addresses utilizing Typescript and Google Cloud API, allowing efficient dispatch during snow events
+        - Implemented robust security infrastructure with JWT-based authentication, role-based access control, and API gateway patterns to ensure secure data access across microservices
+        - Utilized a high-performance data architecture using MongoDB with geospatial indexing and RESTful API patterns, enabling real-time operational analytics and dispatch optimization
+        - Currently continuing role on part-time basis.
+## Dendron
+        Translated complex clinical workflows into intuitive, seamless user interfaces for an electronic medical record product using Bootstrap, JavaScript, Node.js, and MySQL in Linux environments
+        - Designed and prototyped Bootstrap user interfaces with Javascript, HTML, and CSS to meet the needs of healthcare providers and improve patient care outcomes, collaborating closely with engineering team 
+        - Acted as a liaison between software developers and clinical users, conducting usability testing and gathering feedback from clinical end-users to identify pain points and areas for improvement, leading to iterative design enhancements.
+        - Configured, administered, and maintained Ubuntu and Debian laptops in clinical settings with Ansible, ensuring secure access to essential healthcare applications and supporting CI/CD.
+        - Upgraded and monitored clinical IT infrastructure, achieving near 100% uptime and minimizing disruptions to critical healthcare operations.
+## Vecna Healthcare, Burlington Ma
+        Translated complex clinical workflows into intuitive, seamless user interfaces for an electronic medical record product using Bootstrap, JavaScript, Node.js, and MySQL in Linux environments
+        - Designed and prototyped Bootstrap user interfaces with Javascript, HTML, and CSS to meet the needs of healthcare providers and improve patient care outcomes, collaborating closely with engineering team 
+        - Acted as a liaison between software developers and clinical users, conducting usability testing and gathering feedback from clinical end-users to identify pain points and areas for improvement, leading to iterative design enhancements.
+        - Configured, administered, and maintained Ubuntu and Debian laptops in clinical settings with Ansible, ensuring secure access to essential healthcare applications and supporting CI/CD.
+        - Upgraded and monitored clinical IT infrastructure, achieving near 100% uptime and minimizing disruptions to critical healthcare operations.
+
+## Reserarch
+  Demonstrated an innovative approach to transplant immunology where a chemokine that plays a role in protecting cancer cells from immune attack is instead applied to prolong survival of transplant graft by locally attracting regulatory T cells and repelling cytotoxic T cells. 
+
+  - Transplanted encapsulated islet cells with either Treg attractant CXCL12 or control alginate into diabetic mouse model. Then monitored the blood glucose of experimental and control groups and applied statistical testing to evaluate how CXCL12-incorporated encapsulants supported islet graft survival.  
+  - Conducted research on a mycobacterial Hsp70-containing fusion protein targeting mesothelin, showing its ability to boost antitumor immunity and extend survival in mouse models of ovarian cancer and mesothelioma by attracting cytotoxic T cells to solid tumors.        - Transplanted encapsulated islet cells with either Treg attractant CXCL12 or control alginate into diabetic mouse model. Then monitored the blood glucose of experimental and control groups and applied statistical testing to evaluate how CXCL12-incorporated encapsulants supported islet graft survival.  
+  - Conducted research on a mycobacterial Hsp70-containing fusion protein targeting mesothelin, showing its ability to boost antitumor immunity and extend survival in mouse models of ovarian cancer and mesothelioma by attracting cytotoxic T cells to solid tumors.
 
 ##### Employment Gap
 It is perfectly acceptable to be (self employed) for five years. List your clients.
@@ -15,10 +43,6 @@ It is perfectly acceptable to be (self employed) for five years. List your clien
 For the past five years, I have been focused on overcoming a serious medical condition. This journey involved numerous medical assessments, treatments, surgeries, and rigorous physical therapy. Through perseverance and hard work, I have regained my independence and can now .... This challenging period has equipped me with exceptional resilience, patience, and a profound appreciation for overcoming adversity. I am now fully prepared and excited to re-enter the workforce, bringing with me a unique perspective and a steadfast dedication to success.
 
 These entries aim to honestly acknowledge the employment gap while highlighting the individual's strength and readiness to return to work.
-
-
-
-
 
 
 # Greater Boston Snow Removal Boston MA
@@ -52,8 +76,7 @@ Design
 # 2018- 2019  Medical Scribe  ScribeAmerica  Boston MA Atrius Health
 Documented key information during medical visits and procedures as they are being performed by the physician. Organized healthcare data to provide better service and efficiency of clinical care and relieving documentation burden on physician. 
 
-Completed clinical documentation by using medical terminology with standards, policies, procedures, and requirements
-outlined by the American Medical Association, Centers for Medicare and Medicaid Services, and other governing bodies
+Completed clinical documentation by using medical terminology with standards, policies, procedures, and requirementsoutlined by the American Medical Association, Centers for Medicare and Medicaid Services, and other governing bodies
 
 Drove positive health outcomes. Reach population health goals with ancillary support Meaningful use and documentation. Improve RAF and HCC scores
 Dr. David G. Blom, MD

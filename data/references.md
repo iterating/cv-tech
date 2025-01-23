@@ -3,18 +3,32 @@ Los Angeles CA
 Victor Pagan
 518-729-7102
 
+Greater Boston Snow Removal
+Boston MA
+Roger Dunn
+808 722 6288
+
 Dendron
 500 Yale Ave, Seattle WA, 98109
  Kevin Lin 
  8324132879 
  kevinlin@dendron.so
-       
+
+
+Atrius Health/ ScribeAmerica
+Dr.David Blom. internal medicine physician
+832 413 2879 
+david.blom@atriushc.com
+
 Vecna Healthcare
 1 Burlington Woods Dr Burlington, MA 01803
+Emily Wang
+Director of product 
+650-799-9113
 Mary Rocheleau
 Director of product
 617-864-0636
-      
+
 Tufts
 105 College Ave, Medford, MA 02155
 Mary Fansworth

@@ -89,6 +89,26 @@ export async function renderResume(data) {
   });
   document.getElementById("experiences").innerHTML = experiencesHTML;
 
+  let projectsHTML = "";
+  data.projects.info.forEach((project) => {
+    let detailsMd = marked.parse(project.details);
+    let linkHtml = project.link ? marked.parse(project.link) : '';
+
+    projectsHTML += `
+      <div class="item project-container">
+        <div class="project-content">
+          <div class="meta">
+            <div class="upper-row">
+              <h3 class="job-title">${project.project}</h3>
+            </div>
+          </div>
+          <div class="details">${detailsMd}</div>
+        </div>
+        ${linkHtml ? `<div class="project-link">${linkHtml}</div>` : ''}
+      </div>`;
+  });
+  document.getElementById("projects-section").innerHTML = projectsHTML;
+
   // Skills - Populating DOM by using array.map
   document.getElementById("skills-section").innerHTML = data.skills.toolset
     .map(

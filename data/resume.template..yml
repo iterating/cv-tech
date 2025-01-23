@@ -1,0 +1,182 @@
+sidebar:
+  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  education: False # set to False if you want education in main section instead of in sidebar
+  skills: False
+
+  # Profile information
+  name: Jonathan Young
+  tagline: | 
+    {{job.title}} rooted in domain driven design, resilience, and problem solving skills.
+  avatar: # Profile(100x100).jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
+
+  # Sidebar links
+  email: jyoung0696@gmail.com
+  phone: 626 626 0656
+  citizenship: US citizen
+  website: iterating.github.io/cv-tech #do not add http://
+  linkedin: linkedin.com/in/iterating/
+  github: github.com/iterating
+  gitlab:
+  bitbucket:
+
+  interests:
+    title:
+    info:
+      - item:
+        link:
+      - item:
+        link:
+      - item:
+        link:
+
+careerprofile:
+  title: Why me?
+  summary: |
+    I'm a {{job.title}} rooted in domain driven design, resilience, and problem solving skills. 
+    Previously in medicine, I found myself frequently combining domain knowledge with programming skills to build tools for myself and others, and switched careers to software development to focus on building my skills. I believe in taking the time to learn something well and apply it to any given task. After developing a variety of tools for projects and clients, I completed intensive training in professional software development to continue my journey in the corporate world, preparing to work in multifunctional teams using Agile methodologies, where I bring my passion for problem solving and my dedication to continuous learning to foster a collaborative environment and build impactful solutions. I prioritize architecture and clean code in developing codebases. 
+
+education:
+  title: Education
+  info:
+    - degree: Per Scholas
+      university: Software Engineering Track, GPA：4.0
+      time: 2024
+      details: |
+        I completed intensive training in professional software development with Per Scholas to better prepare myself to continue my professional journey building with Agile methodologies in multifunctional teams in the corporate world.
+
+    - degree: University Of Massachusetts Chan Medical School
+      university: M.D. Candidate
+      time: 2015 - 2018
+      details: |
+        Winner, American College of Physicians National Abstract Competition  
+        *Publications/Conference Presentations:*  
+        Pretending to Be the Great Pretender. *ACP Impact*, October 2016.  
+        A Chemokine Protective Shield for Islet Transplantation. *Digestive Disease Interventions*, Boston, MA.  
+
+        Medical training equipped me with statistical thinking and skills to think both broadly and specifically in diagnosing issues by symptom and analysis, which I bring to problem solving and building applications. I built clinical decision making tools such as a respiratory failure calculator, translating codified knowledge into software. 
+
+    - degree: Tufts University
+      university: B.Sc. GPA：3.7
+      time: 2007 - 2010
+      details: |
+        I did work-study as a computer lab administrator at the Eliot-Pearson Children's School and later earned my Red Hat Certified System Administrator certificate.   
+        Capstone in 3D Digital Design  
+        Magna cum laude with Thesis Honors from Dept of Chemistry  
+        *Publication:*  
+        Direct O-glycosidation of resin bound thioglycosides. *Organic and Bimolecular Chemistry*. [DOI: 10.1039/c2ob06883d](https://pubmed.ncbi.nlm.nih.gov/22261792/)  
+
+
+    - degree: Choate Rosemary Hall
+      university: ""
+      time: ""
+      details: |
+        American Invitational Mathematics Examination (AIME) Qualifications  
+          Acknowledged for problem-solving and mathematical proficiency, demonstrating capability in achieving high-level problem-solving outcomes
+          
+experiences:
+  title: Experiences
+  info:
+    - role: Software Engineering Intern
+      time: 2024 - Present
+      company: LA Film Lab and Studio, Los Angeles CA
+      details: |
+        Developed full-stack solutions  with component-driven architecture using TypeScript, Nuxt.js, and Node.js with Supabase as the backend-as-a-service, delivering mission-critical features that drove operational efficiency and customer engagement beyond growth expectations for a team of our size.
+        - Developed an automated data synchronization API endpoint that retrieves and updates order information between Square's e-commerce platform and a Supabase database, processing batch transactions with error handling and real-time status tracking. Implemented using Node.js, Square API, and Supabase, resulting in seamless order management across platforms.
+        - Built a real-time event architecture using Server-Sent Events (SSE) and RESTful APIs, achieving sub-second latency for critical order updates between Square POS, client applications, and in-studio terminals
+        - Developed a JavaScript-based order management system with custom labeling functionality, implementing optimized state management and caching strategies that reduced order processing time by 25% and eliminated manual data entry errors
+        - Built robust, maintainable codebases using the Model-View-Controller (MVC) pattern and PRPL (Push, Render, Pre-cache, Lazy-load) strategy, resulting in improved page load metrics and maintainable component-based structure.
+
+    - role:  Web Developer (contract)
+      time: 2023 - 2024
+      company: Greater Boston Snow Removal, Boston MA (Remote)
+      details: |
+        Built microservice features in Typescript and React to facilitate successful interactions between customers, workers, and management that handle the complex logistics of snow removal delivery, growing the company from 4 employees to the largest snow removal company in Boston within 5 years though automated dispatch and real-time tracking capabilities.
+        - Architected and implemented distributed microservices using TypeScript and Node.js, with domain-driven design principles and event-driven communication, integrated with a React frontend for optimal scalability and maintainability
+        - Developed tool matching snow removal order locations with worker addresses utilizing Typescript and Google Cloud API, allowing efficient dispatch during snow events
+        - Implemented robust security infrastructure with JWT-based authentication, role-based access control, and API gateway patterns to ensure secure data access across microservices
+        - Utilized a high-performance data architecture using MongoDB with geospatial indexing and RESTful API patterns, enabling real-time operational analytics and dispatch optimization
+        - Currently continuing role on part-time basis.
+
+      time2: 2018 - 2020
+      role2: Operations Manager (Boston MA)
+      details2: |
+        - Ensured quality control and delivered timelier snow removal experience for 30 contract clients, increasing customer retention and resulting in 500% customer growth.  
+        - Spearheaded snow removal operations for a 6-member team, implementing streamlined resource allocation systems and establishing efficient route planning that reduced completion time by 40% while maintaining 100% safety compliance
+        - Analyzed and optimized work routes to drive a 25% cost savings per route.
+        - Leveraged operations experience to inform software architecture decisions in later role as Web Developer, translating real-world business processes into effective domain models and software solutions
+
+    - role: Product Feedback Analyst
+      time: 2021 - 2022
+      company: Dendron, Seattle WA (remote)
+      details: |
+        Fostered engagement within the user community by creating, collecting, and sharing effective workflows, empowering users and optimizing use cases.
+        - Communicated continuous improvements to the engineering team based on collected user feedback and research findings through Github and Slack, enhancing product usability and functionality.
+        - Analyzed and replicated bugs from tickets, broke down multifactorial issues into components, and enhanced bug reports with details.
+        - Deepened understanding of TypeScript, Node.js, CI/CD, and VSCode features and processes.
+        - Ended role upon product transitioning to maintenance mode.
+
+    - role: Clinical User Specialist
+      time: 2014 - 2015
+      company: Vecna Healthcare, Burlington MA
+      details: |
+        Translated complex clinical workflows into intuitive, seamless user interfaces for an electronic medical record product using Bootstrap, JavaScript, Node.js, and MySQL in Linux environments
+        - Designed and prototyped Bootstrap user interfaces with Javascript, HTML, and CSS to meet the needs of healthcare providers and improve patient care outcomes, collaborating closely with engineering team 
+        - Acted as a liaison between software developers and clinical users, conducting usability testing and gathering feedback from clinical end-users to identify pain points and areas for improvement, leading to iterative design enhancements.
+        - Configured, administered, and maintained Ubuntu and Debian laptops in clinical settings with Ansible, ensuring secure access to essential healthcare applications and supporting CI/CD.
+        - Upgraded and monitored clinical IT infrastructure, achieving near 100% uptime and minimizing disruptions to critical healthcare operations.
+
+
+    - role: Research Assistant in Vaccine Immunology
+      time: 2011 - 2013
+      company: Vaccine Immunotherapy Center, Massachusetts General Hospital, Boston MA
+      details: |
+        Demonstrated an innovative approach to transplant immunology where a chemokine that plays a role in protecting cancer cells from immune attack is instead applied to prolong survival of transplant graft by locally attracting regulatory T cells and repelling cytotoxic T cells. 
+        - Utilized **Python** to perform statistical analyses of data from in-vitro and microarray experiments, including **SciPy** for ANOVA and T-tests, **Pandas** to structure data, and **Matplotlib** to visualize data for presentation
+        - Programmed 'Cellbot', an automated cell counting program in **Java** and ImageJ, improving efficiency and accuracy of data collection, leading to a 25% improvement in data collection time. 
+        - Transplanted encapsulated islet cells with either Treg attractant CXCL12 or control alginate into diabetic mouse model. Then monitored the blood glucose of experimental and control groups and applied statistical testing to evaluate how CXCL12-incorporated encapsulants supported islet graft survival.  
+        - Conducted research on a mycobacterial Hsp70-containing fusion protein targeting mesothelin, showing its ability to boost antitumor immunity and extend survival in mouse models of ovarian cancer and mesothelioma by attracting cytotoxic T cells to solid tumors. 
+
+        __Communication and Presentation:__
+        - Documented and presented quantitative data for publication and peer review, leading to successful publication.
+        - Presented project, theory, and findings to both technical subject experts and general clinical audience at conferences including Massachusetts General Hospital Presentation Day and Digestive Disease Interventions.
+
+        __Publication:__
+           Alginate encapsulant incorporating CXCL12 supports long term allo and xenoislet transplantation without systemic immune suppression. *American Journal of Transplantation*, 2015. [DOI 10.1111/ajt.13049](https://pubmed.ncbi.nlm.nih.gov/25693473/)
+
+projects:
+  title: Projects
+  info:
+    - project: Placenotes
+      platform: React, Node,js, MongoDB, GraphQL, AWS, S3
+      details: |
+       Research shows our recall decreases significantly after leaving a location. Placenotes is a social platform that allows users to send and recieve messages when the thier friends enters a specified location, and create markdown notes to capture thier thoughts based on where they are
+       - Senders can schedule messages that show recievers arrive at a location
+       - React frontend with GraphQL subscription for realtime updates, and a Node.js backend with Express.js and MongoDB for data persistence.
+       - A high-performance data architecture using MongoDB with geospatial indexing and RESTful API patterns plus GraphQL to query and mutate data allows messages to be organized by both time and location. 
+       - WYSWYG editor with markdown support for notes and images, for use cases like being reminded of shopping lists when a user arrives at a location. 
+       - Robust security authentication using JWT and Redux-persist
+       - Production built with Javascript mobile-first approach, with full-stack development and continuous integration and deployment on Vercel
+       - Currently refactoring to React Native and Typescript for mobile app development.
+
+    - project: 
+
+
+skills:
+  title: Skills
+  toolset:
+    - name: Javascript, Typescript, HTML, CSS
+    - name: React, Nuxt, Vue
+    - name: Node.js, Express.js
+    - name: MongoDB, MySQL, Firebase/Supabase, SQL language
+    - name: Python 2/3, Numpy, Scipy, Pandas
+    - name: Selenium, Autohotkey
+    - name: Virtualization- Virtualbox, VMWare, Docker
+    - name: AWS, EC2, DynamoDB
+    - name: Design- Figma, Illustrator, Photoshop
+    - name: CI/CD, Git, Linux environments
+    - name: Red Hat (Linux) Certified System Administrator (RHCSA)
+        Certificate 170-077-016
+    - name: Knowledge of Azure, .NET, Java, Springboot, C
+
+footer: >
+  Designed by <a href="http://iterating.github.io/cv-tech" target="_blank" rel="nofollow">J Young Design</a>

@@ -1,4 +1,22 @@
 examples
+https://www.linkedin.com/in/kirilov/
+Seasoned software architect and engineering manager with 13+ years of experience
+
+I'm a great team player, aware of the products and team's goals and concentrated on delivering features with great quality and customer satisfaction. I'm self-motivated and always aimed at improving my skills and knowledge. Never afraid of new challenges because you learn the most from them. 
+
+Quality has been my main focus and direction in every project in my career.
+
+From Architect point of view:
+by researching technologies; designing robust and scalable architectures; communicating with stakeholders and pushing for defining and following a long-term vision; improving DevEx; sharing know-how
+
+From a team lead's point of view:
+by being transparent, showing dedication, improving the team morale, shielding from stress or external forces and coaching my team to realize their full potential; by introducing various agile techniques and tools like Kaizen and Scrum, automation and waste reduction by Value Stream Mapping.
+
+From Dev point of view : 
+by being the go-to technical expert, thorough code reviews, best practices, design patterns or test-driven development and impeccable bug-free code; by writing maintainable automated tests
+
+
+
 
 https://www.linkedin.com/in/johanna-cameron/
 
@@ -44,8 +62,7 @@ https://www.linkedin.com/in/johanna-cameron/
         **Version Control, NoSQL and +3 skills**
 
   - 
-
-    Software Engineer | Travel Bug | A mobile-friendly social media app for sharing travel diaries.Software Engineer | Travel Bug | A mobile-friendly social media app for sharing travel diaries.
+Software Engineer | Travel Bug | A mobile-friendly social media app for sharing travel diaries.
 
     Apr 2023 - May 2024 · 1 yr 2 mosApr 2023 to May 2024 · 1 yr 2 mos
 

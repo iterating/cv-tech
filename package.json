@@ -1,6 +1,13 @@
 {
-	"dependencies": {
-		"js-yaml": "^4.1.0",
-		"marked": "^14.1.2"
-	}
+  "type": "module",
+  "scripts": {
+    "template": "node scripts/template.mjs"
+  },
+  "dependencies": {
+    "marked": "^14.1.2"
+  },
+  "devDependencies": {
+    "handlebars": "^4.7.8",
+    "js-yaml": "^4.1.0"
+  }
 }
