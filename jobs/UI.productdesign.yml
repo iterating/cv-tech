@@ -1,0 +1,49 @@
+position:
+  title: Product Designer
+  location: Not specified
+  type: Full-time
+  reports_to: Not specified
+
+company:
+  name: AC Infinity
+  description: >
+    AC Infinity is a pioneer in environmental controls, empowering anyone to create 
+    the ideal environment for any application.
+
+role_description: >
+  This role is responsible for creating and designing innovative and user-friendly products 
+  that align with the company's vision and market needs. This role involves extensive research, 
+  design, prototyping, and collaboration with cross-functional teams to deliver high-quality products.
+
+work_arrangement:
+  type: onsite
+  location: Not specified
+  note: This is an onsite position at our office and is not remote/hybrid
+
+portfolio_requirement: >
+  Please provide a portfolio showcasing past products you have design as well as market and user research.
+
+responsibilities:
+  - Conduct market research to understand customer needs and industry trends. Analyze user feedback and data to improve existing products and inform new designs. Collaborate with marketing and sales teams to define product requirements and target audience
+  - Develop design concepts and prototypes that align with business goals. Use design software to create detailed product designs and specifications. Collaborate with engineering and manufacturing teams to ensure design feasibility
+  - Lead and manage design projects from conception to completion. Coordinate with various departments to ensure timely and within-budget delivery
+  - Conduct user testing sessions to gather feedback on prototypes. Work with quality assurance teams to ensure product standards are met
+
+requirements:
+  education:
+    required: Bachelor's degree in Product Design, Industrial Design, or related field
+    preferred: Not specified
+  experience:
+    required:
+      - Minimum of 3 years of experience in product design, preferably relating to electronics or technical products
+      - Product design: 2 years
+      - Product development: 2 years
+    preferred:
+      - UX: 2 years
+  skills:
+    technical:
+      - Proficiency in design software (Adobe Creative Suite, Sketch, CAD)
+    domain_knowledge:
+      - Strong understanding of user experience
+      - Manufacturing processes and materials
+      - Extensive product, market and user research experience

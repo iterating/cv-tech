@@ -1,0 +1,64 @@
+job_title: Healthcare Data Engineer
+
+location: Los Angeles, CA
+
+position_status: Full Time, Exempt
+
+reports_to: Chief of Technology and Innovation
+
+background: 
+  We have a diverse team of healthcare IT experts devoted to solving real-world healthcare problems. We're looking for a driven, smart, creative, and fun candidate who shares our passion for optimizing the intersection of consumer health, engagement, technology, and innovation.
+
+  LANES is a community-based Qualified Health Information Organization (QHIO) whose mission is to improve health care delivery by building a platform that enables cost-effective and secure electronic exchange of patient medical records among public and private health care providers and health plans in the larger Los Angeles County region. LANES seeks to make personal health information available when and where it is needed for patient care, safely and securely.
+
+  LANES uses the Mirth technology, AWS cloud, Google Big Query and FHIR, to link healthcare organizations and to maintain the core technology infrastructure of the Health Information Organization.
+
+position_overview: 
+  Healthcare Data Engineer
+
+  Los Angeles Network for Enhanced Services (LANES) is a Qualified Health Information Organization (QHIO). We connect 200+ healthcare organizations in the Los Angeles region and exchange data on 10+ million patients in real time. LANES is a growing organization with dozens of new healthcare entities connected to our network each year. We are also an industry-leading organization with a state-of-the-art, proprietary technology platform.
+
+  LANES created a unique new opportunity for a talented and motivated Healthcare Data Engineer responsible for the development of LANES' portfolio of SQL queries, stored procedures, dashboards, and other data and business intelligence products. By joining LANES, you will be able to learn from work-renowned experts in the fields of healthcare data interoperability and healthcare information technology. You could make an impact by changing healthcare and providing unique insights into healthcare data and by improving health outcomes, public health, and operational efficiencies.
+
+special_note: 
+  Special Note: This is a virtual home-based position. Will be required to attend in-person meetings in Los Angeles area on an as-needed basis.
+
+  This is a full-time benefitted position. Employment is provided by Heluna Health.
+
+essential_functions:
+  - Develop, document, and update SQL queries and stored procedures
+  - Develop clinical and operational reports
+  - Develop repeatable processes for reporting
+  - Develop and maintain dashboards and other Business Intelligence (BI) products providing actionable insights
+  - Develop data repositories and data analytics sandboxes for expert customers to execute their own queries and build their own analytics tools
+  - Optimize performance of large and complex queries.
+  - Contribute to strategy development for LANES' future data products.
+  - Proactively identify new technologies, methodologies, and processes to address evolving data management challenges
+
+job_qualifications:
+  - 5+ year data engineering experience in healthcare
+  - 5+ year hands-on SQL development experience
+  - Experience with NodeJS
+  - Experience in relational and dimensional data modeling and schema design
+  - Experience with data architecture, data quality improvement, metadata, and data governance
+  - Experience with postgres and Google BigQuery
+  - Experience with Microsoft PowerBI
+  - Experience with cloud-based data platforms (AWS and/or Google Cloud Services)
+  - Familiarity with Clinical Informatics concepts, terminologies, and coding systems including ICD-10, SNOMED CT, LOINC, and CPT.
+  - Good software documentation skills
+  - BS degree in Computer Science or a related field.
+  - Familiarity with healthcare cybersecurity and privacy regulations and standards, e.g., HIPAA, HITECH, and HITRUST.
+
+other_knowledge_skills_abilities:
+  - Experience with ADT, CCD, DQ/DR messages and documents used in healthcare
+  - Experience with HL-7 and FHIR healthcare data standards
+  - Experience with Mirth Connect
+  - Experience with data modeling, data warehousing and building ETL pipelines
+  - Experience with Google Cloud Healthcare API
+  - Experience with dashboard development
+  - Ability to work effectively independently and as a member of a diverse and cross-functional team of engineers, business system analysts, project managers, subject matter experts, management, and clinical stakeholders.
+  - Attention to detail and quality
+  - Experience working as a member of Agile Scrum project teams.
+  - Ability to work collaboratively using Atlassian JIRA, Confluence, and SharePoint productivity tools.
+  - Experience with big data in healthcare.
+  - Excellent problem-solving skills with a track record of ensuring data quality and integrity across complex datasets

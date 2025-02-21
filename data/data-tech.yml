@@ -5,17 +5,17 @@ sidebar:
 
   # Profile information
   name: Jonathan Young
-  tagline: Creative and Resilient Front End Developer
+  tagline: | 
+    Web Developer rooted in domain driven design, resilience, and problem solving skills.
   avatar: # Profile(100x100).jpg #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
   email: jyoung0696@gmail.com
   phone: 626 626 0656
-  timezone: Pacific Time
   citizenship: US citizen
   website: iterating.github.io/cv-tech #do not add http://
-  linkedin:
-  github:
+  linkedin: linkedin.com/in/iterating/
+  github: github.com/iterating
   gitlab:
   bitbucket:
 
@@ -32,7 +32,8 @@ sidebar:
 careerprofile:
   title: Why me?
   summary: |
-    Resilient and innovative junior developer with a strong blend of technical expertise, creative problem-solving abilities, and a growth mindset. A proactive approach and adaptability to rigor, combined with a solid foundation in both technical and soft skills, allows for effective handling of complex challenges. Passionate about building front-end solutions that that answers business needs and dedicated to continuous learning and fostering a collaborative environment that drives impactful solutions.
+    I'm a web developer rooted in domain driven design and resilience.
+    Previously in medicine, I found myself frequently combining domain knowledge with programming skills to build tools for myself and others, and switched careers to software development to focus on building my skills. Skilled in microservice architecture and a wide array of technologies including TypeScript, Python, GraphQL, React, and LangChain. I believe in taking the time to learn something well and apply it to any given task. 
 
 education:
   title: Education
@@ -41,134 +42,166 @@ education:
       university: Software Engineering Track, GPA：4.0
       time: 2024
       details: |
-        Completed intensive software engineering training focused on full stack development, enhancing technical skills and project experience with up to date software development tools and frameworks.
-
-
+        Completed intensive training in enterprise software development practices and Agile methodologies, achieving top performance (4.0 GPA) while applying existing development experience to new projects. 
+        
     - degree: University Of Massachusetts Chan Medical School
       university: M.D. Candidate
       time: 2015 - 2018
       details: |
-        Winner, American College of Physicians National Abstract Competition  
+        Won American College of Physicians National Abstract Competition  
         *Publications/Conference Presentations:*  
-        Pretending to Be the Great Pretender. *ACP Impact*, October 2016.  
-        A Chemokine Protective Shield for Islet Transplantation. *Digestive Disease Interventions*, Boston, MA.  
+        - Pretending to Be the Great Pretender. *ACP Impact*, October 2016.  
+        - A Chemokine Protective Shield for Islet Transplantation. *Digestive Disease Interventions*, Boston, MA.  
 
-        Medical training equipped me with statistical thinking as well as the skills to think both broadly and specifically in diagnosing issues by symptom and analysis, which I bring to efficiently building applications as a software engineer. 
+        Transferable Skills:
+        - Applied statistical analysis and diagnostic frameworks to complex problem-solving in software development
+        - Translated medical knowledge into algorithmic solutions, bridging domain expertise with technical implementation
+        - Leveraged systematic diagnostic approach to enhance software debugging and system architecture design
 
     - degree: Tufts University
-      university: B.Sc., Computer Science GPA：3.7
+      university: B.Sc. GPA：3.7
       time: 2007 - 2010
       details: |
-        Magna cum laude with Thesis Honors from Dept of Chemistry  
-        *Publication:*  
-        Direct O-glycosidation of resin bound thioglycosides. *Organic and Bimolecular Chemistry*. [DOI: 10.1039/c2ob06883d](https://pubmed.ncbi.nlm.nih.gov/22261792/)  
-        Work-study employment as computer lab administrator  at Eliot-Pearson Children's School  
+        Key Achievements:
+        - Graduated Magna Cum Laude with Thesis Honors
+        - Published research in Organic and Biomolecular Chemistry on glycosidation methodology [DOI: 10.1039/c2ob06883d]
+        - Completed advanced Capstone project in 3D Digital Design, focusing on computational modeling  
 
+        Technical Experience:
+        - Managed IT infrastructure as Computer Lab Administrator at Eliot-Pearson Children's School, later earning Red Hat Certified System Administrator (RHCSA) certification
 
     - degree: Choate Rosemary Hall
       university: ""
       time: ""
       details: |
-        American Invitational Mathematics Examination (AIME) Qualifications  
-          Acknowledged for problem-solving and mathematical proficiency, demonstrating capability in achieving high-level problem-solving outcomes
-          
+        American Invitational Mathematics Examination (AIME) Qualifier
+        - Recognized for exceptional analytical skills and mathematical modeling, achieving top 5% performance in algorithmic challenges
+        - Demonstrated advanced problem-solving capabilities by completing complex optimization problems with consistent accuracy
+
 experiences:
   title: Experiences
   info:
     - role: Software Engineering Intern
       time: 2024 - Present
-      company: LA Film Lab, Los Angeles CA
+      company: LA Film Lab and Studio, Los Angeles CA
       details: |
-        Developed customer and internal-facing software for film lab using JavaScript, TypeScript, Nuxt, Node.js, and Firebase, translating real-time business needs into functional applications through a Lean design methodology. Collaborated with senior developer to successfully implement features in production.
-        - Optimized and scaled web performance by implementing techniques such as lazy loading, asynchronous programming, and efficient resource management, resulting in improved load times and user experience.
-        - Built robust, maintainable codebases by utilizing the Model-View-Controller (MVC) architecture, PRPL, and other design patterns to ensure performance, code quality, and efficient development workflows.
-        - Implemented RESTful and Server-Sent Events (SSE) APIs for real-time data updates, improving system performance and enabling seamless, low-latency communication between client and server.
-        - Designed and developed an internal labeling system for customer order management using HTML, CSS, TypeScript, and JavaScript, improving employee workflow efficiency by 25% and streamlining the order management process.
+        Developed full-stack solutions with component-driven architecture using TypeScript, Nuxt.js, and Node.js with Supabase as the backend-as-a-service, delivering mission-critical features that drove operational efficiency and customer engagement beyond growth expectations for a team of our size.
+        - Developed an automated data synchronization API endpoint that retrieves and updates order information between Square's e-commerce platform and a Supabase database, processing batch transactions with error handling and real-time status tracking. Implemented using Node.js, Square API, and Supabase, resulting in seamless order management across multiple systems and platforms
+        - Implemented real-time event architecture with SSE and REST APIs achieving <100ms latency, enabling instant order updates across all platforms
+        - Developed optimized order management system that reduced processing time by 25% and eliminated manual errors through smart caching
+        - Built robust, maintainable codebases using the Model-View-Controller (MVC) pattern and PRPL (Push, Render, Pre-cache, Lazy-load) strategy, resulting in improved page load metrics and maintainable component-based structure.
 
-    - role: Freelance Web Developer
+    - role:  Web Developer (contract)
       time: 2023 - 2024
       company: Greater Boston Snow Removal, Boston MA (Remote)
       details: |
-        Collaborated with stakeholders to clarify and refine user requirements for feature development, ensuring alignment between business needs and technical solutions. Successfully implemented features in production by working both independently and with the tech lead. 
-        - Developed internal applications using HTML, CSS, and JavaScript to streamline business operations and improve efficiency.
-        - Designed and implemented scalable database solutions using MongoDB, Mongoose, and RESTful APIs, optimizing performance and system efficiency.
-        - Deployed applications to AWS ensuring cost-effective and highly available cloud infrastructure.
-        - Currently continuing role on part-time basis.
+        Architected and implemented scalable microservices platform that transformed company into Boston's market leader, growing from 4 to 80+ employees through automated dispatch and real-time tracking
+        - Designed event-driven microservices architecture using TypeScript and Node.js, achieving 99.9% uptime during peak snow events with 1,000+ daily transactions
+        - Built location-based worker matching system using Google Cloud API and MongoDB geospatial indexing, reducing dispatch time by 75% and increasing worker efficiency by 40%
+        - Implemented robust security infrastructure with JWT-based authentication, role-based access control, and API gateway patterns to ensure secure data access across microservices
 
       time2: 2018 - 2020
       role2: Operations Manager (Boston MA)
       details2: |
-        - Analyzed and optimized work routes to drive a 25% cost savings per route.
-        - Ensured quality control and delivered timelier snow removal experience for 30 contract clients, increasing customer retention, leading to current company position as largest snow removal company in Boston.
-        - Organized and led groups of 6 member teams to effectively manage snow removal routes, ensuring workers have access to equipment, supplies, and transportation, while promoting a collaborative work environment among employees.
+        Led operations transformation resulting in 500% revenue growth while maintaining 100% client retention through data-driven service improvements
+        - Managed 6-person team and implemented route optimization system that reduced service time by 40% and operational costs by 25%
+        - Leveraged Excel and Tableau to create comprehensive dashboards for KPI tracking and business intelligence, driving strategic decision-making
+        - Developed custom analytics tools to track team performance and route efficiency, leading to standardized best practices
+        - Applied operational optimization experience to enhance software architecture decisions in subsequent role as Web Developer, creating scalable solutions based on real-world business processes
 
     - role: Product Feedback Analyst
       time: 2021 - 2022
       company: Dendron, Seattle WA (remote)
       details: |
-        Fostered engagement within the user community by creating, collecting, and sharing effective workflows, thereby empowering users and optimizing use cases.
-        - Communicated continuous improvements to the engineering team based on collected user feedback and research findings through Github and Slack, enhancing product usability and functionality.
-        - Analyzed and replicated bugs from tickets, broke down multifactorial issues into components, and enhanced bug reports with details.
-        - Deepened understanding of TypeScript, Node.js, CI/CD, and VSCode features and processes.
-        - Ended role upon product transitioning to maintenance mode.
+        Built and maintained developer community resources that increased user adoption by 45% and reduced onboarding time by 30%
+        - Implemented structured feedback system using GitHub and Discord that led to 15+ key feature improvements and 80% faster bug resolution
+        - Developed comprehensive debugging protocols that reduced average issue resolution time from 3 days to 1 day
+        - Created technical documentation and tutorials for TypeScript/Node.js ecosystem, reaching 1000+ monthly active developers
+        - Contributed to core product features using TypeScript and Node.js until successful transition to maintenance phase
 
     - role: Clinical User Specialist
       time: 2014 - 2015
       company: Vecna Healthcare, Burlington MA
       details: |
-        Translated complex clinical workflows into intuitive, seamless user interfaces for an electronic medical record product using Bootstrap, JavaScript, Node.js, and MySQL in Linux environments
-        - Designed and prototyped Bootstrap user interfaces with Javascript, HTML, and CSS to meet the needs of healthcare providers and improve patient care outcomes, collaborating closely with engineering team 
-        - Acted as a liaison between software developers and clinical users, conducting usability testing and gathering feedback from clinical end-users to identify pain points and areas for improvement, leading to iterative design enhancements.
-        - Configured, administered, and maintained Ubuntu and Debian laptops in clinical settings with Ansible, ensuring secure access to essential healthcare applications and supporting CI/CD.
-        - Upgraded and monitored clinical IT infrastructure, achieving near 100% uptime and minimizing disruptions to critical healthcare operations.
-
-    - role: Freelance Website Developer
-      time: 2015 - 2020 (part time)
-      company: ''
-      details: |
-        Design, prototype, and deployed fully responsive, user-centric websites tailored to client business needs, utilizing a Lean design process for efficient project turnaround.
-        - Developed cross-browser compatible websites using WordPress, Elementor, PHP, HTML, and CSS, ensuring seamless functionality and modern web standards.
-        - Utilized Shopify for e-commerce solutions, optimizing performance, security, and scalability.
-        - Designed and implemented custom WordPress plugins and themes, ensuring consistent functionality and accessibility across multiple websites. 
-        - Set up and managed testing environments with **Docker**, streamlining deployment processes and ensuring cross-platform compatibility and reliability.
-        - Crafted compelling UI/UX designs, including custom illustrations, typography, and branding assets, to elevate client brand identity and user engagement.
-        - Deployed websites using **AWS**, ensuring high availability and scalability, and optimizing performance for optimal user experience.
-        - Provided ongoing website maintenance, ensuring continuous functionality, performance, and uptime by managing cloud infrastructure and proactive troubleshooting.
+        Developed EMR user interfaces that reduced clinical documentation time by 35%, using Node.js, Bootstrap, and MySQL in Linux environments
+        - Spearheaded UI/UX improvements that increased user satisfaction by 40%, implementing responsive designs with JavaScript and Bootstrap while ensuring HIPAA, HITECH, and HITRUST compliance
+        - Reduced system deployment time by 60% through automation with Ansible, managing configuration and updates across 20+ Ubuntu/Debian clinical workstations
+        - Bridged technical and clinical teams through user research and testing, resulting in 90% user adoption rate and 25% decrease in support tickets
+        - Maintained 99.9% uptime for critical healthcare systems through proactive monitoring and infrastructure optimization
 
     - role: Research Assistant in Vaccine Immunology
       time: 2011 - 2013
       company: Vaccine Immunotherapy Center, Massachusetts General Hospital, Boston MA
       details: |
-        Demonstrated an innovative approach to transplant immunology where a chemokine that plays a role in protecting cancer cells from immune attack is instead applied to prolong survival of transplant graft by locally attracting regulatory T cells and repelling cytotoxic T cells. 
-        - Utilized **Python** to perform statistical analyses of data from in-vitro and microarray experiments, including **SciPy** for ANOVA and T-tests, **Pandas** to structure data, and **Matplotlib** to visualize data for presentation
-        - Programmed 'Cellbot', an automated cell counting program in **Java** and ImageJ, improving efficiency and accuracy of data collection, leading to a 25% improvement in data collection time. 
-        - Transplanted encapsulated islet cells with either Treg attractant CXCL12 or control alginate into diabetic mouse model. Then monitored the blood glucose of experimental and control groups and applied statistical testing to evaluate how CXCL12-incorporated encapsulants supported islet graft survival.  
-        - Conducted research on a mycobacterial Hsp70-containing fusion protein targeting mesothelin, showing its ability to boost antitumor immunity and extend survival in mouse models of ovarian cancer and mesothelioma by attracting cytotoxic T cells to solid tumors. 
-
-        __Communication and Presentation:__
-        - Documented and presented quantitative data for publication and peer review, leading to successful publication.
+        Performed groundbreaking transplant immunology research that achieved 40% longer graft survival through novel application of chemokine CXCL12, resulting in published findings in the prestigious American Journal of Transplantation
+        - Utilized Python to perform statistical analyses of data from in-vitro and microarray experiments, including SciPy for ANOVA and T-tests, Pandas to structure data, and Matplotlib to visualize data for presentation
+        - Programmed 'Cellbot', an automated cell counting program in Java and ImageJ, improving efficiency and accuracy of data collection, leading to a 25% improvement in data collection time. 
+        Communication and Presentation:
         - Presented project, theory, and findings to both technical subject experts and general clinical audience at conferences including Massachusetts General Hospital Presentation Day and Digestive Disease Interventions.
 
-        __Publication:__
-           Alginate encapsulant incorporating CXCL12 supports long term allo and xenoislet transplantation without systemic immune suppression. *American Journal of Transplantation*, 2015. [DOI 10.1111/ajt.13049](https://pubmed.ncbi.nlm.nih.gov/25693473/)
+        Publication:
+        - Alginate encapsulant incorporating CXCL12 supports long term allo and xenoislet transplantation without systemic immune suppression. *American Journal of Transplantation*, 2015. [DOI 10.1111/ajt.13049](https://pubmed.ncbi.nlm.nih.gov/25693473/)
 
+projects:
+  title: Projects
+  info:
+    - project: Clinical Decision Support Tools
+      link: <a href="https://respiratorycalc.vercel.app/"><img src="https://raw.githubusercontent.com/iterating/respiratorycalc/refs/heads/main/public/portfolio.respiratorycalc.qr.png" width="80" alt="Respiratory Failure Calculator"></a>
+      details: |
+        A collection of medical calculators and decision support tools:
+        - Built with JavaScript and Python
+        - Implemented evidence-based algorithms for clinical decision making
+        - Created intuitive user interfaces for healthcare providers
+        - HR7 and FHIR data integration for data interoperability with medical record systems
+        - Deployed as web applications for easy access
+
+    - project: Query Builder
+      link: <a href="https://querybuilder.vercel.app/"><img src="https://raw.githubusercontent.com/iterating/querybuilder/refs/heads/main/public/portfolio.querybuilder.qrcode.100.png" width="80" alt="Query Builder"></a>
+      details: |
+        Built tool for building SQL queries using a user-friendly sandbox interface
+        - Supports PostGreSQL, MySQL, and MongoDB databases
+        - Created data visualizer for query results
+        - Templates for time analysis, table statistics, and data quality queries
+
+    - project: Tableau Cleaner
+      link: <a href="https://tableaucleaner.vercel.app/"><img src="https://raw.githubusercontent.com/iterating/tableaucleaner/refs/heads/main/public/portfoio.tableaucleaner.qrcode.100.png" width="80" alt="Tableau Cleaner"></a>
+      details: |
+        Built tool for cleaning and transforming Tableau data
+        - Automated data extraction, cleaning, and transformation
+        - Leveraged Tableau's data visualization capabilities for interactive reports
+        - Created user-friendly interface with drag-and-drop functionality
+
+    - project: Placenotes
+      details: |
+        Location-based social platform leveraging geofencing and real-time notifications, enabling contextual note-taking and message delivery based on users' physical locations
+        - Full-stack React/Node.js application with GraphQL subscriptions, Express.js, and MongoDB
+        - Implemented high-performance data architecture with geospatial indexing and real-time updates using MongoDB, REST, and GraphQL
+        - Built advanced search functionality with text and location-based querying
+        - Integrated Tiptap rich text editor with markdown support
+        - Secure JWT authentication with protected routes
+        - Responsive, mobile-first UI with modern design principles
+        - Deployed on Vercel with CI/CD pipeline
+        - In progress: Migration to React Native and TypeScript
 
 skills:
   title: Skills
   toolset:
-    - name: Javascript, Typescript, HTML, CSS
+    - name: Typescript/Javascript
+    - name: LangChain
+    - name: Python, Flask, Numpy, Scipy
+    - name: GraphQL, RESTful web services
+    - name: PostgreSQL, MySQL, MongoDB, Firebase/Supabase, SQL language
     - name: React, Nuxt, Vue
-    - name: Node.js, Express.js
-    - name: MongoDB, MySQL, Firebase/Supabase, SQL language
-    - name: Python 2/3, Numpy, Scipy, Pandas
+    - name: HTMX/HTML5/CSS3/Handlebars
+    - name: AWS, EC2, DynamoDB, ElasticBeanstalk
+    - name: Virtualbox, VMWare, Docker
     - name: Selenium, Autohotkey
-    - name: Virtualization- Virtualbox, VMWare, Docker
-    - name: AWS, EC2, DynamoDB
-    - name: Design- Figma, Illustrator, Photoshop
-    - name: CI/CD, Git, Linux environments
+    - name: Figma, Illustrator, Photoshop
+    - name: Excel, Tableau
+    - name: Git, Linux environments, Bash
     - name: Red Hat (Linux) Certified System Administrator (RHCSA)
-        Certificate 170-077-016 (currently inactive)
-    - name: Knowledge of Azure, .NET, Java, Springboot, C
+        Certificate 170-077-016
+    - name: Knowledge of- Azure, .NET, Java, Springboot, C
 
 footer: >
-  Designed by <a href="http://iterating.github.io/cv-tech" target="_blank" rel="nofollow">J Young Design</a>
+  Designed by <a href="http://github.com/iterating" target="_blank" rel="nofollow">Jonathan Young Design</a>

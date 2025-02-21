@@ -114,7 +114,7 @@ experiences:
       company: Dendron, Seattle WA (remote)
       details: |
         Built and maintained developer community resources that increased user adoption by 45% and reduced onboarding time by 30%
-        - Implemented structured feedback system using GitHub and Discord that led to 15+ key feature improvements and 80% faster bug resolution
+        - Implemented structured feedback system using GitHub and Slack that led to 15+ key feature improvements and 80% faster bug resolution
         - Developed comprehensive debugging protocols that reduced average issue resolution time from 3 days to 1 day
         - Created technical documentation and tutorials for TypeScript/Node.js ecosystem, reaching 1000+ monthly active developers
         - Contributed to core product features using TypeScript and Node.js until successful transition to maintenance phase
@@ -124,7 +124,7 @@ experiences:
       company: Vecna Healthcare, Burlington MA
       details: |
         Developed EMR user interfaces that reduced clinical documentation time by 35%, using Node.js, Bootstrap, and MySQL in Linux environments
-        - Spearheaded UI/UX improvements that increased user satisfaction by 40%, implementing responsive designs with JavaScript and Bootstrap while ensuring HIPAA compliance
+        - Spearheaded UI/UX improvements that increased user satisfaction by 40%, implementing responsive designs with JavaScript and Bootstrap while ensuring HIPAA, HITECH, and HITRUST compliance
         - Reduced system deployment time by 60% through automation with Ansible, managing configuration and updates across 20+ Ubuntu/Debian clinical workstations
         - Bridged technical and clinical teams through user research and testing, resulting in 90% user adoption rate and 25% decrease in support tickets
         - Maintained 99.9% uptime for critical healthcare systems through proactive monitoring and infrastructure optimization
@@ -155,15 +155,21 @@ projects:
         - HR7 and FHIR data integration for data interoperability with medical record systems
         - Deployed as web applications for easy access
 
+    - project: Query Builder
+      link: <a href="https://querybuilder.vercel.app/"><img src="https://raw.githubusercontent.com/iterating/querybuilder/refs/heads/main/public/portfolio.querybuilder.qrcode.100.png" width="80" alt="Query Builder"></a>
+      details: |
+        Built tool for building SQL queries using a user-friendly sandbox interface
+        - Supports PostGreSQL, MySQL, and MongoDB databases
+        - Created data visualizer for query results
+        - Templates for time analysis, table statistics, and data quality queries
+
     - project: Tableau Cleaner
       link: <a href="https://tableaucleaner.vercel.app/"><img src="https://raw.githubusercontent.com/iterating/tableaucleaner/refs/heads/main/public/portfoio.tableaucleaner.qrcode.100.png" width="80" alt="Tableau Cleaner"></a>
       details: |
-        Built a Tableau data cleaning and transformation tool
+        Built tool for cleaning and transforming Tableau data
         - Automated data extraction, cleaning, and transformation
         - Leveraged Tableau's data visualization capabilities for interactive reports
         - Created user-friendly interface with drag-and-drop functionality
-        - Deployed on Vercel with CI/CD pipeline
-
     - project: Placenotes
       details: |
         Location-based social platform leveraging geofencing and real-time notifications, enabling contextual note-taking and message delivery based on users' physical locations

@@ -1,0 +1,48 @@
+position:
+  title: Unity Developer
+  location: Not specified
+  type: Not specified
+  reports_to: Not specified
+
+company:
+  name: Bitus Labs
+  description: >
+    Bitus Labs is a cutting-edge AI Gaming company dedicated to revolutionizing the gaming industry 
+    through innovative artificial intelligence technologies. As we continue to grow, we are building 
+    a robust data platform to support our ambitious projects and empower our AI-driven solutions.
+  scale:
+    organizations: 200+
+    data_volume: 10+ million patients
+    processing: real time
+
+responsibilities:
+  - Develop and maintain high-performance web applications based on React and Next.js
+  - Implement embedded game features using Unity WebGL and React Unity WebGL
+  - Develop efficient frontend-backend interactions using Socket.IO and Protobuf.js
+  - Create intuitive user interfaces and interactions, optimizing the user experience
+  - Integrate user experience data collection tools, such as Datadog and Browser-RUM
+
+requirements:
+  education:
+    required: Not specified
+    preferred: Not specified
+  experience:
+    required: Not specified
+    preferred:
+      - Experience with Datadog or other data monitoring tools
+      - Experience in game development or design
+  skills:
+    technical:
+      - Familiar with React and Next.js, proficient in TypeScript and Zustand
+      - Mastery of WebSocket, Socket.IO, and frontend-backend communication protocols (Protobuf.js)
+      - Understanding of Unity WebGL integration development, and familiarity with Unity UI and TextMeshPro
+      - Experience in frontend optimization (e.g., Gzip, Brotli compression)
+      - Experience in using tools like Prettier to enforce code standards
+    domain_knowledge: []
+  language:
+    required:
+      - Chinese Mandarin Fluent
+
+work_arrangement:
+  type: Not specified
+  location: Not specified

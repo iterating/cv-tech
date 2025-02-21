@@ -1,0 +1,45 @@
+position:
+  title: UI/UX Designer
+  location: Not specified
+  type: Not specified
+  reports_to: Not specified
+
+company:
+  name: Not specified
+  description: Not specified
+
+responsibilities:
+  - Develop wireframes, screen flows, and storyboards to communicate design ideas for our mobile and web application
+  - Master our product and app ecosystem, programming, and features to deliver effective designs
+  - Create original graphic designs and design graphic user interface elements, like menus, charts, and widgets
+  - Collaborate and present design proposals to product and coding teams, as well as project managers
+  - Continuously analyze user feedback to make design improvements and enhance the user experience
+  - Apply a strong, minimalist visual aesthetic and follow style standards across all product designs
+
+requirements:
+  education:
+    required: Not specified
+    preferred: Not specified
+  experience:
+    required:
+      - 2+ years of professional experience as an UI/UX Designer with portfolio of related successful projects
+    preferred: []
+  skills:
+    technical:
+      - Expert in current graphic design practices and tools
+      - Figma (or Sketch, Adobe XD)
+      - Adobe Suite (Photoshop, Illustrator, etc)
+      - InVision
+      - Affinity Designer
+    domain_knowledge:
+      - Deep understanding of information hierarchy
+      - Layout design
+      - UX process and usability design principles
+      - Deep familiarity with iOS and Android human interface guidelines
+      - Mobile design patterns
+
+work_arrangement:
+  type: Not specified
+  location: Not specified
+
+portfolio_requirement: Portfolio of related successful projects required

@@ -1,0 +1,71 @@
+position:
+  title: Microsoft .NET Developer
+  location: Not specified
+  type: Not specified
+  reports_to: Not specified
+
+company:
+  name: Not specified
+  description: >
+    We are looking for a talented Microsoft .NET Developer to join our growing team. In this role, 
+    you will work closely with clients, consultants, and technical teams to design, build, and test 
+    high-quality development projects. The ideal candidate has strong expertise in ASP.NET, C#, MVC, 
+    and Web APIs, a passion for problem-solving, learning new technologies, and contributing to 
+    innovative solutions, and experience with AWS cloud and application integration.
+
+responsibilities:
+  - Collaborate with internal teams and external clients to design, develop, and test enterprise applications
+  - Provide technical troubleshooting, configuration, and deployment for applications and underlying infrastructure
+  - Investigate development issues, resolve problems, and communicate progress effectively
+  - Balance internal development activities with high-priority, urgent development requests
+  - Develop and maintain technical documentation for applications and infrastructure
+  - Partner with consulting teams on special projects and initiatives
+  - Communicate with third-party software vendors to resolve technical challenges
+  - Estimate development efforts and timelines accurately
+  - Stay current on emerging development techniques and apply them to enterprise applications
+  - Adapt quickly to support new initiatives and troubleshoot client issues with a flexible attitude
+  - Review functional and design specifications to ensure understanding and alignment with deliverables
+  - Identify and escalate potential quality issues to the Product Manager promptly
+  - Ensure that all validated deliverables meet functional, design, and business requirements
+
+key_projects:
+  - Build new end-to-end applications for enterprise systems using best practices in Microsoft .NET
+  - Develop robust testing practices, including the implementation of the NUnit unit-testing framework
+  - Contribute to quality improvement initiatives by participating in data collection, analysis, and reporting
+  - Ensure timely and accurate application upgrades that align with business objectives
+
+requirements:
+  education:
+    required: Bachelor's degree in Computer Science or a related field
+    preferred: Master's degree in Computer Science or related field
+  experience:
+    required:
+      - Minimum 3 years of experience as a Senior Developer working with ASP.NET, C#, SQL Server, CSS, MVC, HTML, and JavaScript
+      - Strong knowledge of object-oriented development and design principles
+      - Advanced understanding of software development life cycles (SDLC)
+      - Experience working in an Agile project framework
+    preferred:
+      - Experience with responsive web design and mobile-friendly development
+      - Hands-on experience with application integrations (e.g., Salesforce, QuickBooks)
+      - Knowledge of AWS cloud technologies, including services like S3, Lambda, or EC2
+
+skills:
+  technical:
+    - ASP.NET
+    - C#
+    - SQL Server
+    - CSS
+    - MVC
+    - HTML
+    - JavaScript
+    - AWS cloud technologies
+  soft_skills:
+    accountability: Takes ownership of application quality and deadlines
+    communication: Strong written and verbal skills; ability to translate technical details for diverse audiences
+    initiative: Thrives in fast-paced environments and meets deliverables on time
+    problem_solving: Creative and analytical in resolving technical challenges
+    teamwork: Collaborates effectively with subject matter experts, QA teams, and stakeholders
+
+work_arrangement:
+  type: Not specified
+  location: Not specified

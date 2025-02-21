@@ -63,7 +63,7 @@ education:
       time: 2007 - 2010
       details: |
         Key Achievements:
-        - Graduated Magna Cum Laude with Departmental Honors in Chemistry
+        - Graduated Magna Cum Laude with Thesis Honors
         - Published research in Organic and Biomolecular Chemistry on glycosidation methodology [DOI: 10.1039/c2ob06883d]
         - Completed advanced Capstone project in 3D Digital Design, focusing on computational modeling  
 
@@ -98,13 +98,12 @@ experiences:
         Architected and implemented scalable microservices platform that transformed company into Boston's market leader, growing from 4 to 80+ employees through automated dispatch and real-time tracking
         - Designed event-driven microservices architecture using TypeScript and Node.js, achieving 99.9% uptime during peak snow events with 1,000+ daily transactions
         - Built location-based worker matching system using Google Cloud API and MongoDB geospatial indexing, reducing dispatch time by 75% and increasing worker efficiency by 40%
-        -Implemented robust security infrastructure with JWT-based authentication, role-based access control, and API gateway patterns to ensure secure data access across microservices
-        - Maintain and enhance platform architecture while serving as technical advisor for scaling operations
+        - Implemented robust security infrastructure with JWT-based authentication, role-based access control, and API gateway patterns to ensure secure data access across microservices
 
       time2: 2018 - 2020
       role2: Operations Manager (Boston MA)
       details2: |
-        - Led operations transformation resulting in 500% revenue growth while maintaining 100% client retention through data-driven service improvements
+        Led operations transformation resulting in 500% revenue growth while maintaining 100% client retention through data-driven service improvements
         - Managed 6-person team and implemented route optimization system that reduced service time by 40% and operational costs by 25%
         - Leveraged Excel and Tableau to create comprehensive dashboards for KPI tracking and business intelligence, driving strategic decision-making
         - Developed custom analytics tools to track team performance and route efficiency, leading to standardized best practices
@@ -134,7 +133,7 @@ experiences:
       company: Vecna Healthcare, Burlington MA
       details: |
         Developed EMR user interfaces that reduced clinical documentation time by 35%, using Node.js, Bootstrap, and MySQL in Linux environments
-        - Spearheaded UI/UX improvements that increased user satisfaction by 40%, implementing responsive designs with JavaScript and Bootstrap while ensuring HIPAA compliance
+        - Spearheaded UI/UX improvements that increased user satisfaction by 40%, implementing responsive designs with JavaScript and Bootstrap while ensuring HIPAA, HITECH, and HITRUST compliance
         - Reduced system deployment time by 60% through automation with Ansible, managing configuration and updates across 20+ Ubuntu/Debian clinical workstations
         - Bridged technical and clinical teams through user research and testing, resulting in 90% user adoption rate and 25% decrease in support tickets
         - Maintained 99.9% uptime for critical healthcare systems through proactive monitoring and infrastructure optimization
@@ -143,9 +142,9 @@ experiences:
       time: 2011 - 2013
       company: Vaccine Immunotherapy Center, Massachusetts General Hospital, Boston MA
       details: |
-        Performed groundbreaking transplant immunology research that achieved 40% longer graft survival through novel application of chemokine CXCL12, resulting in published findings in American Journal of Transplantation
-        - Utilized **Python** to perform statistical analyses of data from in-vitro and microarray experiments, including **SciPy** for ANOVA and T-tests, **Pandas** to structure data, and **Matplotlib** to visualize data for presentation
-        - Programmed 'Cellbot', an automated cell counting program in **Java** and ImageJ, improving efficiency and accuracy of data collection, leading to a 25% improvement in data collection time. 
+        Performed groundbreaking transplant immunology research that achieved 40% longer graft survival through novel application of chemokine CXCL12, resulting in published findings in the prestigious American Journal of Transplantation
+        - Utilized Python to perform statistical analyses of data from in-vitro and microarray experiments, including SciPy for ANOVA and T-tests, Pandas to structure data, and Matplotlib to visualize data for presentation
+        - Programmed 'Cellbot', an automated cell counting program in Java and ImageJ, improving efficiency and accuracy of data collection, leading to a 25% improvement in data collection time. 
         Communication and Presentation:
         - Presented project, theory, and findings to both technical subject experts and general clinical audience at conferences including Massachusetts General Hospital Presentation Day and Digestive Disease Interventions.
 
@@ -165,14 +164,21 @@ projects:
         - HR7 and FHIR data integration for data interoperability with medical record systems
         - Deployed as web applications for easy access
 
+    - project: Query Builder
+      link: <a href="https://querybuilder.vercel.app/"><img src="https://raw.githubusercontent.com/iterating/querybuilder/refs/heads/main/public/portfolio.querybuilder.qrcode.100.png" width="80" alt="Query Builder"></a>
+      details: |
+        Built tool for building SQL queries using a user-friendly sandbox interface
+        - Supports PostGreSQL, MySQL, and MongoDB databases
+        - Created data visualizer for query results
+        - Templates for time analysis, table statistics, and data quality queries
+
     - project: Tableau Cleaner
       link: <a href="https://tableaucleaner.vercel.app/"><img src="https://raw.githubusercontent.com/iterating/tableaucleaner/refs/heads/main/public/portfoio.tableaucleaner.qrcode.100.png" width="80" alt="Tableau Cleaner"></a>
       details: |
-        Built a Tableau data cleaning and transformation tool
+        Built tool for cleaning and transforming Tableau data
         - Automated data extraction, cleaning, and transformation
         - Leveraged Tableau's data visualization capabilities for interactive reports
         - Created user-friendly interface with drag-and-drop functionality
-        - Deployed on Vercel with CI/CD pipeline
     - project: Placenotes
       details: |
         Location-based social platform leveraging geofencing and real-time notifications, enabling contextual note-taking and message delivery based on users' physical locations
