@@ -158,19 +158,20 @@ projects:
     - project: Query Builder
       link: <a href="https://querybuilder.vercel.app/"><img src="https://raw.githubusercontent.com/iterating/querybuilder/refs/heads/main/public/portfolio.querybuilder.qrcode.100.png" width="80" alt="Query Builder"></a>
       details: |
-        Built tool for building SQL queries using a user-friendly sandbox interface
+        Built platform that enables data analysts and developers to execute custom queries and build analytics tools
         - Supports PostGreSQL, MySQL, and MongoDB databases
         - Created data visualizer for query results
-        - Templates for time analysis, table statistics, and data quality queries
+        - Reusable and customizable templates for time analysis, table statistics, and data quality queries
 
     - project: Tableau Cleaner
       link: <a href="https://tableaucleaner.vercel.app/"><img src="https://raw.githubusercontent.com/iterating/tableaucleaner/refs/heads/main/public/portfoio.tableaucleaner.qrcode.100.png" width="80" alt="Tableau Cleaner"></a>
       details: |
-        Built tool for cleaning and transforming Tableau data
+        Built modern web application designed to clean and process Tableau data files efficiently
         - Automated data extraction, cleaning, and transformation
-        - Leveraged Tableau's data visualization capabilities for interactive reports
         - Created user-friendly interface with drag-and-drop functionality
+        - Export 
     - project: Placenotes
+      link: <a href="https://placenotes.vercel.app/"><img src="https://raw.githubusercontent.com/iterating/placenotes/main/public/portfolio.placenotes.qr.200.png" width="80" alt="Placenotes"></a>
       details: |
         Location-based social platform leveraging geofencing and real-time notifications, enabling contextual note-taking and message delivery based on users' physical locations
         - Full-stack React/Node.js application with GraphQL subscriptions, Express.js, and MongoDB

@@ -124,6 +124,6 @@ export async function renderResume(data) {
 }
 
 export async function renderPage() {
-  const ready = await fetchYamlResume("./data/data-data.yml");
+  const ready = await fetchYamlResume("./data/data.yml");
   renderResume(ready);
 }
