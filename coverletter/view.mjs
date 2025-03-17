@@ -5,7 +5,7 @@ function formatDate(date) {
 
 async function fetchCoverLetter() {
     try {
-        const response = await fetch('../input/coverletter.txt');
+        const response = await fetch('./input/coverletter.txt');
         const content = await response.text();
         return content;
     } catch (error) {
@@ -26,7 +26,7 @@ async function renderCoverLetter(content) {
     const recipientBlock = document.createElement('div');
     recipientBlock.className = 'recipient';
     recipientBlock.innerHTML = `
-        <p>MLK Community Hospital</p>
+        <p>NBCUniversal EPIC Legal Team</p>
         <p>Los Angeles, CA</p>
     `;
     letterBody.appendChild(recipientBlock);

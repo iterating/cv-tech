@@ -1,0 +1,21 @@
+Dear Hiring Manager,
+
+I'm writing to express my interest in the Software Engineer position with NBCUniversal in Los Angeles. With a background in full-stack development focusing on scalable, secure web services and APIs, I believe my technical expertise and problem-solving abilities align perfectly with your team's needs.
+
+My experience developing microservices architecture using TypeScript, Node.js, and Python has equipped me with the skills needed to design and maintain robust content management systems. At LA Film Lab and Studio, I implemented automated data synchronization APIs that seamlessly integrated with third-party services, ensuring reliable data flow across multiple platforms. This experience relates to your need for a developer who can assist with "designing, implementing, and troubleshooting API connections to ensure seamless interoperability between systems."
+
+My work with Greater Boston Snow Removal demonstrates my ability to implement system designs and software patterns that create maintainable, testable, and robust applications. I architected an event-driven microservices platform that achieved 99.9% uptime during peak usage periods while processing thousands of daily transactions—showcasing my capability to manage and troubleshoot distributed systems in production environments.
+
+My technical qualifications align precisely with your requirements:
+• 3+ years experience with Python and JavaScript (including React)
+• Extensive knowledge of SQL databases (PostgreSQL, MySQL) and NoSQL systems (MongoDB)
+• Certified expertise in Linux environments (RHCSA certification)
+• Proficiency with Git workflows, including branching strategies and code reviews
+• Demonstrated ability developing RESTful and GraphQL APIs
+• Strong background in Object-Oriented Development across multiple languages
+
+Beyond technical skills, my background in medicine has instilled in me a methodical approach to problem-solving and a commitment to excellence that translates well to software development. I excel at bridging the gap between technical implementation and business needs, having developed tools that increased operational efficiency and reduced processing time for businesses.
+
+The opportunity to contribute to systems that directly contribute to business functions is exciting, and I believe my experience developing automated tracking systems would add immediate value to your team.
+
+I would welcome the opportunity to discuss how my skills and experience align with your needs. Thank you for considering my application.

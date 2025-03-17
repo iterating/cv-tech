@@ -1,0 +1,8 @@
+3+ years of professional Software Development experience with Python and JavaScript (ReactJs)
+3+ years using SQL and RDBMS, preferably MariaDB or MySQL.
+Experience with RHEL-based Linux Distributions (Oracle Enterprise Linux or CentOS).
+Comfort with git and related processes such as git flow, forking / branching strategies, and pull requests / code reviews.
+Experience developing, using and understanding APIs
+Professional experience in Object Oriented Development.
+Strong written and verbal communication skills.
+Strong problem solving and analytical skills with attention to detail.

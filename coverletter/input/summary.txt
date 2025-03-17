@@ -1,0 +1,10 @@
+
+NBCUniversal’s Intellectual Property Analytics, Operations, and Technology (IPAOT) team supports NBCUniversal’s content globally. The team builds applications to support our internal legal intellectual property partners as well as platform operations on YouTube, TikTok and Facebook. The applications help monitor NBCUniversal titles across search engines, data sharing networks and various content deliver pipelines. The data is collected by the team and analyzed internally to support business-decision driving initiatives at the company.
+
+The IPAOT team at NBCUniversal is looking for a self-motivated, highly organized, proactive, and passionate problem solver who will assist with the design, build, and ongoing maintenance of content and rights management systems, as well as content delivery systems and pipelines. We are looking for a software engineer that can comfortably do full-stack development. You will be collaborating with other software engineers and operations analysts. This is a fast-paced role that interfaces with the entire department and many other internal business units and stakeholders at NBCUniversal.
+
+Assist with software development using Python to design and build available, scalable, and secure back-end web services and APIs
+Assist in the management and troubleshooting of production systems and refactoring existing applications to improve business processes
+Implement systems designs and software design patterns to write maintainable, testable, and robust software and services
+Integrate with third-party APIs, including designing, implementing, and troubleshooting API connections to ensure seamless interoperability between systems
+Managing and troubleshooting distributed systems and services in a production environment

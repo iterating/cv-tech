@@ -1,7 +1,7 @@
 sidebar:
   about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
-  education: False # set to False if you want education in main section instead of in sidebar
-  skills: False
+  singlecolumn: True # set to False if you want education in main section instead of in sidebar
+  skills: True
 
   # Profile information
   name: Jonathan Young
@@ -81,7 +81,7 @@ education:
 experiences:
   title: Experiences
   info:
-    - role: Software Engineering Intern
+    - role: Software Engineer (contract)
       time: 2024 - Present
       company: LA Film Lab and Studio, Los Angeles CA
       details: |
@@ -92,8 +92,8 @@ experiences:
         - Built robust, maintainable codebases using the Model-View-Controller (MVC) pattern and PRPL (Push, Render, Pre-cache, Lazy-load) strategy, resulting in improved page load metrics and maintainable component-based structure.
 
     - role:  Web Developer (contract)
-      time: 2023 - 2024
-      company: Greater Boston Snow Removal, Boston MA (Remote)
+      time: 2022 - 2024
+      company: Greater Boston Snow Removal, Boston MA
       details: |
         Architected and implemented scalable microservices platform that transformed company into Boston's market leader, growing from 4 to 80+ employees through automated dispatch and real-time tracking
         - Designed event-driven microservices architecture using TypeScript and Node.js, achieving 99.9% uptime during peak snow events with 1,000+ daily transactions
@@ -101,30 +101,20 @@ experiences:
         - Implemented robust security infrastructure with JWT-based authentication, role-based access control, and API gateway patterns to ensure secure data access across microservices
 
       time2: 2018 - 2020
-      role2: Operations Manager (Boston MA)
+      role2: Operations Manager
       details2: |
         Led operations transformation resulting in 500% revenue growth while maintaining 100% client retention through data-driven service improvements
-        - Managed 6-person team and implemented route optimization system that reduced service time by 40% and operational costs by 25%
+        - Managed multiple operations teams and implemented route optimization system that reduced service time by 40% and operational costs by 25%
         - Leveraged Excel and Tableau to create comprehensive dashboards for KPI tracking and business intelligence, driving strategic decision-making
         - Developed custom analytics tools to track team performance and route efficiency, leading to standardized best practices
         - Applied operational optimization experience to enhance software architecture decisions in subsequent role as Web Developer, creating scalable solutions based on real-world business processes
 
-    - role: Product Feedback Analyst
-      time: 2021 - 2022
-      company: Dendron, Seattle WA (remote)
-      details: |
-        Built and maintained developer community resources that increased user adoption by 45% and reduced onboarding time by 30%
-        - Implemented structured feedback system using GitHub and Slack that led to 15+ key feature improvements and 80% faster bug resolution
-        - Developed comprehensive debugging protocols that reduced average issue resolution time from 3 days to 1 day
-        - Created technical documentation and tutorials for TypeScript/Node.js ecosystem, reaching 1000+ monthly active developers
-        - Contributed to core product features using TypeScript and Node.js until successful transition to maintenance phase
-
-    - role: Clinical User Specialist
+    - role: Clinical User Specialist Intern
       time: 2014 - 2015
       company: Vecna Healthcare, Burlington MA
       details: |
         Developed EMR user interfaces that reduced clinical documentation time by 35%, using Node.js, Bootstrap, and MySQL in Linux environments
-        - Spearheaded UI/UX improvements that increased user satisfaction by 40%, implementing responsive designs with JavaScript and Bootstrap while ensuring HIPAA, HITECH, and HITRUST compliance
+        - Contributed UI/UX improvements that increased user satisfaction by 40%, implementing responsive designs with JavaScript and Bootstrap while ensuring HIPAA, HITECH, and HITRUST compliance
         - Reduced system deployment time by 60% through automation with Ansible, managing configuration and updates across 20+ Ubuntu/Debian clinical workstations
         - Bridged technical and clinical teams through user research and testing, resulting in 90% user adoption rate and 25% decrease in support tickets
         - Maintained 99.9% uptime for critical healthcare systems through proactive monitoring and infrastructure optimization
@@ -153,7 +143,6 @@ projects:
         - Implemented evidence-based algorithms for clinical decision making
         - Created intuitive user interfaces for healthcare providers
         - HR7 and FHIR data integration for data interoperability with medical record systems
-        - Deployed as web applications for easy access
 
     - project: Query Builder
       link: <a href="https://querybuilder.vercel.app/"><img src="https://raw.githubusercontent.com/iterating/querybuilder/refs/heads/main/public/portfolio.querybuilder.qrcode.100.png" width="80" alt="Query Builder"></a>
@@ -167,9 +156,10 @@ projects:
       link: <a href="https://tableaucleaner.vercel.app/"><img src="https://raw.githubusercontent.com/iterating/tableaucleaner/refs/heads/main/public/portfoio.tableaucleaner.qrcode.100.png" width="80" alt="Tableau Cleaner"></a>
       details: |
         Built modern web application designed to clean and process Tableau data files efficiently
-        - Automated data extraction, cleaning, and transformation
+        - Automated data extraction, cleaning, and transformation for use in ETL pipelines
         - Created user-friendly interface with drag-and-drop functionality
-        - Export 
+        - Deployed on AWS Lambda with CI/CD pipeline
+    
     - project: Placenotes
       link: <a href="https://placenotes.vercel.app/"><img src="https://raw.githubusercontent.com/iterating/placenotes/main/public/portfolio.placenotes.qr.200.png" width="80" alt="Placenotes"></a>
       details: |
@@ -177,31 +167,28 @@ projects:
         - Full-stack React/Node.js application with GraphQL subscriptions, Express.js, and MongoDB
         - Implemented high-performance data architecture with geospatial indexing and real-time updates using MongoDB, REST, and GraphQL
         - Built advanced search functionality with text and location-based querying
-        - Integrated Tiptap rich text editor with markdown support
         - Secure JWT authentication with protected routes
         - Responsive, mobile-first UI with modern design principles
-        - Deployed on Vercel with CI/CD pipeline
-        - In progress: Migration to React Native and TypeScript
+        - Developed React Native mobile app
 
 skills:
   title: Skills
   toolset:
     - name: Typescript/Javascript
-    - name: LangChain
     - name: Python, Flask, Numpy, Scipy
     - name: GraphQL, RESTful web services
     - name: PostgreSQL, MySQL, MongoDB, Firebase/Supabase, SQL language
     - name: React, Nuxt, Vue
     - name: HTMX/HTML5/CSS3/Handlebars
     - name: AWS, EC2, DynamoDB, ElasticBeanstalk
-    - name: Virtualbox, VMWare, Docker
+    - name: LangChain, LangGraph, FastAPI
     - name: Selenium, Autohotkey
     - name: Figma, Illustrator, Photoshop
-    - name: Excel, Tableau
+    - name: Excel, Tableau, Matplotlib
     - name: Git, Linux environments, Bash
     - name: Red Hat (Linux) Certified System Administrator (RHCSA)
         Certificate 170-077-016
-    - name: Knowledge of- Azure, .NET, Java, Springboot, C
+    - name: Knowledge of- Azure, C#, .NET, Java, Springboot, C
 
 footer: >
   Designed by <a href="http://github.com/iterating" target="_blank" rel="nofollow">Jonathan Young Design</a>

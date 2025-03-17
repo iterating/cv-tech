@@ -1,0 +1,38 @@
+{
+  "company": {
+    "name": "NBCUniversal",
+    "description": "Join our NBCUniversal EPIC Legal Team! EPIC symbolizes key foundational principles as we strive to be extraordinary partners to our businesses in an evolving environment. Here at NBCU Legal, we are Expert Partners who provide Inspiring and Creative solutions to our clients. We are subject-matter experts who collaborate with our legal colleagues and clients to guide, solve and push for our collective success. We inspire by bringing optimism and positivity to our work, and apply strategic and innovative thinking to support our businesses.",
+    "location": "Universal City, California"
+  },
+  "position": {
+    "title": "Software Engineer",
+    "department": "Intellectual Property Analytics, Operations, and Technology (IPAOT)",
+    "description": "The IPAOT team at NBCUniversal is looking for a self-motivated, highly organized, proactive, and passionate problem solver who will assist with the design, build, and ongoing maintenance of content and rights management systems, as well as content delivery systems and pipelines. We are looking for a software engineer that can comfortably do full-stack development. You will be collaborating with other software engineers and operations analysts. This is a fast-paced role that interfaces with the entire department and many other internal business units and stakeholders at NBCUniversal.",
+    "responsibilities": [
+      "Assist with software development using Python to design and build available, scalable, and secure back-end web services and APIs",
+      "Assist in the management and troubleshooting of production systems and refactoring existing applications to improve business processes",
+      "Implement systems designs and software design patterns to write maintainable, testable, and robust software and services",
+      "Integrate with third-party APIs, including designing, implementing, and troubleshooting API connections to ensure seamless interoperability between systems",
+      "Managing and troubleshooting distributed systems and services in a production environment"
+    ],
+    "requirements": {
+      "mandatory": [
+        "3+ years of professional Software Development experience with Python and JavaScript (ReactJs)",
+        "3+ years using SQL and RDBMS, preferably MariaDB or MySQL",
+        "Experience with RHEL-based Linux Distributions (Oracle Enterprise Linux or CentOS)",
+        "Comfort with git and related processes such as git flow, forking / branching strategies, and pull requests / code reviews",
+        "Experience developing, using and understanding APIs",
+        "Professional experience in Object Oriented Development",
+        "Strong written and verbal communication skills",
+        "Strong problem solving and analytical skills with attention to detail"
+      ],
+      "preferred": [
+        "Unit testing and Mocking frameworks",
+        "CI/CD with build tools such as Jenkins/GoCD",
+        "Experience with networking and distributed systems",
+        "NoSQL database (Cassandra)",
+        "Understanding and using Message Queueing Systems (Apache Kafka / RabbitMQ)"
+      ]
+    }
+  }
+}

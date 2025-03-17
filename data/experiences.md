@@ -10,6 +10,17 @@ I have no problem taking the time to learn something well and apply it to any gi
 
 After developing a variety of tools for clients, I completed intensive training in professional software development to enhance my development experience with enterprise-level best practices and Agile methodologies,strengthening my ability to contribute to large-scale projects and cross-functional teams. I spend my time learning software architecture, design principles, and best practices to ensure high-quality code delivery.
 
+# Dendron
+    - role: Product Feedback Analyst
+      time: 2021 - 2022
+      company: Dendron, Seattle WA (remote)
+      details: |
+        Built and maintained developer community resources that increased user adoption by 45% and reduced onboarding time by 30%
+        - Implemented structured feedback system using GitHub and Slack that led to 15+ key feature improvements and 80% faster bug resolution
+        - Developed comprehensive debugging protocols that reduced average issue resolution time from 3 days to 1 day
+        - Created technical documentation and tutorials for TypeScript/Node.js ecosystem, reaching 1000+ monthly active developers
+        - Contributed to core product features using TypeScript and Node.js until successful transition to maintenance phase
+
 # Snow Removal
         Built microservice features in Typescript and React to facilitate successful interactions between customers, workers, and management that handle the complex logistics of snow removal delivery, growing the company from 4 employees to the largest snow removal company in Boston within 5 years though automated dispatch and real-time tracking capabilities.
         - Architected and implemented distributed microservices using TypeScript and Node.js, with domain-driven design principles and event-driven communication, integrated with a React frontend for optimal scalability and maintainability
